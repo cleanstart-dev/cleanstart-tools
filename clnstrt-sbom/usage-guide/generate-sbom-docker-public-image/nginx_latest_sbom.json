@@ -6,7 +6,7 @@
   "image-digest": "sha256:07ccdb7838758e758a4d52a9761636c385125a327355c0c94a6acff9babff938",
   "documentNamespace": "nginx:latest@sha256:07ccdb7838758e758a4d52a9761636c385125a327355c0c94a6acff9babff938",
   "creationInfo": {
-    "created": "2025-10-16T09:44:55Z",
+    "created": "2025-10-16T12:51:34Z",
     "creators": [
       "Tool: Clnstrt-Enhanced-SBOM-generator-2.0"
     ],
@@ -14,7 +14,7 @@
   },
   "packages": [
     {
-      "SPDXID": "SPDXRef-Package-apt-02614ba3d05d5023",
+      "SPDXID": "SPDXRef-Package-apt-25106fab9ffee393",
       "name": "apt",
       "versionInfo": "3.0.3",
       "filesAnalyzed": false,
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-base-files-2002b898752ca4f4",
+      "SPDXID": "SPDXRef-Package-base-files-709d7d6239d91c0d",
       "name": "base-files",
       "versionInfo": "13.8+deb13u1",
       "filesAnalyzed": false,
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-base-passwd-7ec56705a57a3a92",
+      "SPDXID": "SPDXRef-Package-base-passwd-6e8c7cd57f6845e9",
       "name": "base-passwd",
       "versionInfo": "3.6.7",
       "filesAnalyzed": false,
@@ -124,7 +124,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-bash-5c65a0a869162203",
+      "SPDXID": "SPDXRef-Package-bash-33690a7dd3dcf07d",
       "name": "bash",
       "versionInfo": "5.2.37-2+b5",
       "filesAnalyzed": false,
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-bsdutils-2e3813f0ae91b094",
+      "SPDXID": "SPDXRef-Package-bsdutils-f05a01082865ad1a",
       "name": "bsdutils",
       "versionInfo": "1:2.41-5",
       "filesAnalyzed": false,
@@ -196,7 +196,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-ca-certificates-ae54d0aea5ff2779",
+      "SPDXID": "SPDXRef-Package-ca-certificates-cb1decfa82fbd7bd",
       "name": "ca-certificates",
       "versionInfo": "20250419",
       "filesAnalyzed": false,
@@ -234,7 +234,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-coreutils-47e5574a20e634cb",
+      "SPDXID": "SPDXRef-Package-coreutils-3c76e2acf8b78146",
       "name": "coreutils",
       "versionInfo": "9.7-3",
       "filesAnalyzed": false,
@@ -268,7 +268,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-curl-0d77364d4fc1d252",
+      "SPDXID": "SPDXRef-Package-curl-6b19ca71f81a2e20",
       "name": "curl",
       "versionInfo": "8.14.1-2",
       "filesAnalyzed": false,
@@ -306,7 +306,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-dash-99cd2f7fb6c084c0",
+      "SPDXID": "SPDXRef-Package-dash-f6dae132121dbbe3",
       "name": "dash",
       "versionInfo": "0.5.12-12",
       "filesAnalyzed": false,
@@ -344,7 +344,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-debconf-107a5f358565e61b",
+      "SPDXID": "SPDXRef-Package-debconf-73c6907126314db5",
       "name": "debconf",
       "versionInfo": "1.5.91",
       "filesAnalyzed": false,
@@ -378,7 +378,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-debian-archive-keyring-f48c52fc1bc0bd35",
+      "SPDXID": "SPDXRef-Package-debian-archive-keyring-e8dc42495791749a",
       "name": "debian-archive-keyring",
       "versionInfo": "2025.1",
       "filesAnalyzed": false,
@@ -412,7 +412,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-debianutils-b0e9853817efc4b3",
+      "SPDXID": "SPDXRef-Package-debianutils-a76008a57947337b",
       "name": "debianutils",
       "versionInfo": "5.23.2",
       "filesAnalyzed": false,
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-diffutils-e97ae1285c4d8294",
+      "SPDXID": "SPDXRef-Package-diffutils-f1bf2437057c251e",
       "name": "diffutils",
       "versionInfo": "1:3.10-4",
       "filesAnalyzed": false,
@@ -480,7 +480,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-dpkg-cf6ea8d65b6fe953",
+      "SPDXID": "SPDXRef-Package-dpkg-044c5dcd6e1163d3",
       "name": "dpkg",
       "versionInfo": "1.22.21",
       "filesAnalyzed": false,
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-findutils-1552a579a4ebdeff",
+      "SPDXID": "SPDXRef-Package-findutils-2f8aa7aabcb7fcba",
       "name": "findutils",
       "versionInfo": "4.10.0-3",
       "filesAnalyzed": false,
@@ -552,7 +552,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-fontconfig-config-e96ec04270fdc005",
+      "SPDXID": "SPDXRef-Package-fontconfig-config-114a7bb883a9a125",
       "name": "fontconfig-config",
       "versionInfo": "2.15.0-2.3",
       "filesAnalyzed": false,
@@ -590,7 +590,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-fonts-dejavu-core-b31a64b9b8076e34",
+      "SPDXID": "SPDXRef-Package-fonts-dejavu-core-61390f6bac858501",
       "name": "fonts-dejavu-core",
       "versionInfo": "2.37-8",
       "filesAnalyzed": false,
@@ -628,7 +628,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-fonts-dejavu-mono-80e99bd3ef8b55a9",
+      "SPDXID": "SPDXRef-Package-fonts-dejavu-mono-7a5d8b08b53fe6d9",
       "name": "fonts-dejavu-mono",
       "versionInfo": "2.37-8",
       "filesAnalyzed": false,
@@ -662,7 +662,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-gcc-14-base-aa0604ad96d95684",
+      "SPDXID": "SPDXRef-Package-gcc-14-base-b36208204aad152a",
       "name": "gcc-14-base",
       "versionInfo": "14.2.0-19",
       "filesAnalyzed": false,
@@ -696,7 +696,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-gettext-base-97269d03d96060cc",
+      "SPDXID": "SPDXRef-Package-gettext-base-02179eb870bbc674",
       "name": "gettext-base",
       "versionInfo": "0.23.1-2",
       "filesAnalyzed": false,
@@ -734,7 +734,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-grep-8ba2576cac792d6a",
+      "SPDXID": "SPDXRef-Package-grep-54d7975b757d4a15",
       "name": "grep",
       "versionInfo": "3.11-4",
       "filesAnalyzed": false,
@@ -768,7 +768,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-gzip-fe1cf903fd41416c",
+      "SPDXID": "SPDXRef-Package-gzip-590bdebabb7e44dd",
       "name": "gzip",
       "versionInfo": "1.13-1",
       "filesAnalyzed": false,
@@ -802,7 +802,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-hostname-13bb11e731ee0a07",
+      "SPDXID": "SPDXRef-Package-hostname-43280c38e46fb478",
       "name": "hostname",
       "versionInfo": "3.25",
       "filesAnalyzed": false,
@@ -836,7 +836,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-init-system-helpers-b5a6475c399cfc93",
+      "SPDXID": "SPDXRef-Package-init-system-helpers-269f4e3be3d6ba54",
       "name": "init-system-helpers",
       "versionInfo": "1.69~deb13u1",
       "filesAnalyzed": false,
@@ -870,7 +870,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libabsl20240722-8bfdb42c0a6ba81b",
+      "SPDXID": "SPDXRef-Package-libabsl20240722-19419cbe0643c9b3",
       "name": "libabsl20240722",
       "versionInfo": "20240722.0-4",
       "filesAnalyzed": false,
@@ -908,7 +908,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libacl1-0628a905e8598cdb",
+      "SPDXID": "SPDXRef-Package-libacl1-866defce8ce28152",
       "name": "libacl1",
       "versionInfo": "2.3.2-2+b1",
       "filesAnalyzed": false,
@@ -946,7 +946,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libaom3-a157ef489e0c274d",
+      "SPDXID": "SPDXRef-Package-libaom3-53f7940201dc38ff",
       "name": "libaom3",
       "versionInfo": "3.12.1-1",
       "filesAnalyzed": false,
@@ -984,7 +984,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libapt-pkg7-0-63471dad9a771494",
+      "SPDXID": "SPDXRef-Package-libapt-pkg7-0-bdd33aabe2dceaa7",
       "name": "libapt-pkg7.0",
       "versionInfo": "3.0.3",
       "filesAnalyzed": false,
@@ -1022,7 +1022,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libattr1-5b573a0d847d5fc3",
+      "SPDXID": "SPDXRef-Package-libattr1-2a8801d27b81f57c",
       "name": "libattr1",
       "versionInfo": "1:2.5.2-3",
       "filesAnalyzed": false,
@@ -1060,7 +1060,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libaudit-common-771d7889580b8b2f",
+      "SPDXID": "SPDXRef-Package-libaudit-common-c9aad496517217de",
       "name": "libaudit-common",
       "versionInfo": "1:4.0.2-2",
       "filesAnalyzed": false,
@@ -1094,7 +1094,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libaudit1-7d985c88a720c2f4",
+      "SPDXID": "SPDXRef-Package-libaudit1-1274d0a9bded22c6",
       "name": "libaudit1",
       "versionInfo": "1:4.0.2-2+b2",
       "filesAnalyzed": false,
@@ -1132,7 +1132,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libavif16-294169907a141346",
+      "SPDXID": "SPDXRef-Package-libavif16-51a553b7aed13486",
       "name": "libavif16",
       "versionInfo": "1.2.1-1.2",
       "filesAnalyzed": false,
@@ -1170,7 +1170,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libblkid1-f613eb67e26eca3d",
+      "SPDXID": "SPDXRef-Package-libblkid1-7ccbbe60ef263957",
       "name": "libblkid1",
       "versionInfo": "2.41-5",
       "filesAnalyzed": false,
@@ -1208,7 +1208,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libbrotli1-db701a7b115fde4d",
+      "SPDXID": "SPDXRef-Package-libbrotli1-99962958f414c7a4",
       "name": "libbrotli1",
       "versionInfo": "1.1.0-2+b7",
       "filesAnalyzed": false,
@@ -1246,7 +1246,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libbsd0-ec91c7772fc62d47",
+      "SPDXID": "SPDXRef-Package-libbsd0-a79c35652a5b3130",
       "name": "libbsd0",
       "versionInfo": "0.12.2-2",
       "filesAnalyzed": false,
@@ -1284,7 +1284,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libbz2-1-0-341cecdbfe52653b",
+      "SPDXID": "SPDXRef-Package-libbz2-1-0-b7579fca1d271592",
       "name": "libbz2-1.0",
       "versionInfo": "1.0.8-6",
       "filesAnalyzed": false,
@@ -1322,7 +1322,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libc-bin-8a2dab92361ff218",
+      "SPDXID": "SPDXRef-Package-libc-bin-3942cdd9e81ce8ea",
       "name": "libc-bin",
       "versionInfo": "2.41-12",
       "filesAnalyzed": false,
@@ -1360,7 +1360,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libc6-923f41139e7c0c1b",
+      "SPDXID": "SPDXRef-Package-libc6-eae164be5d77189a",
       "name": "libc6",
       "versionInfo": "2.41-12",
       "filesAnalyzed": false,
@@ -1398,7 +1398,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libcap-ng0-254cdcc4f2ea1fe8",
+      "SPDXID": "SPDXRef-Package-libcap-ng0-91a0974a977c9647",
       "name": "libcap-ng0",
       "versionInfo": "0.8.5-4+b1",
       "filesAnalyzed": false,
@@ -1436,7 +1436,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libcap2-d30586ab5040f5b6",
+      "SPDXID": "SPDXRef-Package-libcap2-b5ebfbb0dc50e016",
       "name": "libcap2",
       "versionInfo": "1:2.75-10+b1",
       "filesAnalyzed": false,
@@ -1474,7 +1474,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libcom-err2-2d9cb7c4df7016ce",
+      "SPDXID": "SPDXRef-Package-libcom-err2-c0e69caa846de861",
       "name": "libcom-err2",
       "versionInfo": "1.47.2-3+b3",
       "filesAnalyzed": false,
@@ -1512,7 +1512,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libcrypt1-7e0858561d46eead",
+      "SPDXID": "SPDXRef-Package-libcrypt1-9296fd24cdf6a030",
       "name": "libcrypt1",
       "versionInfo": "1:4.4.38-1",
       "filesAnalyzed": false,
@@ -1550,7 +1550,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libcurl4t64-82c00b2b8789c1bc",
+      "SPDXID": "SPDXRef-Package-libcurl4t64-dc013994d03cc59a",
       "name": "libcurl4t64",
       "versionInfo": "8.14.1-2",
       "filesAnalyzed": false,
@@ -1588,7 +1588,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libdav1d7-1761635dfc7f0eb9",
+      "SPDXID": "SPDXRef-Package-libdav1d7-64716b70d2c5deb0",
       "name": "libdav1d7",
       "versionInfo": "1.5.1-1",
       "filesAnalyzed": false,
@@ -1626,7 +1626,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libdb5-3t64-bef7576ed3c1eeeb",
+      "SPDXID": "SPDXRef-Package-libdb5-3t64-dc5710b5d06c727a",
       "name": "libdb5.3t64",
       "versionInfo": "5.3.28+dfsg2-9",
       "filesAnalyzed": false,
@@ -1664,7 +1664,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libde265-0-7138bab6e19ac513",
+      "SPDXID": "SPDXRef-Package-libde265-0-dbd410c5a975815a",
       "name": "libde265-0",
       "versionInfo": "1.0.15-1+b3",
       "filesAnalyzed": false,
@@ -1702,7 +1702,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libdebconfclient0-c406ff1696195791",
+      "SPDXID": "SPDXRef-Package-libdebconfclient0-56e39930187d52ff",
       "name": "libdebconfclient0",
       "versionInfo": "0.280",
       "filesAnalyzed": false,
@@ -1740,7 +1740,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libdeflate0-c40b85708827bdc9",
+      "SPDXID": "SPDXRef-Package-libdeflate0-0cd9430ff6c283b7",
       "name": "libdeflate0",
       "versionInfo": "1.23-2",
       "filesAnalyzed": false,
@@ -1778,7 +1778,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libedit2-63ea85fb87979f9c",
+      "SPDXID": "SPDXRef-Package-libedit2-40d3fe986694a6e1",
       "name": "libedit2",
       "versionInfo": "3.1-20250104-1",
       "filesAnalyzed": false,
@@ -1816,7 +1816,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libexpat1-b51b79176e379e63",
+      "SPDXID": "SPDXRef-Package-libexpat1-c43112cc5d4cf714",
       "name": "libexpat1",
       "versionInfo": "2.7.1-2",
       "filesAnalyzed": false,
@@ -1850,7 +1850,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libffi8-10a3a0a1c51f2207",
+      "SPDXID": "SPDXRef-Package-libffi8-a7a863b27530326e",
       "name": "libffi8",
       "versionInfo": "3.4.8-2",
       "filesAnalyzed": false,
@@ -1888,7 +1888,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libfontconfig1-11e72d91bc7568a0",
+      "SPDXID": "SPDXRef-Package-libfontconfig1-d2854687df6e2b85",
       "name": "libfontconfig1",
       "versionInfo": "2.15.0-2.3",
       "filesAnalyzed": false,
@@ -1926,7 +1926,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libfreetype6-4807d1596cd75ac5",
+      "SPDXID": "SPDXRef-Package-libfreetype6-1285702a0fa68b8f",
       "name": "libfreetype6",
       "versionInfo": "2.13.3+dfsg-1",
       "filesAnalyzed": false,
@@ -1964,7 +1964,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libgav1-1-cbdcd79f3b6b088d",
+      "SPDXID": "SPDXRef-Package-libgav1-1-aa742ad2ce23f049",
       "name": "libgav1-1",
       "versionInfo": "0.19.0-3+b1",
       "filesAnalyzed": false,
@@ -2002,7 +2002,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libgcc-s1-216fc7748e6d66b5",
+      "SPDXID": "SPDXRef-Package-libgcc-s1-511f7289741d1b84",
       "name": "libgcc-s1",
       "versionInfo": "14.2.0-19",
       "filesAnalyzed": false,
@@ -2040,7 +2040,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libgcrypt20-9375a7a7b0ad9e7e",
+      "SPDXID": "SPDXRef-Package-libgcrypt20-0e94d2a4796c58d4",
       "name": "libgcrypt20",
       "versionInfo": "1.11.0-7",
       "filesAnalyzed": false,
@@ -2078,7 +2078,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libgd3-133bdb7b7ba14acf",
+      "SPDXID": "SPDXRef-Package-libgd3-6a735bb47deceb1a",
       "name": "libgd3",
       "versionInfo": "2.3.3-13",
       "filesAnalyzed": false,
@@ -2116,7 +2116,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libgeoip1t64-1497fc7e9f2ad414",
+      "SPDXID": "SPDXRef-Package-libgeoip1t64-8233ed270976c8a8",
       "name": "libgeoip1t64",
       "versionInfo": "1.6.12-11.1+b1",
       "filesAnalyzed": false,
@@ -2154,7 +2154,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libgmp10-6ea2807ecd9bca5a",
+      "SPDXID": "SPDXRef-Package-libgmp10-c089256012b4f9a7",
       "name": "libgmp10",
       "versionInfo": "2:6.3.0+dfsg-3",
       "filesAnalyzed": false,
@@ -2192,7 +2192,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libgnutls30t64-cd31c746214c3ccd",
+      "SPDXID": "SPDXRef-Package-libgnutls30t64-e50b1d92e96e5bdc",
       "name": "libgnutls30t64",
       "versionInfo": "3.8.9-3",
       "filesAnalyzed": false,
@@ -2230,7 +2230,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libgomp1-b5917d823df623a0",
+      "SPDXID": "SPDXRef-Package-libgomp1-28e2638a03c64acf",
       "name": "libgomp1",
       "versionInfo": "14.2.0-19",
       "filesAnalyzed": false,
@@ -2268,7 +2268,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libgpg-error0-511b4f8eb195d55b",
+      "SPDXID": "SPDXRef-Package-libgpg-error0-2d1c4acc1a9096eb",
       "name": "libgpg-error0",
       "versionInfo": "1.51-4",
       "filesAnalyzed": false,
@@ -2306,7 +2306,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libgssapi-krb5-2-11e65ba31577fe46",
+      "SPDXID": "SPDXRef-Package-libgssapi-krb5-2-2838974a258aef62",
       "name": "libgssapi-krb5-2",
       "versionInfo": "1.21.3-5",
       "filesAnalyzed": false,
@@ -2344,7 +2344,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libheif-plugin-dav1d-e1f2bf7053b01828",
+      "SPDXID": "SPDXRef-Package-libheif-plugin-dav1d-d2eb40a1b1923393",
       "name": "libheif-plugin-dav1d",
       "versionInfo": "1.19.8-1",
       "filesAnalyzed": false,
@@ -2382,7 +2382,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libheif-plugin-libde265-e963e9e37fbe383f",
+      "SPDXID": "SPDXRef-Package-libheif-plugin-libde265-d5cde3e629f3b4ba",
       "name": "libheif-plugin-libde265",
       "versionInfo": "1.19.8-1",
       "filesAnalyzed": false,
@@ -2420,7 +2420,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libheif1-f295994494f67251",
+      "SPDXID": "SPDXRef-Package-libheif1-4b346d3fb162b2d0",
       "name": "libheif1",
       "versionInfo": "1.19.8-1",
       "filesAnalyzed": false,
@@ -2458,7 +2458,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libhogweed6t64-13ef17ed869c7762",
+      "SPDXID": "SPDXRef-Package-libhogweed6t64-e184106420e79401",
       "name": "libhogweed6t64",
       "versionInfo": "3.10.1-1",
       "filesAnalyzed": false,
@@ -2496,7 +2496,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libidn2-0-b1d06b18e04575cf",
+      "SPDXID": "SPDXRef-Package-libidn2-0-9acaaf612552039f",
       "name": "libidn2-0",
       "versionInfo": "2.3.8-2",
       "filesAnalyzed": false,
@@ -2534,7 +2534,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libimagequant0-47af3748df8bcb38",
+      "SPDXID": "SPDXRef-Package-libimagequant0-d617b2a2840c51b8",
       "name": "libimagequant0",
       "versionInfo": "2.18.0-1+b2",
       "filesAnalyzed": false,
@@ -2572,7 +2572,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libjbig0-ab03de04673064c0",
+      "SPDXID": "SPDXRef-Package-libjbig0-8cce6a381dc9293e",
       "name": "libjbig0",
       "versionInfo": "2.1-6.1+b2",
       "filesAnalyzed": false,
@@ -2610,7 +2610,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libjpeg62-turbo-aa5fc3238df504cd",
+      "SPDXID": "SPDXRef-Package-libjpeg62-turbo-b30e4d2f71dff430",
       "name": "libjpeg62-turbo",
       "versionInfo": "1:2.1.5-4",
       "filesAnalyzed": false,
@@ -2648,7 +2648,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libk5crypto3-397a199779af3bd8",
+      "SPDXID": "SPDXRef-Package-libk5crypto3-154d9c54c9bc9f44",
       "name": "libk5crypto3",
       "versionInfo": "1.21.3-5",
       "filesAnalyzed": false,
@@ -2686,7 +2686,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libkeyutils1-80c1150c26fee8bf",
+      "SPDXID": "SPDXRef-Package-libkeyutils1-b618dc26b3c0ecab",
       "name": "libkeyutils1",
       "versionInfo": "1.6.3-6",
       "filesAnalyzed": false,
@@ -2724,7 +2724,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libkrb5-3-cc9fb1c1c20b4b25",
+      "SPDXID": "SPDXRef-Package-libkrb5-3-f709f8c783fb2c4f",
       "name": "libkrb5-3",
       "versionInfo": "1.21.3-5",
       "filesAnalyzed": false,
@@ -2762,7 +2762,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libkrb5support0-94c92b78504253be",
+      "SPDXID": "SPDXRef-Package-libkrb5support0-c7a32eb8ca2a603b",
       "name": "libkrb5support0",
       "versionInfo": "1.21.3-5",
       "filesAnalyzed": false,
@@ -2800,7 +2800,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-liblastlog2-2-cb7eaa5dc50d8753",
+      "SPDXID": "SPDXRef-Package-liblastlog2-2-07f7268c6fa000e9",
       "name": "liblastlog2-2",
       "versionInfo": "2.41-5",
       "filesAnalyzed": false,
@@ -2838,7 +2838,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libldap2-b7db9427c0d5f5d8",
+      "SPDXID": "SPDXRef-Package-libldap2-aaf6c02a7d8aab2f",
       "name": "libldap2",
       "versionInfo": "2.6.10+dfsg-1",
       "filesAnalyzed": false,
@@ -2876,7 +2876,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-liblerc4-f209405085519fd8",
+      "SPDXID": "SPDXRef-Package-liblerc4-c69699ddd3da5716",
       "name": "liblerc4",
       "versionInfo": "4.0.0+ds-5",
       "filesAnalyzed": false,
@@ -2914,7 +2914,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-liblz4-1-7db3e51a753079b6",
+      "SPDXID": "SPDXRef-Package-liblz4-1-de370cb078913e1f",
       "name": "liblz4-1",
       "versionInfo": "1.10.0-4",
       "filesAnalyzed": false,
@@ -2952,7 +2952,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-liblzma5-2502dc823e75e45a",
+      "SPDXID": "SPDXRef-Package-liblzma5-724f582c4441a7c6",
       "name": "liblzma5",
       "versionInfo": "5.8.1-1",
       "filesAnalyzed": false,
@@ -2990,7 +2990,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libmd0-1294630c93790af3",
+      "SPDXID": "SPDXRef-Package-libmd0-15c4c05abc4abee8",
       "name": "libmd0",
       "versionInfo": "1.1.0-2+b1",
       "filesAnalyzed": false,
@@ -3028,7 +3028,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libmount1-5d89cd2956aa3990",
+      "SPDXID": "SPDXRef-Package-libmount1-feaa286b9ebc8679",
       "name": "libmount1",
       "versionInfo": "2.41-5",
       "filesAnalyzed": false,
@@ -3066,7 +3066,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libnettle8t64-040341bad8b7716a",
+      "SPDXID": "SPDXRef-Package-libnettle8t64-cb4a8567fe8f2e00",
       "name": "libnettle8t64",
       "versionInfo": "3.10.1-1",
       "filesAnalyzed": false,
@@ -3104,7 +3104,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libnghttp2-14-33ec6867db2a67bc",
+      "SPDXID": "SPDXRef-Package-libnghttp2-14-db9fbabd2c9ac011",
       "name": "libnghttp2-14",
       "versionInfo": "1.64.0-1.1",
       "filesAnalyzed": false,
@@ -3142,7 +3142,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libnghttp3-9-c773d957dc3aff1b",
+      "SPDXID": "SPDXRef-Package-libnghttp3-9-19fea4899eb7a028",
       "name": "libnghttp3-9",
       "versionInfo": "1.8.0-1",
       "filesAnalyzed": false,
@@ -3180,7 +3180,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libp11-kit0-d87b748d6b412750",
+      "SPDXID": "SPDXRef-Package-libp11-kit0-774bcf32fc072b87",
       "name": "libp11-kit0",
       "versionInfo": "0.25.5-3",
       "filesAnalyzed": false,
@@ -3218,7 +3218,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libpam-modules-dc2d166750ebb3a5",
+      "SPDXID": "SPDXRef-Package-libpam-modules-e273fef498a46046",
       "name": "libpam-modules",
       "versionInfo": "1.7.0-5",
       "filesAnalyzed": false,
@@ -3252,7 +3252,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libpam-modules-bin-8acc1d69fe7eade0",
+      "SPDXID": "SPDXRef-Package-libpam-modules-bin-7f0148d7ebc1f5a7",
       "name": "libpam-modules-bin",
       "versionInfo": "1.7.0-5",
       "filesAnalyzed": false,
@@ -3290,7 +3290,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libpam-runtime-889780e3a63ceb71",
+      "SPDXID": "SPDXRef-Package-libpam-runtime-4081ff91ffb479fc",
       "name": "libpam-runtime",
       "versionInfo": "1.7.0-5",
       "filesAnalyzed": false,
@@ -3328,7 +3328,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libpam0g-eebd7e971f021a40",
+      "SPDXID": "SPDXRef-Package-libpam0g-c6863b377fab9e8e",
       "name": "libpam0g",
       "versionInfo": "1.7.0-5",
       "filesAnalyzed": false,
@@ -3366,7 +3366,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libpcre2-8-0-2ed2cc92dda09ba4",
+      "SPDXID": "SPDXRef-Package-libpcre2-8-0-c9b9d4f6fc9bc7b7",
       "name": "libpcre2-8-0",
       "versionInfo": "10.46-1~deb13u1",
       "filesAnalyzed": false,
@@ -3404,7 +3404,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libpng16-16t64-a6e4191c649fa044",
+      "SPDXID": "SPDXRef-Package-libpng16-16t64-8404d747ef98c904",
       "name": "libpng16-16t64",
       "versionInfo": "1.6.48-1",
       "filesAnalyzed": false,
@@ -3442,7 +3442,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libpsl5t64-6ab8f1f0c589f0c8",
+      "SPDXID": "SPDXRef-Package-libpsl5t64-6317637d6a49ef5d",
       "name": "libpsl5t64",
       "versionInfo": "0.21.2-1.1+b1",
       "filesAnalyzed": false,
@@ -3480,7 +3480,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-librav1e0-7-bac61f0cad434570",
+      "SPDXID": "SPDXRef-Package-librav1e0-7-f3befcf409e5679b",
       "name": "librav1e0.7",
       "versionInfo": "0.7.1-9+b2",
       "filesAnalyzed": false,
@@ -3518,7 +3518,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-librtmp1-4cfb7399c7c195c0",
+      "SPDXID": "SPDXRef-Package-librtmp1-e93b04dbfb893ab8",
       "name": "librtmp1",
       "versionInfo": "2.4+20151223.gitfa8646d.1-2+b5",
       "filesAnalyzed": false,
@@ -3556,7 +3556,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libsasl2-2-dc3ef9491e51f6b5",
+      "SPDXID": "SPDXRef-Package-libsasl2-2-5ec9aacd72f72d00",
       "name": "libsasl2-2",
       "versionInfo": "2.1.28+dfsg1-9",
       "filesAnalyzed": false,
@@ -3594,7 +3594,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libsasl2-modules-db-5be83d5a9eb5cdc3",
+      "SPDXID": "SPDXRef-Package-libsasl2-modules-db-633c19af175be3b9",
       "name": "libsasl2-modules-db",
       "versionInfo": "2.1.28+dfsg1-9",
       "filesAnalyzed": false,
@@ -3632,7 +3632,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libseccomp2-48244bd086058ad7",
+      "SPDXID": "SPDXRef-Package-libseccomp2-ba4a05735c12ddcc",
       "name": "libseccomp2",
       "versionInfo": "2.6.0-2",
       "filesAnalyzed": false,
@@ -3670,7 +3670,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libselinux1-4701b1dd0cd7c7d8",
+      "SPDXID": "SPDXRef-Package-libselinux1-54f0332155e07242",
       "name": "libselinux1",
       "versionInfo": "3.8.1-1",
       "filesAnalyzed": false,
@@ -3708,7 +3708,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libsemanage-common-32e7939ccc7bcdb3",
+      "SPDXID": "SPDXRef-Package-libsemanage-common-5e031a56477a6369",
       "name": "libsemanage-common",
       "versionInfo": "3.8.1-1",
       "filesAnalyzed": false,
@@ -3742,7 +3742,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libsemanage2-f46781d4d6120588",
+      "SPDXID": "SPDXRef-Package-libsemanage2-790fb0af62b247c6",
       "name": "libsemanage2",
       "versionInfo": "3.8.1-1",
       "filesAnalyzed": false,
@@ -3780,7 +3780,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libsepol2-241bfaafed3e04ec",
+      "SPDXID": "SPDXRef-Package-libsepol2-757ca1cec1f07b3b",
       "name": "libsepol2",
       "versionInfo": "3.8.1-1",
       "filesAnalyzed": false,
@@ -3818,7 +3818,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libsharpyuv0-e682b681344c4dd4",
+      "SPDXID": "SPDXRef-Package-libsharpyuv0-51d1643773daa5df",
       "name": "libsharpyuv0",
       "versionInfo": "1.5.0-0.1",
       "filesAnalyzed": false,
@@ -3856,7 +3856,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libsmartcols1-a111c25836c873e0",
+      "SPDXID": "SPDXRef-Package-libsmartcols1-eb3f3b1b363a87e0",
       "name": "libsmartcols1",
       "versionInfo": "2.41-5",
       "filesAnalyzed": false,
@@ -3894,7 +3894,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libsqlite3-0-4a35e0b54b42b3d9",
+      "SPDXID": "SPDXRef-Package-libsqlite3-0-85afcb9b465c52b5",
       "name": "libsqlite3-0",
       "versionInfo": "3.46.1-7",
       "filesAnalyzed": false,
@@ -3932,7 +3932,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libssh2-1t64-3b005f1699b410bb",
+      "SPDXID": "SPDXRef-Package-libssh2-1t64-1a6cea8e5fbc2dc7",
       "name": "libssh2-1t64",
       "versionInfo": "1.11.1-1",
       "filesAnalyzed": false,
@@ -3970,7 +3970,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libssl3t64-b7664cab6d91d617",
+      "SPDXID": "SPDXRef-Package-libssl3t64-c985f725372a5555",
       "name": "libssl3t64",
       "versionInfo": "3.5.1-1+deb13u1",
       "filesAnalyzed": false,
@@ -4008,7 +4008,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libstdc++6-6a8e1eb9ae057ba8",
+      "SPDXID": "SPDXRef-Package-libstdc++6-535a202eb769eb03",
       "name": "libstdc++6",
       "versionInfo": "14.2.0-19",
       "filesAnalyzed": false,
@@ -4046,7 +4046,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libsvtav1enc2-06a09575e29c3c48",
+      "SPDXID": "SPDXRef-Package-libsvtav1enc2-42c0dd91a18dae58",
       "name": "libsvtav1enc2",
       "versionInfo": "2.3.0+dfsg-1",
       "filesAnalyzed": false,
@@ -4084,7 +4084,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libsystemd0-424671056863a656",
+      "SPDXID": "SPDXRef-Package-libsystemd0-41cd6b75bdd2387e",
       "name": "libsystemd0",
       "versionInfo": "257.8-1~deb13u2",
       "filesAnalyzed": false,
@@ -4122,7 +4122,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libtasn1-6-7622c9f671154427",
+      "SPDXID": "SPDXRef-Package-libtasn1-6-070467ada7cfb8e4",
       "name": "libtasn1-6",
       "versionInfo": "4.20.0-2",
       "filesAnalyzed": false,
@@ -4160,7 +4160,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libtiff6-c20e53454cea39dd",
+      "SPDXID": "SPDXRef-Package-libtiff6-bf174a6a569ce38b",
       "name": "libtiff6",
       "versionInfo": "4.7.0-3",
       "filesAnalyzed": false,
@@ -4198,7 +4198,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libtinfo6-0790497ca51dc1e9",
+      "SPDXID": "SPDXRef-Package-libtinfo6-655d863d7248eed8",
       "name": "libtinfo6",
       "versionInfo": "6.5+20250216-2",
       "filesAnalyzed": false,
@@ -4236,7 +4236,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libudev1-af80b5bf46b1dfcb",
+      "SPDXID": "SPDXRef-Package-libudev1-918f30d745fd6173",
       "name": "libudev1",
       "versionInfo": "257.8-1~deb13u2",
       "filesAnalyzed": false,
@@ -4274,7 +4274,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libunistring5-e42573b9b58ec2d0",
+      "SPDXID": "SPDXRef-Package-libunistring5-983651c9ca880f82",
       "name": "libunistring5",
       "versionInfo": "1.3-2",
       "filesAnalyzed": false,
@@ -4312,7 +4312,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libuuid1-869f6a7d7991e56a",
+      "SPDXID": "SPDXRef-Package-libuuid1-8c86d37914fa1ec0",
       "name": "libuuid1",
       "versionInfo": "2.41-5",
       "filesAnalyzed": false,
@@ -4350,7 +4350,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libwebp7-f15c28a997246aa2",
+      "SPDXID": "SPDXRef-Package-libwebp7-5770fcac15236899",
       "name": "libwebp7",
       "versionInfo": "1.5.0-0.1",
       "filesAnalyzed": false,
@@ -4388,7 +4388,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libx11-6-1215927686f601eb",
+      "SPDXID": "SPDXRef-Package-libx11-6-55f08054c78c24f0",
       "name": "libx11-6",
       "versionInfo": "2:1.8.12-1",
       "filesAnalyzed": false,
@@ -4426,7 +4426,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libx11-data-9be7fdedd4a690fd",
+      "SPDXID": "SPDXRef-Package-libx11-data-9d320da30d3cf718",
       "name": "libx11-data",
       "versionInfo": "2:1.8.12-1",
       "filesAnalyzed": false,
@@ -4460,7 +4460,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libxau6-415f7530091c7b2d",
+      "SPDXID": "SPDXRef-Package-libxau6-054c5330cb8371ba",
       "name": "libxau6",
       "versionInfo": "1:1.0.11-1",
       "filesAnalyzed": false,
@@ -4498,7 +4498,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libxcb1-f01d75752824db35",
+      "SPDXID": "SPDXRef-Package-libxcb1-6e9028d82318e0d3",
       "name": "libxcb1",
       "versionInfo": "1.17.0-2+b1",
       "filesAnalyzed": false,
@@ -4536,7 +4536,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libxdmcp6-fd672b61cd5183ec",
+      "SPDXID": "SPDXRef-Package-libxdmcp6-f3c28cec9a1e2ff0",
       "name": "libxdmcp6",
       "versionInfo": "1:1.1.5-1",
       "filesAnalyzed": false,
@@ -4574,7 +4574,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libxml2-7dc07583bbd16724",
+      "SPDXID": "SPDXRef-Package-libxml2-53db64ea3ed572f1",
       "name": "libxml2",
       "versionInfo": "2.12.7+dfsg+really2.9.14-2.1+deb13u1",
       "filesAnalyzed": false,
@@ -4612,7 +4612,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libxpm4-2a9dc713b2244c6d",
+      "SPDXID": "SPDXRef-Package-libxpm4-5f3a7ad73a119a4f",
       "name": "libxpm4",
       "versionInfo": "1:3.5.17-1+b3",
       "filesAnalyzed": false,
@@ -4650,7 +4650,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libxslt1-1-4e3859186b66fa47",
+      "SPDXID": "SPDXRef-Package-libxslt1-1-ef6b98c2e2d2f1f8",
       "name": "libxslt1.1",
       "versionInfo": "1.1.35-1.2+deb13u2",
       "filesAnalyzed": false,
@@ -4688,7 +4688,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libxxhash0-223168d98941a8ea",
+      "SPDXID": "SPDXRef-Package-libxxhash0-6352f43585ed8993",
       "name": "libxxhash0",
       "versionInfo": "0.8.3-2",
       "filesAnalyzed": false,
@@ -4726,7 +4726,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libyuv0-eddd722e394bdbf6",
+      "SPDXID": "SPDXRef-Package-libyuv0-679559b02cdeaa54",
       "name": "libyuv0",
       "versionInfo": "0.0.1904.20250204-1",
       "filesAnalyzed": false,
@@ -4764,7 +4764,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-libzstd1-3172d68b57c20241",
+      "SPDXID": "SPDXRef-Package-libzstd1-23575d1c44539616",
       "name": "libzstd1",
       "versionInfo": "1.5.7+dfsg-1",
       "filesAnalyzed": false,
@@ -4802,7 +4802,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-login-781faeb7a928092f",
+      "SPDXID": "SPDXRef-Package-login-188ceb3b47044f88",
       "name": "login",
       "versionInfo": "1:4.16.0-2+really2.41-5",
       "filesAnalyzed": false,
@@ -4840,7 +4840,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-login-defs-9bf0af08b17e748b",
+      "SPDXID": "SPDXRef-Package-login-defs-246d939ee67fa7ee",
       "name": "login.defs",
       "versionInfo": "1:4.17.4-2",
       "filesAnalyzed": false,
@@ -4874,7 +4874,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-mawk-fa7529df891e07f3",
+      "SPDXID": "SPDXRef-Package-mawk-039736318317d921",
       "name": "mawk",
       "versionInfo": "1.3.4.20250131-1",
       "filesAnalyzed": false,
@@ -4912,7 +4912,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-mount-74b44bfb4f46ba86",
+      "SPDXID": "SPDXRef-Package-mount-db2b87e356885ccb",
       "name": "mount",
       "versionInfo": "2.41-5",
       "filesAnalyzed": false,
@@ -4946,7 +4946,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-ncurses-base-801d2b802edcc687",
+      "SPDXID": "SPDXRef-Package-ncurses-base-e433aa24398ed80c",
       "name": "ncurses-base",
       "versionInfo": "6.5+20250216-2",
       "filesAnalyzed": false,
@@ -4980,7 +4980,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-ncurses-bin-8aed05eee617e118",
+      "SPDXID": "SPDXRef-Package-ncurses-bin-6142691f940e19de",
       "name": "ncurses-bin",
       "versionInfo": "6.5+20250216-2",
       "filesAnalyzed": false,
@@ -5014,7 +5014,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-nginx-1d5e050ff10de08f",
+      "SPDXID": "SPDXRef-Package-nginx-393882d22e9e5e0a",
       "name": "nginx",
       "versionInfo": "1.29.2-1~trixie",
       "filesAnalyzed": false,
@@ -5052,7 +5052,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-nginx-module-geoip-19ee6fa10fb6e35f",
+      "SPDXID": "SPDXRef-Package-nginx-module-geoip-a99e0701319bd135",
       "name": "nginx-module-geoip",
       "versionInfo": "1.29.2-1~trixie",
       "filesAnalyzed": false,
@@ -5090,7 +5090,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-nginx-module-image-filter-fe9a84f577e3dcf8",
+      "SPDXID": "SPDXRef-Package-nginx-module-image-filter-c1b13d5f2e7027a0",
       "name": "nginx-module-image-filter",
       "versionInfo": "1.29.2-1~trixie",
       "filesAnalyzed": false,
@@ -5128,7 +5128,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-nginx-module-njs-0a77c2d4f4237dc3",
+      "SPDXID": "SPDXRef-Package-nginx-module-njs-55e470b6343acc78",
       "name": "nginx-module-njs",
       "versionInfo": "1.29.2+0.9.3-1~trixie",
       "filesAnalyzed": false,
@@ -5166,7 +5166,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-nginx-module-xslt-eb913c11b080a956",
+      "SPDXID": "SPDXRef-Package-nginx-module-xslt-7dddf2a3390f9ce2",
       "name": "nginx-module-xslt",
       "versionInfo": "1.29.2-1~trixie",
       "filesAnalyzed": false,
@@ -5204,7 +5204,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-openssl-4e6211c3ec7cb047",
+      "SPDXID": "SPDXRef-Package-openssl-95e03ba658e43b37",
       "name": "openssl",
       "versionInfo": "3.5.1-1+deb13u1",
       "filesAnalyzed": false,
@@ -5242,7 +5242,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-openssl-provider-legacy-564ca02c57d9e32c",
+      "SPDXID": "SPDXRef-Package-openssl-provider-legacy-0ffc58979c1db1a0",
       "name": "openssl-provider-legacy",
       "versionInfo": "3.5.1-1+deb13u1",
       "filesAnalyzed": false,
@@ -5280,7 +5280,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-passwd-cbe6396089b79317",
+      "SPDXID": "SPDXRef-Package-passwd-e7f9c686629abe18",
       "name": "passwd",
       "versionInfo": "1:4.17.4-2",
       "filesAnalyzed": false,
@@ -5318,7 +5318,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-perl-base-25f437fa186f2748",
+      "SPDXID": "SPDXRef-Package-perl-base-0846ec58f8c0bee9",
       "name": "perl-base",
       "versionInfo": "5.40.1-6",
       "filesAnalyzed": false,
@@ -5352,7 +5352,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-sed-d1c5001ac4df9179",
+      "SPDXID": "SPDXRef-Package-sed-f3595be77011d465",
       "name": "sed",
       "versionInfo": "4.9-2",
       "filesAnalyzed": false,
@@ -5386,7 +5386,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-sqv-fba4b81f857d3ed3",
+      "SPDXID": "SPDXRef-Package-sqv-2c7f8f160bcf7deb",
       "name": "sqv",
       "versionInfo": "1.3.0-3",
       "filesAnalyzed": false,
@@ -5424,7 +5424,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-sysvinit-utils-9c04ec462785c691",
+      "SPDXID": "SPDXRef-Package-sysvinit-utils-fa8e28a8d09d123e",
       "name": "sysvinit-utils",
       "versionInfo": "3.14-4",
       "filesAnalyzed": false,
@@ -5462,7 +5462,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-tar-7914fc40f5647097",
+      "SPDXID": "SPDXRef-Package-tar-7302ca10b588b58e",
       "name": "tar",
       "versionInfo": "1.35+dfsg-3.1",
       "filesAnalyzed": false,
@@ -5496,7 +5496,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-tzdata-bb452a85dc7728cc",
+      "SPDXID": "SPDXRef-Package-tzdata-59829511a6343547",
       "name": "tzdata",
       "versionInfo": "2025b-4+deb13u1",
       "filesAnalyzed": false,
@@ -5534,7 +5534,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-util-linux-1e9bdbd8e13018c4",
+      "SPDXID": "SPDXRef-Package-util-linux-b4f5b150a7bb7c4e",
       "name": "util-linux",
       "versionInfo": "2.41-5",
       "filesAnalyzed": false,
@@ -5568,7 +5568,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-zlib1g-cca81e6765e46880",
+      "SPDXID": "SPDXRef-Package-zlib1g-ccd547860d1787b0",
       "name": "zlib1g",
       "versionInfo": "1:1.3.dfsg+really1.3.1-1+b1",
       "filesAnalyzed": false,
@@ -5609,1737 +5609,1737 @@
   "relationships": [
     {
       "spdxElementId": "SPDXRef-DOCUMENT",
-      "relatedSpdxElement": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
+      "relatedSpdxElement": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
       "relationshipType": "DESCRIBES"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-apt-02614ba3d05d5023",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-apt-25106fab9ffee393",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-apt-02614ba3d05d5023",
-      "relatedSpdxElement": "SPDXRef-Package-base-passwd-06b23f816b1ac5c5",
+      "spdxElementId": "SPDXRef-Package-apt-25106fab9ffee393",
+      "relatedSpdxElement": "SPDXRef-Package-base-passwd-70b58749965d2d02",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-base-files-2002b898752ca4f4",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-base-files-709d7d6239d91c0d",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-base-passwd-7ec56705a57a3a92",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-base-passwd-6e8c7cd57f6845e9",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-base-passwd-7ec56705a57a3a92",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-cc4fa462d40c09a8",
+      "spdxElementId": "SPDXRef-Package-base-passwd-6e8c7cd57f6845e9",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-14a225baea1b5486",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-base-passwd-7ec56705a57a3a92",
-      "relatedSpdxElement": "SPDXRef-Package-libdebconfclient0-efe63d6998d6b14d",
+      "spdxElementId": "SPDXRef-Package-base-passwd-6e8c7cd57f6845e9",
+      "relatedSpdxElement": "SPDXRef-Package-libdebconfclient0-d9c90902a825089d",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-bash-5c65a0a869162203",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-bash-33690a7dd3dcf07d",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-bash-5c65a0a869162203",
-      "relatedSpdxElement": "SPDXRef-Package-base-files-a6148458edf1215f",
+      "spdxElementId": "SPDXRef-Package-bash-33690a7dd3dcf07d",
+      "relatedSpdxElement": "SPDXRef-Package-base-files-5fbc4ab258a6f254",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-bash-5c65a0a869162203",
-      "relatedSpdxElement": "SPDXRef-Package-debianutils-125231db294fb9e7",
+      "spdxElementId": "SPDXRef-Package-bash-33690a7dd3dcf07d",
+      "relatedSpdxElement": "SPDXRef-Package-debianutils-2213142ab10e3dc5",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-bsdutils-2e3813f0ae91b094",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-bsdutils-f05a01082865ad1a",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-ca-certificates-ae54d0aea5ff2779",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-ca-certificates-cb1decfa82fbd7bd",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-ca-certificates-ae54d0aea5ff2779",
-      "relatedSpdxElement": "SPDXRef-Package-openssl-131141573cbe22ed",
+      "spdxElementId": "SPDXRef-Package-ca-certificates-cb1decfa82fbd7bd",
+      "relatedSpdxElement": "SPDXRef-Package-openssl-ae47358260f86089",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-ca-certificates-ae54d0aea5ff2779",
-      "relatedSpdxElement": "SPDXRef-Package-debconf-95047d36378485a9",
+      "spdxElementId": "SPDXRef-Package-ca-certificates-cb1decfa82fbd7bd",
+      "relatedSpdxElement": "SPDXRef-Package-debconf-01554df06cb5fb98",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-coreutils-47e5574a20e634cb",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-coreutils-3c76e2acf8b78146",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-curl-0d77364d4fc1d252",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-curl-6b19ca71f81a2e20",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-curl-0d77364d4fc1d252",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-5513bc8682445048",
+      "spdxElementId": "SPDXRef-Package-curl-6b19ca71f81a2e20",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-4c3fa42f27bdf225",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-curl-0d77364d4fc1d252",
-      "relatedSpdxElement": "SPDXRef-Package-libcurl4t64-9b16ffc0afc1e749",
+      "spdxElementId": "SPDXRef-Package-curl-6b19ca71f81a2e20",
+      "relatedSpdxElement": "SPDXRef-Package-libcurl4t64-b034664dacf01e49",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-dash-99cd2f7fb6c084c0",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-dash-f6dae132121dbbe3",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-dash-99cd2f7fb6c084c0",
-      "relatedSpdxElement": "SPDXRef-Package-debianutils-e5f613dd69660cda",
+      "spdxElementId": "SPDXRef-Package-dash-f6dae132121dbbe3",
+      "relatedSpdxElement": "SPDXRef-Package-debianutils-2c4f556ad2452b00",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-debconf-107a5f358565e61b",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-debconf-73c6907126314db5",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-debian-archive-keyring-f48c52fc1bc0bd35",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-debian-archive-keyring-e8dc42495791749a",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-debianutils-b0e9853817efc4b3",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-debianutils-a76008a57947337b",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-diffutils-e97ae1285c4d8294",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-diffutils-f1bf2437057c251e",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-dpkg-cf6ea8d65b6fe953",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-dpkg-044c5dcd6e1163d3",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-dpkg-cf6ea8d65b6fe953",
-      "relatedSpdxElement": "SPDXRef-Package-tar-d27a1eb69c9a8669",
+      "spdxElementId": "SPDXRef-Package-dpkg-044c5dcd6e1163d3",
+      "relatedSpdxElement": "SPDXRef-Package-tar-e0f2ee5960debcde",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-findutils-1552a579a4ebdeff",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-findutils-2f8aa7aabcb7fcba",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-fontconfig-config-e96ec04270fdc005",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-fontconfig-config-114a7bb883a9a125",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-fontconfig-config-e96ec04270fdc005",
-      "relatedSpdxElement": "SPDXRef-Package-debconf-12118d6117d7d01c",
+      "spdxElementId": "SPDXRef-Package-fontconfig-config-114a7bb883a9a125",
+      "relatedSpdxElement": "SPDXRef-Package-debconf-a8eb8ab8ac6b11bb",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-fonts-dejavu-core-b31a64b9b8076e34",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-fonts-dejavu-core-61390f6bac858501",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-fonts-dejavu-core-b31a64b9b8076e34",
-      "relatedSpdxElement": "SPDXRef-Package-fonts-dejavu-mono-3d6f3aaa499dd058",
+      "spdxElementId": "SPDXRef-Package-fonts-dejavu-core-61390f6bac858501",
+      "relatedSpdxElement": "SPDXRef-Package-fonts-dejavu-mono-e785914c2a698fd1",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-fonts-dejavu-mono-80e99bd3ef8b55a9",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-fonts-dejavu-mono-7a5d8b08b53fe6d9",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-gcc-14-base-aa0604ad96d95684",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-gcc-14-base-b36208204aad152a",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-gettext-base-97269d03d96060cc",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-gettext-base-02179eb870bbc674",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-gettext-base-97269d03d96060cc",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-92a57553669371a2",
+      "spdxElementId": "SPDXRef-Package-gettext-base-02179eb870bbc674",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-027c36657f5a33c5",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-grep-8ba2576cac792d6a",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-grep-54d7975b757d4a15",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-gzip-fe1cf903fd41416c",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-gzip-590bdebabb7e44dd",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-hostname-13bb11e731ee0a07",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-hostname-43280c38e46fb478",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-init-system-helpers-b5a6475c399cfc93",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-init-system-helpers-269f4e3be3d6ba54",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libabsl20240722-8bfdb42c0a6ba81b",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libabsl20240722-19419cbe0643c9b3",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libabsl20240722-8bfdb42c0a6ba81b",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-0bba5dec89f2c5c2",
+      "spdxElementId": "SPDXRef-Package-libabsl20240722-19419cbe0643c9b3",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-5f3896a6ae7985e5",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libabsl20240722-8bfdb42c0a6ba81b",
-      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-99f216d0d3cf05e8",
+      "spdxElementId": "SPDXRef-Package-libabsl20240722-19419cbe0643c9b3",
+      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-063beee90c21089b",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libacl1-0628a905e8598cdb",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libacl1-866defce8ce28152",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libacl1-0628a905e8598cdb",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-13c1ac1acd3e42c5",
+      "spdxElementId": "SPDXRef-Package-libacl1-866defce8ce28152",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-e2ff0b6dbfdd61bf",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libaom3-a157ef489e0c274d",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libaom3-53f7940201dc38ff",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libaom3-a157ef489e0c274d",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-53b9bed21a2d7a28",
+      "spdxElementId": "SPDXRef-Package-libaom3-53f7940201dc38ff",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-5e6a2c9b22f5bc82",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libapt-pkg7-0-63471dad9a771494",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libapt-pkg7-0-bdd33aabe2dceaa7",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libapt-pkg7-0-63471dad9a771494",
-      "relatedSpdxElement": "SPDXRef-Package-libbz2-1-0-1fbf7ceb7e4de2f2",
+      "spdxElementId": "SPDXRef-Package-libapt-pkg7-0-bdd33aabe2dceaa7",
+      "relatedSpdxElement": "SPDXRef-Package-libbz2-1-0-dc117f335d2471dd",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libapt-pkg7-0-63471dad9a771494",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-f05223e2a7672820",
+      "spdxElementId": "SPDXRef-Package-libapt-pkg7-0-bdd33aabe2dceaa7",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-6ca98c7d04c10dd8",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libapt-pkg7-0-63471dad9a771494",
-      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-7515e2187fe8a63d",
+      "spdxElementId": "SPDXRef-Package-libapt-pkg7-0-bdd33aabe2dceaa7",
+      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-fbfe888ec4e698f3",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libattr1-5b573a0d847d5fc3",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libattr1-2a8801d27b81f57c",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libattr1-5b573a0d847d5fc3",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-4cd9c878a65aef07",
+      "spdxElementId": "SPDXRef-Package-libattr1-2a8801d27b81f57c",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-4ef4687e58fc73b5",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libaudit-common-771d7889580b8b2f",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libaudit-common-c9aad496517217de",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libaudit1-7d985c88a720c2f4",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libaudit1-1274d0a9bded22c6",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libaudit1-7d985c88a720c2f4",
-      "relatedSpdxElement": "SPDXRef-Package-libaudit-common-1072c1942c23b482",
+      "spdxElementId": "SPDXRef-Package-libaudit1-1274d0a9bded22c6",
+      "relatedSpdxElement": "SPDXRef-Package-libaudit-common-f404b9e854a14fea",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libaudit1-7d985c88a720c2f4",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-1f9db6814026ded3",
+      "spdxElementId": "SPDXRef-Package-libaudit1-1274d0a9bded22c6",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-83ac8416ebe5ab2d",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libavif16-294169907a141346",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libavif16-51a553b7aed13486",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libavif16-294169907a141346",
-      "relatedSpdxElement": "SPDXRef-Package-libaom3-2627e94196c741f6",
+      "spdxElementId": "SPDXRef-Package-libavif16-51a553b7aed13486",
+      "relatedSpdxElement": "SPDXRef-Package-libaom3-32527926582c5540",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libavif16-294169907a141346",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-4ed91b93acdd650f",
+      "spdxElementId": "SPDXRef-Package-libavif16-51a553b7aed13486",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-d3c5fbb21c6a16c0",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libblkid1-f613eb67e26eca3d",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libblkid1-7ccbbe60ef263957",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libblkid1-f613eb67e26eca3d",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-d230d7e61c68beee",
+      "spdxElementId": "SPDXRef-Package-libblkid1-7ccbbe60ef263957",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-4cc070a77eb39f70",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libbrotli1-db701a7b115fde4d",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libbrotli1-99962958f414c7a4",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libbrotli1-db701a7b115fde4d",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-2e1b58e70dd75b3f",
+      "spdxElementId": "SPDXRef-Package-libbrotli1-99962958f414c7a4",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-47d3fdb2a0b4a74d",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libbsd0-ec91c7772fc62d47",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libbsd0-a79c35652a5b3130",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libbsd0-ec91c7772fc62d47",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-95e8eaef1358685b",
+      "spdxElementId": "SPDXRef-Package-libbsd0-a79c35652a5b3130",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-f4f5f4926f4b79b5",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libbsd0-ec91c7772fc62d47",
-      "relatedSpdxElement": "SPDXRef-Package-libmd0-be5a17edb59eb019",
+      "spdxElementId": "SPDXRef-Package-libbsd0-a79c35652a5b3130",
+      "relatedSpdxElement": "SPDXRef-Package-libmd0-9df30f379f4488fe",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libbz2-1-0-341cecdbfe52653b",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libbz2-1-0-b7579fca1d271592",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libbz2-1-0-341cecdbfe52653b",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-521671231ba1ece0",
+      "spdxElementId": "SPDXRef-Package-libbz2-1-0-b7579fca1d271592",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-d401ca5af37d18d3",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libc-bin-8a2dab92361ff218",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libc-bin-3942cdd9e81ce8ea",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libc-bin-8a2dab92361ff218",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-a586b03717bf49af",
+      "spdxElementId": "SPDXRef-Package-libc-bin-3942cdd9e81ce8ea",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-8f63a3dfc4f72d23",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libc-bin-8a2dab92361ff218",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-5ccb296403ef994b",
+      "spdxElementId": "SPDXRef-Package-libc-bin-3942cdd9e81ce8ea",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-14cc4dd345bb323d",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-923f41139e7c0c1b",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-eae164be5d77189a",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libc6-923f41139e7c0c1b",
-      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-12b3725a6a60f0b4",
+      "spdxElementId": "SPDXRef-Package-libc6-eae164be5d77189a",
+      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-d510c15b658d8127",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libcap-ng0-254cdcc4f2ea1fe8",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libcap-ng0-91a0974a977c9647",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libcap-ng0-254cdcc4f2ea1fe8",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-9addede705758349",
+      "spdxElementId": "SPDXRef-Package-libcap-ng0-91a0974a977c9647",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-993d61647c4455c9",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libcap2-d30586ab5040f5b6",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libcap2-b5ebfbb0dc50e016",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libcap2-d30586ab5040f5b6",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-17bc2b38567b5f10",
+      "spdxElementId": "SPDXRef-Package-libcap2-b5ebfbb0dc50e016",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-6f1421d4a0c22f70",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libcom-err2-2d9cb7c4df7016ce",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libcom-err2-c0e69caa846de861",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libcom-err2-2d9cb7c4df7016ce",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-cd093ae9c5d047f4",
+      "spdxElementId": "SPDXRef-Package-libcom-err2-c0e69caa846de861",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-08d775c0be526961",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libcrypt1-7e0858561d46eead",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libcrypt1-9296fd24cdf6a030",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libcrypt1-7e0858561d46eead",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-b144e9ef545cc49a",
+      "spdxElementId": "SPDXRef-Package-libcrypt1-9296fd24cdf6a030",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-d129f2df8393d41c",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libcurl4t64-82c00b2b8789c1bc",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libcurl4t64-dc013994d03cc59a",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libcurl4t64-82c00b2b8789c1bc",
-      "relatedSpdxElement": "SPDXRef-Package-libbrotli1-2edd4da0de639ec8",
+      "spdxElementId": "SPDXRef-Package-libcurl4t64-dc013994d03cc59a",
+      "relatedSpdxElement": "SPDXRef-Package-libbrotli1-aae515c0bfda89ad",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libcurl4t64-82c00b2b8789c1bc",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-1dcc8e0412772861",
+      "spdxElementId": "SPDXRef-Package-libcurl4t64-dc013994d03cc59a",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-734be75534bdf659",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libdav1d7-1761635dfc7f0eb9",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libdav1d7-64716b70d2c5deb0",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libdav1d7-1761635dfc7f0eb9",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-f2bf086c288a53f2",
+      "spdxElementId": "SPDXRef-Package-libdav1d7-64716b70d2c5deb0",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-4c1c996813ae3c8f",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libdb5-3t64-bef7576ed3c1eeeb",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libdb5-3t64-dc5710b5d06c727a",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libdb5-3t64-bef7576ed3c1eeeb",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-ec8c6a9ca958e8c1",
+      "spdxElementId": "SPDXRef-Package-libdb5-3t64-dc5710b5d06c727a",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-0c204bd789e1e2cc",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libde265-0-7138bab6e19ac513",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libde265-0-dbd410c5a975815a",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libde265-0-7138bab6e19ac513",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-9046a58687614b4b",
+      "spdxElementId": "SPDXRef-Package-libde265-0-dbd410c5a975815a",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-1efa3b03b46994a8",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libde265-0-7138bab6e19ac513",
-      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-c85545ab2caaa244",
+      "spdxElementId": "SPDXRef-Package-libde265-0-dbd410c5a975815a",
+      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-bd3db913e4f5d1c3",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libdebconfclient0-c406ff1696195791",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libdebconfclient0-56e39930187d52ff",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libdebconfclient0-c406ff1696195791",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-84bc34b8a0b3221d",
+      "spdxElementId": "SPDXRef-Package-libdebconfclient0-56e39930187d52ff",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-c308a5d2dd920678",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libdeflate0-c40b85708827bdc9",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libdeflate0-0cd9430ff6c283b7",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libdeflate0-c40b85708827bdc9",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-b1bf0a88d6c19052",
+      "spdxElementId": "SPDXRef-Package-libdeflate0-0cd9430ff6c283b7",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-c2973dd10ec53081",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libedit2-63ea85fb87979f9c",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libedit2-40d3fe986694a6e1",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libedit2-63ea85fb87979f9c",
-      "relatedSpdxElement": "SPDXRef-Package-libbsd0-c9ac7b38d0a4d049",
+      "spdxElementId": "SPDXRef-Package-libedit2-40d3fe986694a6e1",
+      "relatedSpdxElement": "SPDXRef-Package-libbsd0-986c7cb54d5af938",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libedit2-63ea85fb87979f9c",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-0874aad6f62a1907",
+      "spdxElementId": "SPDXRef-Package-libedit2-40d3fe986694a6e1",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-9f9cab1adc691e7f",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libexpat1-b51b79176e379e63",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libexpat1-c43112cc5d4cf714",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libffi8-10a3a0a1c51f2207",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libffi8-a7a863b27530326e",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libffi8-10a3a0a1c51f2207",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-4faa1e745e56cae1",
+      "spdxElementId": "SPDXRef-Package-libffi8-a7a863b27530326e",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-a46296bffde2b5f5",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libfontconfig1-11e72d91bc7568a0",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libfontconfig1-d2854687df6e2b85",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libfontconfig1-11e72d91bc7568a0",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-12715ad7d2575b89",
+      "spdxElementId": "SPDXRef-Package-libfontconfig1-d2854687df6e2b85",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-7b512eb3b9e9fa8b",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libfontconfig1-11e72d91bc7568a0",
-      "relatedSpdxElement": "SPDXRef-Package-libexpat1-164383bde5a7804b",
+      "spdxElementId": "SPDXRef-Package-libfontconfig1-d2854687df6e2b85",
+      "relatedSpdxElement": "SPDXRef-Package-libexpat1-0f5073514468c61a",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libfreetype6-4807d1596cd75ac5",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libfreetype6-1285702a0fa68b8f",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libfreetype6-4807d1596cd75ac5",
-      "relatedSpdxElement": "SPDXRef-Package-libbrotli1-53bce265afaa0fb0",
+      "spdxElementId": "SPDXRef-Package-libfreetype6-1285702a0fa68b8f",
+      "relatedSpdxElement": "SPDXRef-Package-libbrotli1-c97359a04a61f4bf",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libfreetype6-4807d1596cd75ac5",
-      "relatedSpdxElement": "SPDXRef-Package-libbz2-1-0-1b1afef8dbdf86b0",
+      "spdxElementId": "SPDXRef-Package-libfreetype6-1285702a0fa68b8f",
+      "relatedSpdxElement": "SPDXRef-Package-libbz2-1-0-6de5eb502d397c69",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libfreetype6-4807d1596cd75ac5",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-43d19ffd5d55d68a",
+      "spdxElementId": "SPDXRef-Package-libfreetype6-1285702a0fa68b8f",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-9e11380a0cb385dc",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libgav1-1-cbdcd79f3b6b088d",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libgav1-1-aa742ad2ce23f049",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgav1-1-cbdcd79f3b6b088d",
-      "relatedSpdxElement": "SPDXRef-Package-libabsl20240722-fec71d5b3b03a3fb",
+      "spdxElementId": "SPDXRef-Package-libgav1-1-aa742ad2ce23f049",
+      "relatedSpdxElement": "SPDXRef-Package-libabsl20240722-c39883e7b997a506",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgav1-1-cbdcd79f3b6b088d",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-251e9f5c5128ef00",
+      "spdxElementId": "SPDXRef-Package-libgav1-1-aa742ad2ce23f049",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-85c9b39cece03e36",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-216fc7748e6d66b5",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-511f7289741d1b84",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgcc-s1-216fc7748e6d66b5",
-      "relatedSpdxElement": "SPDXRef-Package-gcc-14-base-572a2d490814471a",
+      "spdxElementId": "SPDXRef-Package-libgcc-s1-511f7289741d1b84",
+      "relatedSpdxElement": "SPDXRef-Package-gcc-14-base-10ad445deaaeea72",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgcc-s1-216fc7748e6d66b5",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-688881bdef4f5ccc",
+      "spdxElementId": "SPDXRef-Package-libgcc-s1-511f7289741d1b84",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-02a498ec084dae76",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libgcrypt20-9375a7a7b0ad9e7e",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libgcrypt20-0e94d2a4796c58d4",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgcrypt20-9375a7a7b0ad9e7e",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-5c2ee5e199b0627c",
+      "spdxElementId": "SPDXRef-Package-libgcrypt20-0e94d2a4796c58d4",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-f0a4a286b3d861f0",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgcrypt20-9375a7a7b0ad9e7e",
-      "relatedSpdxElement": "SPDXRef-Package-libgpg-error0-6ee5010a478e5313",
+      "spdxElementId": "SPDXRef-Package-libgcrypt20-0e94d2a4796c58d4",
+      "relatedSpdxElement": "SPDXRef-Package-libgpg-error0-b1df5a02e92da8a9",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libgd3-133bdb7b7ba14acf",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libgd3-6a735bb47deceb1a",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgd3-133bdb7b7ba14acf",
-      "relatedSpdxElement": "SPDXRef-Package-libavif16-bf78b4ecdf1198ec",
+      "spdxElementId": "SPDXRef-Package-libgd3-6a735bb47deceb1a",
+      "relatedSpdxElement": "SPDXRef-Package-libavif16-3fe5e888b4910ad1",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgd3-133bdb7b7ba14acf",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-aeaabb8b3b991ccc",
+      "spdxElementId": "SPDXRef-Package-libgd3-6a735bb47deceb1a",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-302a3279f104a665",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libgeoip1t64-1497fc7e9f2ad414",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libgeoip1t64-8233ed270976c8a8",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgeoip1t64-1497fc7e9f2ad414",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-20a2c73036e64cf6",
+      "spdxElementId": "SPDXRef-Package-libgeoip1t64-8233ed270976c8a8",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-3ee6848c79d75504",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libgmp10-6ea2807ecd9bca5a",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libgmp10-c089256012b4f9a7",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgmp10-6ea2807ecd9bca5a",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-a895ce65da5fef3e",
+      "spdxElementId": "SPDXRef-Package-libgmp10-c089256012b4f9a7",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-f3d46bd8bead89fa",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libgnutls30t64-cd31c746214c3ccd",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libgnutls30t64-e50b1d92e96e5bdc",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgnutls30t64-cd31c746214c3ccd",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-1897f3fadc0407d7",
+      "spdxElementId": "SPDXRef-Package-libgnutls30t64-e50b1d92e96e5bdc",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-87c9ab2c883d68f7",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgnutls30t64-cd31c746214c3ccd",
-      "relatedSpdxElement": "SPDXRef-Package-libgmp10-c5a7d716d6dcf6be",
+      "spdxElementId": "SPDXRef-Package-libgnutls30t64-e50b1d92e96e5bdc",
+      "relatedSpdxElement": "SPDXRef-Package-libgmp10-f2f45e0564f26a3d",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libgomp1-b5917d823df623a0",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libgomp1-28e2638a03c64acf",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgomp1-b5917d823df623a0",
-      "relatedSpdxElement": "SPDXRef-Package-gcc-14-base-e5335a6f8e327c1f",
+      "spdxElementId": "SPDXRef-Package-libgomp1-28e2638a03c64acf",
+      "relatedSpdxElement": "SPDXRef-Package-gcc-14-base-12f13cfee38424fc",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgomp1-b5917d823df623a0",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-8498c98cc40a55d4",
+      "spdxElementId": "SPDXRef-Package-libgomp1-28e2638a03c64acf",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-6a8949f85cc284c6",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libgpg-error0-511b4f8eb195d55b",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libgpg-error0-2d1c4acc1a9096eb",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgpg-error0-511b4f8eb195d55b",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-00aa2345ac9e4b91",
+      "spdxElementId": "SPDXRef-Package-libgpg-error0-2d1c4acc1a9096eb",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-8e0b39e865cfca08",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libgssapi-krb5-2-11e65ba31577fe46",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libgssapi-krb5-2-2838974a258aef62",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgssapi-krb5-2-11e65ba31577fe46",
-      "relatedSpdxElement": "SPDXRef-Package-libkrb5-3-48414da1616fe040",
+      "spdxElementId": "SPDXRef-Package-libgssapi-krb5-2-2838974a258aef62",
+      "relatedSpdxElement": "SPDXRef-Package-libkrb5-3-4efd345284e55afd",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libgssapi-krb5-2-11e65ba31577fe46",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-fff3b19f30961337",
+      "spdxElementId": "SPDXRef-Package-libgssapi-krb5-2-2838974a258aef62",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-e41aebf031dace83",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libheif-plugin-dav1d-e1f2bf7053b01828",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libheif-plugin-dav1d-d2eb40a1b1923393",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libheif-plugin-dav1d-e1f2bf7053b01828",
-      "relatedSpdxElement": "SPDXRef-Package-libheif1-d3e156cb7c032678",
+      "spdxElementId": "SPDXRef-Package-libheif-plugin-dav1d-d2eb40a1b1923393",
+      "relatedSpdxElement": "SPDXRef-Package-libheif1-598e1db94aa3e3be",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libheif-plugin-dav1d-e1f2bf7053b01828",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-3f646d58036b1912",
+      "spdxElementId": "SPDXRef-Package-libheif-plugin-dav1d-d2eb40a1b1923393",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-30fb8b628af034f5",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libheif-plugin-libde265-e963e9e37fbe383f",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libheif-plugin-libde265-d5cde3e629f3b4ba",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libheif-plugin-libde265-e963e9e37fbe383f",
-      "relatedSpdxElement": "SPDXRef-Package-libheif1-c4137bb8abd86679",
+      "spdxElementId": "SPDXRef-Package-libheif-plugin-libde265-d5cde3e629f3b4ba",
+      "relatedSpdxElement": "SPDXRef-Package-libheif1-534d8332e15b1067",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libheif-plugin-libde265-e963e9e37fbe383f",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-6c5028b070b10852",
+      "spdxElementId": "SPDXRef-Package-libheif-plugin-libde265-d5cde3e629f3b4ba",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-23d448a596d6418f",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libheif1-f295994494f67251",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libheif1-4b346d3fb162b2d0",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libheif1-f295994494f67251",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-791b93e23daa27d9",
+      "spdxElementId": "SPDXRef-Package-libheif1-4b346d3fb162b2d0",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-2bafd7eef579012c",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libheif1-f295994494f67251",
-      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-6dfcfebaff97080d",
+      "spdxElementId": "SPDXRef-Package-libheif1-4b346d3fb162b2d0",
+      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-b7eb531460df56d1",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libhogweed6t64-13ef17ed869c7762",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libhogweed6t64-e184106420e79401",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libhogweed6t64-13ef17ed869c7762",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-29ced9969c57016f",
+      "spdxElementId": "SPDXRef-Package-libhogweed6t64-e184106420e79401",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-4681641c361df5bc",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libhogweed6t64-13ef17ed869c7762",
-      "relatedSpdxElement": "SPDXRef-Package-libgmp10-406d8f723a116ac8",
+      "spdxElementId": "SPDXRef-Package-libhogweed6t64-e184106420e79401",
+      "relatedSpdxElement": "SPDXRef-Package-libgmp10-9c9d94294ece565f",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libidn2-0-b1d06b18e04575cf",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libidn2-0-9acaaf612552039f",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libidn2-0-b1d06b18e04575cf",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-19f43fa19f2b2a8a",
+      "spdxElementId": "SPDXRef-Package-libidn2-0-9acaaf612552039f",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-bb0e0c172ede6dd9",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libidn2-0-b1d06b18e04575cf",
-      "relatedSpdxElement": "SPDXRef-Package-libunistring5-883137fb13a6d2b9",
+      "spdxElementId": "SPDXRef-Package-libidn2-0-9acaaf612552039f",
+      "relatedSpdxElement": "SPDXRef-Package-libunistring5-78a92f2ee1557f4f",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libimagequant0-47af3748df8bcb38",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libimagequant0-d617b2a2840c51b8",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libimagequant0-47af3748df8bcb38",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-c8a3997cbfab93e7",
+      "spdxElementId": "SPDXRef-Package-libimagequant0-d617b2a2840c51b8",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-758e0f32ba34c980",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libimagequant0-47af3748df8bcb38",
-      "relatedSpdxElement": "SPDXRef-Package-libgomp1-4ef694fb5a4a3bed",
+      "spdxElementId": "SPDXRef-Package-libimagequant0-d617b2a2840c51b8",
+      "relatedSpdxElement": "SPDXRef-Package-libgomp1-f5ccb4157df10c93",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libjbig0-ab03de04673064c0",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libjbig0-8cce6a381dc9293e",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libjbig0-ab03de04673064c0",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-89a3b132c399d1f4",
+      "spdxElementId": "SPDXRef-Package-libjbig0-8cce6a381dc9293e",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-71732d919cc9a820",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libjpeg62-turbo-aa5fc3238df504cd",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libjpeg62-turbo-b30e4d2f71dff430",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libjpeg62-turbo-aa5fc3238df504cd",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-edfa0a1c74c8d775",
+      "spdxElementId": "SPDXRef-Package-libjpeg62-turbo-b30e4d2f71dff430",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-eba8571d60051752",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libk5crypto3-397a199779af3bd8",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libk5crypto3-154d9c54c9bc9f44",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libk5crypto3-397a199779af3bd8",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-3041126f3fb047da",
+      "spdxElementId": "SPDXRef-Package-libk5crypto3-154d9c54c9bc9f44",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-388e4786dc9140d4",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libk5crypto3-397a199779af3bd8",
-      "relatedSpdxElement": "SPDXRef-Package-libkrb5support0-eecee54bc964acc9",
+      "spdxElementId": "SPDXRef-Package-libk5crypto3-154d9c54c9bc9f44",
+      "relatedSpdxElement": "SPDXRef-Package-libkrb5support0-3b96f89226216168",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libkeyutils1-80c1150c26fee8bf",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libkeyutils1-b618dc26b3c0ecab",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libkeyutils1-80c1150c26fee8bf",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-fad758f7020ccc3d",
+      "spdxElementId": "SPDXRef-Package-libkeyutils1-b618dc26b3c0ecab",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-86ef6bd07f435cb1",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libkrb5-3-cc9fb1c1c20b4b25",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libkrb5-3-f709f8c783fb2c4f",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libkrb5-3-cc9fb1c1c20b4b25",
-      "relatedSpdxElement": "SPDXRef-Package-libkrb5support0-7d3dec49e1fa7f39",
+      "spdxElementId": "SPDXRef-Package-libkrb5-3-f709f8c783fb2c4f",
+      "relatedSpdxElement": "SPDXRef-Package-libkrb5support0-4d283e06d327689a",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libkrb5-3-cc9fb1c1c20b4b25",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-b0b55eebf942051a",
+      "spdxElementId": "SPDXRef-Package-libkrb5-3-f709f8c783fb2c4f",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-cfde9ad0737ff3d3",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libkrb5support0-94c92b78504253be",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libkrb5support0-c7a32eb8ca2a603b",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libkrb5support0-94c92b78504253be",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-676c11a7074d524a",
+      "spdxElementId": "SPDXRef-Package-libkrb5support0-c7a32eb8ca2a603b",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-efef93b748bfa69a",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-liblastlog2-2-cb7eaa5dc50d8753",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-liblastlog2-2-07f7268c6fa000e9",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-liblastlog2-2-cb7eaa5dc50d8753",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-07cc7c7d79f21222",
+      "spdxElementId": "SPDXRef-Package-liblastlog2-2-07f7268c6fa000e9",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-323faac635f208df",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-liblastlog2-2-cb7eaa5dc50d8753",
-      "relatedSpdxElement": "SPDXRef-Package-libsqlite3-0-22302c0ebd503780",
+      "spdxElementId": "SPDXRef-Package-liblastlog2-2-07f7268c6fa000e9",
+      "relatedSpdxElement": "SPDXRef-Package-libsqlite3-0-30bf27a565a3d89c",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libldap2-b7db9427c0d5f5d8",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libldap2-aaf6c02a7d8aab2f",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libldap2-b7db9427c0d5f5d8",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-7c5a779b739a34e5",
+      "spdxElementId": "SPDXRef-Package-libldap2-aaf6c02a7d8aab2f",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-4cfcd5c616eb76ae",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libldap2-b7db9427c0d5f5d8",
-      "relatedSpdxElement": "SPDXRef-Package-libsasl2-2-164b9a21f7fc0e9c",
+      "spdxElementId": "SPDXRef-Package-libldap2-aaf6c02a7d8aab2f",
+      "relatedSpdxElement": "SPDXRef-Package-libsasl2-2-0bc0304cb4c6c8d0",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-liblerc4-f209405085519fd8",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-liblerc4-c69699ddd3da5716",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-liblerc4-f209405085519fd8",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-13d591f29dfc1b52",
+      "spdxElementId": "SPDXRef-Package-liblerc4-c69699ddd3da5716",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-b93b993b65ce4076",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-liblerc4-f209405085519fd8",
-      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-ae8f3e39eac28616",
+      "spdxElementId": "SPDXRef-Package-liblerc4-c69699ddd3da5716",
+      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-cec3654337088650",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-liblz4-1-7db3e51a753079b6",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-liblz4-1-de370cb078913e1f",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-liblz4-1-7db3e51a753079b6",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-41c2061c178f3f1d",
+      "spdxElementId": "SPDXRef-Package-liblz4-1-de370cb078913e1f",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-8611db14b5dff435",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-liblz4-1-7db3e51a753079b6",
-      "relatedSpdxElement": "SPDXRef-Package-libxxhash0-18020891985ffe12",
+      "spdxElementId": "SPDXRef-Package-liblz4-1-de370cb078913e1f",
+      "relatedSpdxElement": "SPDXRef-Package-libxxhash0-ba8065e5f79686bc",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-liblzma5-2502dc823e75e45a",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-liblzma5-724f582c4441a7c6",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-liblzma5-2502dc823e75e45a",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-8bed8b1ca8a1014a",
+      "spdxElementId": "SPDXRef-Package-liblzma5-724f582c4441a7c6",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-5acacbb3f54424f4",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libmd0-1294630c93790af3",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libmd0-15c4c05abc4abee8",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libmd0-1294630c93790af3",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-fe738605cbfd9275",
+      "spdxElementId": "SPDXRef-Package-libmd0-15c4c05abc4abee8",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-817264aad1fb8b79",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libmount1-5d89cd2956aa3990",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libmount1-feaa286b9ebc8679",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libmount1-5d89cd2956aa3990",
-      "relatedSpdxElement": "SPDXRef-Package-libblkid1-8bc79020264d2c77",
+      "spdxElementId": "SPDXRef-Package-libmount1-feaa286b9ebc8679",
+      "relatedSpdxElement": "SPDXRef-Package-libblkid1-f1f901966c3b4ae4",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libmount1-5d89cd2956aa3990",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-a03343c1b06d286e",
+      "spdxElementId": "SPDXRef-Package-libmount1-feaa286b9ebc8679",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-eec265804a46fd9e",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libnettle8t64-040341bad8b7716a",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libnettle8t64-cb4a8567fe8f2e00",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libnettle8t64-040341bad8b7716a",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-874bdb69ccfb26a3",
+      "spdxElementId": "SPDXRef-Package-libnettle8t64-cb4a8567fe8f2e00",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-fc6464345b2c72d7",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libnghttp2-14-33ec6867db2a67bc",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libnghttp2-14-db9fbabd2c9ac011",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libnghttp2-14-33ec6867db2a67bc",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-7a15e3cd581360a0",
+      "spdxElementId": "SPDXRef-Package-libnghttp2-14-db9fbabd2c9ac011",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-8c91678bd20351dd",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libnghttp3-9-c773d957dc3aff1b",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libnghttp3-9-19fea4899eb7a028",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libnghttp3-9-c773d957dc3aff1b",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-2f32ad0c2a1333f8",
+      "spdxElementId": "SPDXRef-Package-libnghttp3-9-19fea4899eb7a028",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-5413474e4932928f",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libp11-kit0-d87b748d6b412750",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libp11-kit0-774bcf32fc072b87",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libp11-kit0-d87b748d6b412750",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-52f71a357ddc830a",
+      "spdxElementId": "SPDXRef-Package-libp11-kit0-774bcf32fc072b87",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-58102666ec5c4027",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libp11-kit0-d87b748d6b412750",
-      "relatedSpdxElement": "SPDXRef-Package-libffi8-ba3fb418f323cf98",
+      "spdxElementId": "SPDXRef-Package-libp11-kit0-774bcf32fc072b87",
+      "relatedSpdxElement": "SPDXRef-Package-libffi8-f84fa9bce878fd54",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libpam-modules-dc2d166750ebb3a5",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libpam-modules-e273fef498a46046",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libpam-modules-bin-8acc1d69fe7eade0",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libpam-modules-bin-7f0148d7ebc1f5a7",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libpam-modules-bin-8acc1d69fe7eade0",
-      "relatedSpdxElement": "SPDXRef-Package-libaudit1-82d5a1409e329237",
+      "spdxElementId": "SPDXRef-Package-libpam-modules-bin-7f0148d7ebc1f5a7",
+      "relatedSpdxElement": "SPDXRef-Package-libaudit1-95494b5897d003f6",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libpam-modules-bin-8acc1d69fe7eade0",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-d51d3cbdd0d39451",
+      "spdxElementId": "SPDXRef-Package-libpam-modules-bin-7f0148d7ebc1f5a7",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-54f2001bb68ffda7",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libpam-runtime-889780e3a63ceb71",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libpam-runtime-4081ff91ffb479fc",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libpam-runtime-889780e3a63ceb71",
-      "relatedSpdxElement": "SPDXRef-Package-debconf-dd053210b485526e",
+      "spdxElementId": "SPDXRef-Package-libpam-runtime-4081ff91ffb479fc",
+      "relatedSpdxElement": "SPDXRef-Package-debconf-05fbdfd818a32e57",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libpam0g-eebd7e971f021a40",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libpam0g-c6863b377fab9e8e",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libpam0g-eebd7e971f021a40",
-      "relatedSpdxElement": "SPDXRef-Package-libaudit1-6c16781304410f67",
+      "spdxElementId": "SPDXRef-Package-libpam0g-c6863b377fab9e8e",
+      "relatedSpdxElement": "SPDXRef-Package-libaudit1-5f28bcf4358346b0",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libpam0g-eebd7e971f021a40",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-740ade0fe1f38ed4",
+      "spdxElementId": "SPDXRef-Package-libpam0g-c6863b377fab9e8e",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-30c65a6e04f23098",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libpcre2-8-0-2ed2cc92dda09ba4",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libpcre2-8-0-c9b9d4f6fc9bc7b7",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libpcre2-8-0-2ed2cc92dda09ba4",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-27cb8a7d28e8973d",
+      "spdxElementId": "SPDXRef-Package-libpcre2-8-0-c9b9d4f6fc9bc7b7",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-206b24653dbaeecb",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libpng16-16t64-a6e4191c649fa044",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libpng16-16t64-8404d747ef98c904",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libpng16-16t64-a6e4191c649fa044",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-d9dd957f6a708bda",
+      "spdxElementId": "SPDXRef-Package-libpng16-16t64-8404d747ef98c904",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-40ac3a63b1275939",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libpng16-16t64-a6e4191c649fa044",
-      "relatedSpdxElement": "SPDXRef-Package-zlib1g-c4d07828dc5ea940",
+      "spdxElementId": "SPDXRef-Package-libpng16-16t64-8404d747ef98c904",
+      "relatedSpdxElement": "SPDXRef-Package-zlib1g-b8e02fe74e23ee6a",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libpsl5t64-6ab8f1f0c589f0c8",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libpsl5t64-6317637d6a49ef5d",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libpsl5t64-6ab8f1f0c589f0c8",
-      "relatedSpdxElement": "SPDXRef-Package-libidn2-0-a9b7cb38f7f52cef",
+      "spdxElementId": "SPDXRef-Package-libpsl5t64-6317637d6a49ef5d",
+      "relatedSpdxElement": "SPDXRef-Package-libidn2-0-73472deaed6a1300",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libpsl5t64-6ab8f1f0c589f0c8",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-ef5eee2d3d88d736",
+      "spdxElementId": "SPDXRef-Package-libpsl5t64-6317637d6a49ef5d",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-6d060534fd1573c1",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-librav1e0-7-bac61f0cad434570",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-librav1e0-7-f3befcf409e5679b",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-librav1e0-7-bac61f0cad434570",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-0f4b1d35faeaf471",
+      "spdxElementId": "SPDXRef-Package-librav1e0-7-f3befcf409e5679b",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-3c651483a6100cfa",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-librav1e0-7-bac61f0cad434570",
-      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-8038188409a149b0",
+      "spdxElementId": "SPDXRef-Package-librav1e0-7-f3befcf409e5679b",
+      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-68dc77d3634d33f1",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-librtmp1-4cfb7399c7c195c0",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-librtmp1-e93b04dbfb893ab8",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-librtmp1-4cfb7399c7c195c0",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-b463540fd703c999",
+      "spdxElementId": "SPDXRef-Package-librtmp1-e93b04dbfb893ab8",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-3b82b8e86e960912",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-librtmp1-4cfb7399c7c195c0",
-      "relatedSpdxElement": "SPDXRef-Package-libgmp10-98478af9623b6b3a",
+      "spdxElementId": "SPDXRef-Package-librtmp1-e93b04dbfb893ab8",
+      "relatedSpdxElement": "SPDXRef-Package-libgmp10-1f7e591345d63cad",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libsasl2-2-dc3ef9491e51f6b5",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libsasl2-2-5ec9aacd72f72d00",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libsasl2-2-dc3ef9491e51f6b5",
-      "relatedSpdxElement": "SPDXRef-Package-libsasl2-modules-db-886d77da6930046b",
+      "spdxElementId": "SPDXRef-Package-libsasl2-2-5ec9aacd72f72d00",
+      "relatedSpdxElement": "SPDXRef-Package-libsasl2-modules-db-72585afb8e88e0f3",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libsasl2-2-dc3ef9491e51f6b5",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-7ebd74bc846d560c",
+      "spdxElementId": "SPDXRef-Package-libsasl2-2-5ec9aacd72f72d00",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-4f01e1058be44ee2",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libsasl2-modules-db-5be83d5a9eb5cdc3",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libsasl2-modules-db-633c19af175be3b9",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libsasl2-modules-db-5be83d5a9eb5cdc3",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-262aab436ec9832e",
+      "spdxElementId": "SPDXRef-Package-libsasl2-modules-db-633c19af175be3b9",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-3bcda828e84d59f1",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libsasl2-modules-db-5be83d5a9eb5cdc3",
-      "relatedSpdxElement": "SPDXRef-Package-libdb5-3t64-3fb6182bc32c465c",
+      "spdxElementId": "SPDXRef-Package-libsasl2-modules-db-633c19af175be3b9",
+      "relatedSpdxElement": "SPDXRef-Package-libdb5-3t64-cec4ba2267aab548",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libseccomp2-48244bd086058ad7",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libseccomp2-ba4a05735c12ddcc",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libseccomp2-48244bd086058ad7",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-80f0070692cddb02",
+      "spdxElementId": "SPDXRef-Package-libseccomp2-ba4a05735c12ddcc",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-b984c17f62e577ab",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libselinux1-4701b1dd0cd7c7d8",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libselinux1-54f0332155e07242",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libselinux1-4701b1dd0cd7c7d8",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-1aa0f4d6d4ecef8e",
+      "spdxElementId": "SPDXRef-Package-libselinux1-54f0332155e07242",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-35c03bfaaf43af31",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libselinux1-4701b1dd0cd7c7d8",
-      "relatedSpdxElement": "SPDXRef-Package-libpcre2-8-0-ead4cc3c58855907",
+      "spdxElementId": "SPDXRef-Package-libselinux1-54f0332155e07242",
+      "relatedSpdxElement": "SPDXRef-Package-libpcre2-8-0-b0b7950005845f9d",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libsemanage-common-32e7939ccc7bcdb3",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libsemanage-common-5e031a56477a6369",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libsemanage2-f46781d4d6120588",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libsemanage2-790fb0af62b247c6",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libsemanage2-f46781d4d6120588",
-      "relatedSpdxElement": "SPDXRef-Package-libsemanage-common-4f09f31bf3b3d3fc",
+      "spdxElementId": "SPDXRef-Package-libsemanage2-790fb0af62b247c6",
+      "relatedSpdxElement": "SPDXRef-Package-libsemanage-common-9186979f0f2957cf",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libsemanage2-f46781d4d6120588",
-      "relatedSpdxElement": "SPDXRef-Package-libaudit1-44bd9a0f3cc4593f",
+      "spdxElementId": "SPDXRef-Package-libsemanage2-790fb0af62b247c6",
+      "relatedSpdxElement": "SPDXRef-Package-libaudit1-6f5f3be798483531",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libsepol2-241bfaafed3e04ec",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libsepol2-757ca1cec1f07b3b",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libsepol2-241bfaafed3e04ec",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-999ff68bbcfe343f",
+      "spdxElementId": "SPDXRef-Package-libsepol2-757ca1cec1f07b3b",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-0f142ee4b1ed0b5a",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libsharpyuv0-e682b681344c4dd4",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libsharpyuv0-51d1643773daa5df",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libsharpyuv0-e682b681344c4dd4",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-8f058e9430b4b293",
+      "spdxElementId": "SPDXRef-Package-libsharpyuv0-51d1643773daa5df",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-d274ad38fe887968",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libsmartcols1-a111c25836c873e0",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libsmartcols1-eb3f3b1b363a87e0",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libsmartcols1-a111c25836c873e0",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-55ba1e380b72051e",
+      "spdxElementId": "SPDXRef-Package-libsmartcols1-eb3f3b1b363a87e0",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-317d52dd49d6fc69",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libsqlite3-0-4a35e0b54b42b3d9",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libsqlite3-0-85afcb9b465c52b5",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libsqlite3-0-4a35e0b54b42b3d9",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-3ba42ca898df797d",
+      "spdxElementId": "SPDXRef-Package-libsqlite3-0-85afcb9b465c52b5",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-9dc7dfe0cdec283a",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libssh2-1t64-3b005f1699b410bb",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libssh2-1t64-1a6cea8e5fbc2dc7",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libssh2-1t64-3b005f1699b410bb",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-db7d00b6bde3c079",
+      "spdxElementId": "SPDXRef-Package-libssh2-1t64-1a6cea8e5fbc2dc7",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-56f440a9fe016c3d",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libssh2-1t64-3b005f1699b410bb",
-      "relatedSpdxElement": "SPDXRef-Package-libssl3t64-df87c12496a58c7a",
+      "spdxElementId": "SPDXRef-Package-libssh2-1t64-1a6cea8e5fbc2dc7",
+      "relatedSpdxElement": "SPDXRef-Package-libssl3t64-2dd381bf4f34d098",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libssl3t64-b7664cab6d91d617",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libssl3t64-c985f725372a5555",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libssl3t64-b7664cab6d91d617",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-369b169d0638a2a8",
+      "spdxElementId": "SPDXRef-Package-libssl3t64-c985f725372a5555",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-0488e85768fb1699",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libssl3t64-b7664cab6d91d617",
-      "relatedSpdxElement": "SPDXRef-Package-libzstd1-a4fb2421c9fd21b9",
+      "spdxElementId": "SPDXRef-Package-libssl3t64-c985f725372a5555",
+      "relatedSpdxElement": "SPDXRef-Package-libzstd1-770b2eb9332798da",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libstdc++6-6a8e1eb9ae057ba8",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libstdc++6-535a202eb769eb03",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libstdc++6-6a8e1eb9ae057ba8",
-      "relatedSpdxElement": "SPDXRef-Package-gcc-14-base-f54a7e7016a75170",
+      "spdxElementId": "SPDXRef-Package-libstdc++6-535a202eb769eb03",
+      "relatedSpdxElement": "SPDXRef-Package-gcc-14-base-b7b70aebfecd7bcb",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libstdc++6-6a8e1eb9ae057ba8",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-54811827e1da1cd9",
+      "spdxElementId": "SPDXRef-Package-libstdc++6-535a202eb769eb03",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-bf8d3f652853abcb",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libsvtav1enc2-06a09575e29c3c48",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libsvtav1enc2-42c0dd91a18dae58",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libsvtav1enc2-06a09575e29c3c48",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-7e447680434ebfab",
+      "spdxElementId": "SPDXRef-Package-libsvtav1enc2-42c0dd91a18dae58",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-fae6f7901286acba",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libsystemd0-424671056863a656",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libsystemd0-41cd6b75bdd2387e",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libsystemd0-424671056863a656",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-8a14be9389a063af",
+      "spdxElementId": "SPDXRef-Package-libsystemd0-41cd6b75bdd2387e",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-a1c2f13c06df529c",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libsystemd0-424671056863a656",
-      "relatedSpdxElement": "SPDXRef-Package-libcap2-4c475a7e5197afc8",
+      "spdxElementId": "SPDXRef-Package-libsystemd0-41cd6b75bdd2387e",
+      "relatedSpdxElement": "SPDXRef-Package-libcap2-60f902b3e01730be",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libtasn1-6-7622c9f671154427",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libtasn1-6-070467ada7cfb8e4",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libtasn1-6-7622c9f671154427",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-65261157b9bc0a59",
+      "spdxElementId": "SPDXRef-Package-libtasn1-6-070467ada7cfb8e4",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-a41b51bebafe779b",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libtiff6-c20e53454cea39dd",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libtiff6-bf174a6a569ce38b",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libtiff6-c20e53454cea39dd",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-9120bda17e65687c",
+      "spdxElementId": "SPDXRef-Package-libtiff6-bf174a6a569ce38b",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-a21c766b5bc6f2a5",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libtiff6-c20e53454cea39dd",
-      "relatedSpdxElement": "SPDXRef-Package-libdeflate0-2199d9e235c4f2ec",
+      "spdxElementId": "SPDXRef-Package-libtiff6-bf174a6a569ce38b",
+      "relatedSpdxElement": "SPDXRef-Package-libdeflate0-b784d242924e8383",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libtinfo6-0790497ca51dc1e9",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libtinfo6-655d863d7248eed8",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libtinfo6-0790497ca51dc1e9",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-9d1c5ef9632f6a12",
+      "spdxElementId": "SPDXRef-Package-libtinfo6-655d863d7248eed8",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-de102515ef4e6bb0",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libudev1-af80b5bf46b1dfcb",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libudev1-918f30d745fd6173",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libudev1-af80b5bf46b1dfcb",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-29f9fcac6f6980eb",
+      "spdxElementId": "SPDXRef-Package-libudev1-918f30d745fd6173",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-4bba621f4696f0a1",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libudev1-af80b5bf46b1dfcb",
-      "relatedSpdxElement": "SPDXRef-Package-libcap2-3913efab4672dec0",
+      "spdxElementId": "SPDXRef-Package-libudev1-918f30d745fd6173",
+      "relatedSpdxElement": "SPDXRef-Package-libcap2-037ae9e1d6c0f450",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libunistring5-e42573b9b58ec2d0",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libunistring5-983651c9ca880f82",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libunistring5-e42573b9b58ec2d0",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-e9ad2f88b2745d7d",
+      "spdxElementId": "SPDXRef-Package-libunistring5-983651c9ca880f82",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-615fed677a025541",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libuuid1-869f6a7d7991e56a",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libuuid1-8c86d37914fa1ec0",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libuuid1-869f6a7d7991e56a",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-4c92fcc445e7730e",
+      "spdxElementId": "SPDXRef-Package-libuuid1-8c86d37914fa1ec0",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-6761b8a94140fc14",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libwebp7-f15c28a997246aa2",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libwebp7-5770fcac15236899",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libwebp7-f15c28a997246aa2",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-a8680a27a673b19a",
+      "spdxElementId": "SPDXRef-Package-libwebp7-5770fcac15236899",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-28836eaf441c8b84",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libwebp7-f15c28a997246aa2",
-      "relatedSpdxElement": "SPDXRef-Package-libsharpyuv0-7b69f9481041a647",
+      "spdxElementId": "SPDXRef-Package-libwebp7-5770fcac15236899",
+      "relatedSpdxElement": "SPDXRef-Package-libsharpyuv0-12e7a338ad006754",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libx11-6-1215927686f601eb",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libx11-6-55f08054c78c24f0",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libx11-6-1215927686f601eb",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-8008ec1338b4454f",
+      "spdxElementId": "SPDXRef-Package-libx11-6-55f08054c78c24f0",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-5b0ac32152c252b6",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libx11-6-1215927686f601eb",
-      "relatedSpdxElement": "SPDXRef-Package-libxcb1-a9e1a907d882da6a",
+      "spdxElementId": "SPDXRef-Package-libx11-6-55f08054c78c24f0",
+      "relatedSpdxElement": "SPDXRef-Package-libxcb1-394659896e7dfce2",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libx11-data-9be7fdedd4a690fd",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libx11-data-9d320da30d3cf718",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libxau6-415f7530091c7b2d",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libxau6-054c5330cb8371ba",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libxau6-415f7530091c7b2d",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-4d5bdee2cfed0422",
+      "spdxElementId": "SPDXRef-Package-libxau6-054c5330cb8371ba",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-db93720c97220a92",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libxcb1-f01d75752824db35",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libxcb1-6e9028d82318e0d3",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libxcb1-f01d75752824db35",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-e197170922bf150e",
+      "spdxElementId": "SPDXRef-Package-libxcb1-6e9028d82318e0d3",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-630f64b5c71835d8",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libxcb1-f01d75752824db35",
-      "relatedSpdxElement": "SPDXRef-Package-libxau6-cff94bef053ac89d",
+      "spdxElementId": "SPDXRef-Package-libxcb1-6e9028d82318e0d3",
+      "relatedSpdxElement": "SPDXRef-Package-libxau6-67017f6c13c8ff18",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libxdmcp6-fd672b61cd5183ec",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libxdmcp6-f3c28cec9a1e2ff0",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libxdmcp6-fd672b61cd5183ec",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-cae84b7324ec4fc4",
+      "spdxElementId": "SPDXRef-Package-libxdmcp6-f3c28cec9a1e2ff0",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-abd69dd4642e83bf",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libxml2-7dc07583bbd16724",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libxml2-53db64ea3ed572f1",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libxml2-7dc07583bbd16724",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-1fb7bfea93155161",
+      "spdxElementId": "SPDXRef-Package-libxml2-53db64ea3ed572f1",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-24fe7a7f9e8a97e0",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libxml2-7dc07583bbd16724",
-      "relatedSpdxElement": "SPDXRef-Package-liblzma5-5b16f2ec30c1071b",
+      "spdxElementId": "SPDXRef-Package-libxml2-53db64ea3ed572f1",
+      "relatedSpdxElement": "SPDXRef-Package-liblzma5-73c5b05118d300ca",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libxpm4-2a9dc713b2244c6d",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libxpm4-5f3a7ad73a119a4f",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libxpm4-2a9dc713b2244c6d",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-33d6e96a59cfa1ea",
+      "spdxElementId": "SPDXRef-Package-libxpm4-5f3a7ad73a119a4f",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-95d2a51ce642587f",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libxpm4-2a9dc713b2244c6d",
-      "relatedSpdxElement": "SPDXRef-Package-libx11-6-21cf248cd661bd60",
+      "spdxElementId": "SPDXRef-Package-libxpm4-5f3a7ad73a119a4f",
+      "relatedSpdxElement": "SPDXRef-Package-libx11-6-c2f92cb6aeffd792",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libxslt1-1-4e3859186b66fa47",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libxslt1-1-ef6b98c2e2d2f1f8",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libxslt1-1-4e3859186b66fa47",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-287e93decba0c817",
+      "spdxElementId": "SPDXRef-Package-libxslt1-1-ef6b98c2e2d2f1f8",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-8d846203df47857b",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libxslt1-1-4e3859186b66fa47",
-      "relatedSpdxElement": "SPDXRef-Package-libgcrypt20-30ee83b82787bfd6",
+      "spdxElementId": "SPDXRef-Package-libxslt1-1-ef6b98c2e2d2f1f8",
+      "relatedSpdxElement": "SPDXRef-Package-libgcrypt20-6cd7d09e8c9f2b31",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libxxhash0-223168d98941a8ea",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libxxhash0-6352f43585ed8993",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libxxhash0-223168d98941a8ea",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-5f3e35474375a97d",
+      "spdxElementId": "SPDXRef-Package-libxxhash0-6352f43585ed8993",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-c5375675197bdfc8",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libyuv0-eddd722e394bdbf6",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libyuv0-679559b02cdeaa54",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libyuv0-eddd722e394bdbf6",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-97d46896517d41ac",
+      "spdxElementId": "SPDXRef-Package-libyuv0-679559b02cdeaa54",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-bf2cf7cedaf78162",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libyuv0-eddd722e394bdbf6",
-      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-d89dc7b7605e8ec7",
+      "spdxElementId": "SPDXRef-Package-libyuv0-679559b02cdeaa54",
+      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-c12c1a536edbe5bc",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-libzstd1-3172d68b57c20241",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-libzstd1-23575d1c44539616",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-libzstd1-3172d68b57c20241",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-09b1dcd6951e2802",
+      "spdxElementId": "SPDXRef-Package-libzstd1-23575d1c44539616",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-99155ec50d924f7b",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-login-781faeb7a928092f",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-login-188ceb3b47044f88",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-login-781faeb7a928092f",
-      "relatedSpdxElement": "SPDXRef-Package-libpam-modules-872a72b8cabff837",
+      "spdxElementId": "SPDXRef-Package-login-188ceb3b47044f88",
+      "relatedSpdxElement": "SPDXRef-Package-libpam-modules-302ac251cb3c10c2",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-login-781faeb7a928092f",
-      "relatedSpdxElement": "SPDXRef-Package-libpam-runtime-f0841c5ea00d5c99",
+      "spdxElementId": "SPDXRef-Package-login-188ceb3b47044f88",
+      "relatedSpdxElement": "SPDXRef-Package-libpam-runtime-9e35a67794aa5650",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-login-781faeb7a928092f",
-      "relatedSpdxElement": "SPDXRef-Package-libaudit1-f2b0deec0c7cbf2b",
+      "spdxElementId": "SPDXRef-Package-login-188ceb3b47044f88",
+      "relatedSpdxElement": "SPDXRef-Package-libaudit1-273272f21dc5c753",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-login-defs-9bf0af08b17e748b",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-login-defs-246d939ee67fa7ee",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-mawk-fa7529df891e07f3",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-mawk-039736318317d921",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-mawk-fa7529df891e07f3",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-bc04467dc7a2cdbd",
+      "spdxElementId": "SPDXRef-Package-mawk-039736318317d921",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-a18078551bce19f1",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-mount-74b44bfb4f46ba86",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-mount-db2b87e356885ccb",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-ncurses-base-801d2b802edcc687",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-ncurses-base-e433aa24398ed80c",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-ncurses-bin-8aed05eee617e118",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-ncurses-bin-6142691f940e19de",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-nginx-1d5e050ff10de08f",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-nginx-393882d22e9e5e0a",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-nginx-1d5e050ff10de08f",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-82be03450e158085",
+      "spdxElementId": "SPDXRef-Package-nginx-393882d22e9e5e0a",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-4caa8b9486425a47",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-nginx-1d5e050ff10de08f",
-      "relatedSpdxElement": "SPDXRef-Package-libcrypt1-613101cf5ae2f8bb",
+      "spdxElementId": "SPDXRef-Package-nginx-393882d22e9e5e0a",
+      "relatedSpdxElement": "SPDXRef-Package-libcrypt1-dc88ef0db46daa3d",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-nginx-module-geoip-19ee6fa10fb6e35f",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-nginx-module-geoip-a99e0701319bd135",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-nginx-module-geoip-19ee6fa10fb6e35f",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-05406f8f8dced5af",
+      "spdxElementId": "SPDXRef-Package-nginx-module-geoip-a99e0701319bd135",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-11a4cc812f1cccd1",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-nginx-module-geoip-19ee6fa10fb6e35f",
-      "relatedSpdxElement": "SPDXRef-Package-libgeoip1t64-9e13b40dbe639e0f",
+      "spdxElementId": "SPDXRef-Package-nginx-module-geoip-a99e0701319bd135",
+      "relatedSpdxElement": "SPDXRef-Package-libgeoip1t64-96e6708786807bfe",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-nginx-module-image-filter-fe9a84f577e3dcf8",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-nginx-module-image-filter-c1b13d5f2e7027a0",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-nginx-module-image-filter-fe9a84f577e3dcf8",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-28052cd3e26075e4",
+      "spdxElementId": "SPDXRef-Package-nginx-module-image-filter-c1b13d5f2e7027a0",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-0d2fc5ec1ed8b099",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-nginx-module-image-filter-fe9a84f577e3dcf8",
-      "relatedSpdxElement": "SPDXRef-Package-libgd3-83ca514f6548c020",
+      "spdxElementId": "SPDXRef-Package-nginx-module-image-filter-c1b13d5f2e7027a0",
+      "relatedSpdxElement": "SPDXRef-Package-libgd3-405ce18abbe60368",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-nginx-module-njs-0a77c2d4f4237dc3",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-nginx-module-njs-55e470b6343acc78",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-nginx-module-njs-0a77c2d4f4237dc3",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-b3b25b47a5e3a9e6",
+      "spdxElementId": "SPDXRef-Package-nginx-module-njs-55e470b6343acc78",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-17b6795b3f73c58a",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-nginx-module-njs-0a77c2d4f4237dc3",
-      "relatedSpdxElement": "SPDXRef-Package-libedit2-3aeec90a6c709189",
+      "spdxElementId": "SPDXRef-Package-nginx-module-njs-55e470b6343acc78",
+      "relatedSpdxElement": "SPDXRef-Package-libedit2-e012ca179cb534ce",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-nginx-module-xslt-eb913c11b080a956",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-nginx-module-xslt-7dddf2a3390f9ce2",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-nginx-module-xslt-eb913c11b080a956",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-68bc0bfe3e7ac4f1",
+      "spdxElementId": "SPDXRef-Package-nginx-module-xslt-7dddf2a3390f9ce2",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-64de020595086e1a",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-nginx-module-xslt-eb913c11b080a956",
-      "relatedSpdxElement": "SPDXRef-Package-libxml2-6d74e6b860bc78be",
+      "spdxElementId": "SPDXRef-Package-nginx-module-xslt-7dddf2a3390f9ce2",
+      "relatedSpdxElement": "SPDXRef-Package-libxml2-d014f61910df4293",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-openssl-4e6211c3ec7cb047",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-openssl-95e03ba658e43b37",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-openssl-4e6211c3ec7cb047",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-9b0de0f65b6c029f",
+      "spdxElementId": "SPDXRef-Package-openssl-95e03ba658e43b37",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-c853b46d30a2f329",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-openssl-4e6211c3ec7cb047",
-      "relatedSpdxElement": "SPDXRef-Package-libssl3t64-04120cbbf78b6dee",
+      "spdxElementId": "SPDXRef-Package-openssl-95e03ba658e43b37",
+      "relatedSpdxElement": "SPDXRef-Package-libssl3t64-f76886cc2a8311a6",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-openssl-provider-legacy-564ca02c57d9e32c",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-openssl-provider-legacy-0ffc58979c1db1a0",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-openssl-provider-legacy-564ca02c57d9e32c",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-835993d18d815d3e",
+      "spdxElementId": "SPDXRef-Package-openssl-provider-legacy-0ffc58979c1db1a0",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-25ffdb2217d30efd",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-openssl-provider-legacy-564ca02c57d9e32c",
-      "relatedSpdxElement": "SPDXRef-Package-libssl3t64-bfacec181bd523c4",
+      "spdxElementId": "SPDXRef-Package-openssl-provider-legacy-0ffc58979c1db1a0",
+      "relatedSpdxElement": "SPDXRef-Package-libssl3t64-4d4f3ee0da067bdd",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-passwd-cbe6396089b79317",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-passwd-e7f9c686629abe18",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-passwd-cbe6396089b79317",
-      "relatedSpdxElement": "SPDXRef-Package-base-passwd-779d0ffd90a5cce1",
+      "spdxElementId": "SPDXRef-Package-passwd-e7f9c686629abe18",
+      "relatedSpdxElement": "SPDXRef-Package-base-passwd-0a7ab9f40933bcc9",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-passwd-cbe6396089b79317",
-      "relatedSpdxElement": "SPDXRef-Package-libpam-modules-9c7be82776260f15",
+      "spdxElementId": "SPDXRef-Package-passwd-e7f9c686629abe18",
+      "relatedSpdxElement": "SPDXRef-Package-libpam-modules-c1b6e6d790ea4e8f",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-passwd-cbe6396089b79317",
-      "relatedSpdxElement": "SPDXRef-Package-login-defs-93921592fdc6a84a",
+      "spdxElementId": "SPDXRef-Package-passwd-e7f9c686629abe18",
+      "relatedSpdxElement": "SPDXRef-Package-login-defs-6ac6765683b0fa4a",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-perl-base-25f437fa186f2748",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-perl-base-0846ec58f8c0bee9",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-sed-d1c5001ac4df9179",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-sed-f3595be77011d465",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-sqv-fba4b81f857d3ed3",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-sqv-2c7f8f160bcf7deb",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-sqv-fba4b81f857d3ed3",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-e83e9b93f3b43bbf",
+      "spdxElementId": "SPDXRef-Package-sqv-2c7f8f160bcf7deb",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-4c39d8e45515821a",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-Package-sqv-fba4b81f857d3ed3",
-      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-9e7c6ef58461c3b1",
+      "spdxElementId": "SPDXRef-Package-sqv-2c7f8f160bcf7deb",
+      "relatedSpdxElement": "SPDXRef-Package-libgcc-s1-17c4e7c37a4eb5c1",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-sysvinit-utils-9c04ec462785c691",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-sysvinit-utils-fa8e28a8d09d123e",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-sysvinit-utils-9c04ec462785c691",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-d3bda1b55e0ff56a",
+      "spdxElementId": "SPDXRef-Package-sysvinit-utils-fa8e28a8d09d123e",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-7cc7008648151455",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-tar-7914fc40f5647097",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-tar-7302ca10b588b58e",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-tzdata-bb452a85dc7728cc",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-tzdata-59829511a6343547",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-tzdata-bb452a85dc7728cc",
-      "relatedSpdxElement": "SPDXRef-Package-debconf-8a63858a319297e0",
+      "spdxElementId": "SPDXRef-Package-tzdata-59829511a6343547",
+      "relatedSpdxElement": "SPDXRef-Package-debconf-2edd270dc89454eb",
       "relationshipType": "DEPENDS_ON"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-util-linux-1e9bdbd8e13018c4",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-util-linux-b4f5b150a7bb7c4e",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-c9c36e6fc729b066",
-      "relatedSpdxElement": "SPDXRef-Package-zlib1g-cca81e6765e46880",
+      "spdxElementId": "SPDXRef-ContainerImage-nginx-latest-29caba832a7ec2ca",
+      "relatedSpdxElement": "SPDXRef-Package-zlib1g-ccd547860d1787b0",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-zlib1g-cca81e6765e46880",
-      "relatedSpdxElement": "SPDXRef-Package-libc6-0455449ca7192604",
+      "spdxElementId": "SPDXRef-Package-zlib1g-ccd547860d1787b0",
+      "relatedSpdxElement": "SPDXRef-Package-libc6-ab7c66697cff8783",
       "relationshipType": "DEPENDS_ON"
     }
   ]
