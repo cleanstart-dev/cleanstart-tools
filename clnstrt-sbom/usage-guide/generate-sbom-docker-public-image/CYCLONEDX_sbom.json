@@ -1,0 +1,5027 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:sbom:nginx:latest@sha256:07ccdb7838758e758a4d52a9761636c385125a327355c0c94a6acff9babff938",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-10-16T09:43:38Z",
+    "tools": [
+      {
+        "vendor": "Clnstrt",
+        "name": "Enhanced-Docker-SBOM-Generator",
+        "version": "2.3"
+      }
+    ],
+    "component": {
+      "type": "container",
+      "name": "nginx:latest",
+      "version": "latest"
+    }
+  },
+  "components": [
+    {
+      "type": "package",
+      "name": "apt",
+      "version": "3.0.3",
+      "description": "commandline package manager",
+      "supplier": {
+        "name": "APT Development Team <deity@lists.debian.org>"
+      },
+      "license": "GPL-2+",
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "apt_3.0.3.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "APT Development Team <deity@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "base-files",
+      "version": "13.8+deb13u1",
+      "description": "Debian base system miscellaneous files",
+      "supplier": {
+        "name": "Santiago Vila <sanvila@debian.org>"
+      },
+      "license": "GPL-2.0-or-later",
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "base-files_13.8+deb13u1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Santiago Vila <sanvila@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "base-passwd",
+      "version": "3.6.7",
+      "description": "Debian base system master password and group files",
+      "supplier": {
+        "name": "Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>"
+      },
+      "license": "GPL-2.0",
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "base-passwd_3.6.7.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "bash",
+      "version": "5.2.37-2+b5",
+      "description": "GNU Bourne Again SHell",
+      "supplier": {
+        "name": "Matthias Klose <doko@debian.org>"
+      },
+      "license": "GPL-3.0-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://tiswww.case.edu/php/chet/bash/bashtop.html"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "bash_5.2.37-2+b5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Matthias Klose <doko@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "bsdutils",
+      "version": "1:2.41-5",
+      "description": "basic utilities from 4.4BSD-Lite",
+      "supplier": {
+        "name": "Chris Hofstaedtler <zeha@debian.org>"
+      },
+      "license": "GPL-2+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/util-linux/util-linux"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "bsdutils_1:2.41-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Chris Hofstaedtler <zeha@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "ca-certificates",
+      "version": "20250419",
+      "description": "Common CA certificates",
+      "supplier": {
+        "name": "Julien Cristau <jcristau@debian.org>"
+      },
+      "license": "GPL-2.0-or-later",
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "ca-certificates_20250419.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Julien Cristau <jcristau@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "coreutils",
+      "version": "9.7-3",
+      "description": "GNU core utilities",
+      "supplier": {
+        "name": "Michael Stone <mstone@debian.org>"
+      },
+      "license": "GPL-3.0-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://gnu.org/software/coreutils"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "coreutils_9.7-3.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Michael Stone <mstone@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "curl",
+      "version": "8.14.1-2",
+      "description": "command line tool for transferring data with URL syntax",
+      "supplier": {
+        "name": "Debian Curl Maintainers <team+curl@tracker.debian.org>"
+      },
+      "license": "curl",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://curl.se/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "curl_8.14.1-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Curl Maintainers <team+curl@tracker.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "dash",
+      "version": "0.5.12-12",
+      "description": "POSIX-compliant shell",
+      "supplier": {
+        "name": "Andrej Shadura <andrewsh@debian.org>"
+      },
+      "license": "BSD-3-Clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://gondor.apana.org.au/~herbert/dash/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "dash_0.5.12-12.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Andrej Shadura <andrewsh@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "debconf",
+      "version": "1.5.91",
+      "description": "Debian configuration management system",
+      "supplier": {
+        "name": "Debconf Developers <debconf-devel@lists.alioth.debian.org>"
+      },
+      "license": "BSD-2-clause",
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "debconf_1.5.91.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debconf Developers <debconf-devel@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "debian-archive-keyring",
+      "version": "2025.1",
+      "description": "OpenPGP archive certificates of the Debian archive",
+      "supplier": {
+        "name": "Debian Release Team <packages@release.debian.org>"
+      },
+      "license": "The keys in the keyrings don't fall under any copyright. Everything else in the package is covere...",
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "debian-archive-keyring_2025.1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Release Team <packages@release.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "debianutils",
+      "version": "5.23.2",
+      "description": "Miscellaneous utilities specific to Debian",
+      "supplier": {
+        "name": "Ileana Dumitrescu <ileanadumitrescu95@gmail.com>"
+      },
+      "license": "GPL-2.0-or-later",
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "debianutils_5.23.2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Ileana Dumitrescu <ileanadumitrescu95@gmail.com>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "diffutils",
+      "version": "1:3.10-4",
+      "description": "File comparison utilities",
+      "supplier": {
+        "name": "Santiago Vila <sanvila@debian.org>"
+      },
+      "license": "GPL-3.0-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.gnu.org/software/diffutils/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "diffutils_1:3.10-4.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Santiago Vila <sanvila@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "dpkg",
+      "version": "1.22.21",
+      "description": "Debian package management system",
+      "supplier": {
+        "name": "Dpkg Developers <debian-dpkg@lists.debian.org>"
+      },
+      "license": "GPL-2+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://wiki.debian.org/Teams/Dpkg"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "dpkg_1.22.21.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Dpkg Developers <debian-dpkg@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "findutils",
+      "version": "4.10.0-3",
+      "description": "utilities for finding files--find, xargs",
+      "supplier": {
+        "name": "Andreas Metzler <ametzler@debian.org>"
+      },
+      "license": "GFDL-NIV-1.3+ or GFDL-NIV-1.3+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://savannah.gnu.org/projects/findutils/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "findutils_4.10.0-3.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Andreas Metzler <ametzler@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "fontconfig-config",
+      "version": "2.15.0-2.3",
+      "description": "generic font configuration library - configuration",
+      "supplier": {
+        "name": "Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>"
+      },
+      "license": "Copyright © 2001,2003 Keith Packard",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.freedesktop.org/wiki/Software/fontconfig/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "fontconfig-config_2.15.0-2.3.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "fonts-dejavu-core",
+      "version": "2.37-8",
+      "description": "Vera font family derivate with additional characters",
+      "supplier": {
+        "name": "Debian Fonts Task Force <debian-fonts@lists.debian.org>"
+      },
+      "license": "bitstream-vera",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://dejavu-fonts.github.io/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "fonts-dejavu-core_2.37-8.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Fonts Task Force <debian-fonts@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "fonts-dejavu-mono",
+      "version": "2.37-8",
+      "description": "Vera font family derivate with additional characters",
+      "supplier": {
+        "name": "Debian Fonts Task Force <debian-fonts@lists.debian.org>"
+      },
+      "license": "bitstream-vera",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://dejavu-fonts.github.io/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "fonts-dejavu-mono_2.37-8.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Fonts Task Force <debian-fonts@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "gcc-14-base",
+      "version": "14.2.0-19",
+      "description": "GCC, the GNU Compiler Collection (base package)",
+      "supplier": {
+        "name": "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+      },
+      "license": "Biarch support: On some 64-bit platforms which can also run 32-bit code, Debian provides addition...",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://gcc.gnu.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "gcc-14-base_14.2.0-19.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "gettext-base",
+      "version": "0.23.1-2",
+      "description": "GNU Internationalization utilities for the base system",
+      "supplier": {
+        "name": "Santiago Vila <sanvila@debian.org>"
+      },
+      "license": "GPL-3.0-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.gnu.org/software/gettext/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "gettext-base_0.23.1-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Santiago Vila <sanvila@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "grep",
+      "version": "3.11-4",
+      "description": "GNU grep, egrep and fgrep",
+      "supplier": {
+        "name": "Anibal Monsalve Salazar <anibal@debian.org>"
+      },
+      "license": "GPL-3.0-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.gnu.org/software/grep/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "grep_3.11-4.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Anibal Monsalve Salazar <anibal@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "gzip",
+      "version": "1.13-1",
+      "description": "GNU compression utilities",
+      "supplier": {
+        "name": "Milan Kupcevic <milan@debian.org>"
+      },
+      "license": "GPL-3.0-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.gnu.org/software/gzip/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "gzip_1.13-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Milan Kupcevic <milan@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "hostname",
+      "version": "3.25",
+      "description": "utility to set/show the host name or domain name",
+      "supplier": {
+        "name": "Michael Meskes <meskes@debian.org>"
+      },
+      "license": "GPL-2",
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "hostname_3.25.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Michael Meskes <meskes@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "init-system-helpers",
+      "version": "1.69~deb13u1",
+      "description": "helper tools for all init systems",
+      "supplier": {
+        "name": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>"
+      },
+      "license": "BSD-3-clause",
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "init-system-helpers_1.69~deb13u1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libabsl20240722",
+      "version": "20240722.0-4",
+      "description": "extensions to the C++ standard library",
+      "supplier": {
+        "name": "Benjamin Barenblat <bbaren@debian.org>"
+      },
+      "license": "Apache-2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://abseil.io/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libabsl20240722_20240722.0-4.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Benjamin Barenblat <bbaren@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libacl1",
+      "version": "2.3.2-2+b1",
+      "description": "access control list - shared library",
+      "supplier": {
+        "name": "Guillem Jover <guillem@debian.org>"
+      },
+      "license": "GPL-2.0-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://savannah.nongnu.org/projects/acl/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libacl1_2.3.2-2+b1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Guillem Jover <guillem@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libaom3",
+      "version": "3.12.1-1",
+      "description": "AV1 Video Codec Library",
+      "supplier": {
+        "name": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+      },
+      "license": "BSD-2-clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://aomedia.googlesource.com/aom/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libaom3_3.12.1-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libapt-pkg7.0",
+      "version": "3.0.3",
+      "description": "package management runtime library",
+      "supplier": {
+        "name": "APT Development Team <deity@lists.debian.org>"
+      },
+      "license": "GPL-2+",
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libapt-pkg7.0_3.0.3.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "APT Development Team <deity@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libattr1",
+      "version": "1:2.5.2-3",
+      "description": "extended attribute handling - shared library",
+      "supplier": {
+        "name": "Guillem Jover <guillem@debian.org>"
+      },
+      "license": "GPL-2.0-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://savannah.nongnu.org/projects/attr/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libattr1_1:2.5.2-3.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Guillem Jover <guillem@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libaudit-common",
+      "version": "1:4.0.2-2",
+      "description": "Dynamic library for security auditing - common files",
+      "supplier": {
+        "name": "Laurent Bigonville <bigon@debian.org>"
+      },
+      "license": "GPL-2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://people.redhat.com/sgrubb/audit/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libaudit-common_1:4.0.2-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Laurent Bigonville <bigon@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libaudit1",
+      "version": "1:4.0.2-2+b2",
+      "description": "Dynamic library for security auditing",
+      "supplier": {
+        "name": "Laurent Bigonville <bigon@debian.org>"
+      },
+      "license": "GPL-2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://people.redhat.com/sgrubb/audit/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libaudit1_1:4.0.2-2+b2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Laurent Bigonville <bigon@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libavif16",
+      "version": "1.2.1-1.2",
+      "description": "Library for handling .avif files",
+      "supplier": {
+        "name": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+      },
+      "license": "BSD-2-Clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/AOMediaCodec/libavif"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libavif16_1.2.1-1.2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libblkid1",
+      "version": "2.41-5",
+      "description": "block device ID library",
+      "supplier": {
+        "name": "Chris Hofstaedtler <zeha@debian.org>"
+      },
+      "license": "GPL-2+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/util-linux/util-linux"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libblkid1_2.41-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Chris Hofstaedtler <zeha@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libbrotli1",
+      "version": "1.1.0-2+b7",
+      "description": "library implementing brotli encoder and decoder (shared libraries)",
+      "supplier": {
+        "name": "Tomasz Buchert <tomasz@debian.org>"
+      },
+      "license": "MIT",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/google/brotli"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libbrotli1_1.1.0-2+b7.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Tomasz Buchert <tomasz@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libbsd0",
+      "version": "0.12.2-2",
+      "description": "utility functions from BSD systems - shared library",
+      "supplier": {
+        "name": "Guillem Jover <guillem@debian.org>"
+      },
+      "license": "BSD-3-clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://libbsd.freedesktop.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libbsd0_0.12.2-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Guillem Jover <guillem@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libbz2-1.0",
+      "version": "1.0.8-6",
+      "description": "high-quality block-sorting file compressor library - runtime",
+      "supplier": {
+        "name": "Anibal Monsalve Salazar <anibal@debian.org>"
+      },
+      "license": "BSD-variant",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://sourceware.org/bzip2/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libbz2-1.0_1.0.8-6.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Anibal Monsalve Salazar <anibal@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libc-bin",
+      "version": "2.41-12",
+      "description": "GNU C Library: Binaries",
+      "supplier": {
+        "name": "GNU Libc Maintainers <debian-glibc@lists.debian.org>"
+      },
+      "license": "LGPL-2.1+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.gnu.org/software/libc/libc.html"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libc-bin_2.41-12.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "GNU Libc Maintainers <debian-glibc@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libc6",
+      "version": "2.41-12",
+      "description": "GNU C Library: Shared libraries",
+      "supplier": {
+        "name": "GNU Libc Maintainers <debian-glibc@lists.debian.org>"
+      },
+      "license": "LGPL-2.1+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.gnu.org/software/libc/libc.html"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libc6_2.41-12.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "GNU Libc Maintainers <debian-glibc@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libcap-ng0",
+      "version": "0.8.5-4+b1",
+      "description": "alternate POSIX capabilities library",
+      "supplier": {
+        "name": "Håvard F. Aasen <havard.f.aasen@pfft.no>"
+      },
+      "license": "LGPL-2.1+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://people.redhat.com/sgrubb/libcap-ng"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libcap-ng0_0.8.5-4+b1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Håvard F. Aasen <havard.f.aasen@pfft.no>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libcap2",
+      "version": "1:2.75-10+b1",
+      "description": "POSIX 1003.1e capabilities (library)",
+      "supplier": {
+        "name": "Christian Kastner <ckk@debian.org>"
+      },
+      "license": "BSD-3-clause or GPL-2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://sites.google.com/site/fullycapable/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libcap2_1:2.75-10+b1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Christian Kastner <ckk@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libcom-err2",
+      "version": "1.47.2-3+b3",
+      "description": "common error description library",
+      "supplier": {
+        "name": "Theodore Y. Ts'o <tytso@mit.edu>"
+      },
+      "license": "GPL-2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://e2fsprogs.sourceforge.net"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libcom-err2_1.47.2-3+b3.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Theodore Y. Ts'o <tytso@mit.edu>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libcrypt1",
+      "version": "1:4.4.38-1",
+      "description": "libcrypt shared library",
+      "supplier": {
+        "name": "Marco d'Itri <md@linux.it>"
+      },
+      "license": "build-aux/m4/ax_check_vscript.m4",
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libcrypt1_1:4.4.38-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Marco d'Itri <md@linux.it>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libcurl4t64",
+      "version": "8.14.1-2",
+      "description": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
+      "supplier": {
+        "name": "Debian Curl Maintainers <team+curl@tracker.debian.org>"
+      },
+      "license": "curl",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://curl.se/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libcurl4t64_8.14.1-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Curl Maintainers <team+curl@tracker.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libdav1d7",
+      "version": "1.5.1-1",
+      "description": "fast and small AV1 video stream decoder (shared library)",
+      "supplier": {
+        "name": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+      },
+      "license": "BSD-2-clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.videolan.org/projects/dav1d.html"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libdav1d7_1.5.1-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libdb5.3t64",
+      "version": "5.3.28+dfsg2-9",
+      "description": "Berkeley v5.3 Database Libraries [runtime]",
+      "supplier": {
+        "name": "Debian QA Group <packages@qa.debian.org>"
+      },
+      "license": "Sleepycat and BSD-3-clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libdb5.3t64_5.3.28+dfsg2-9.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian QA Group <packages@qa.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libde265-0",
+      "version": "1.0.15-1+b3",
+      "description": "Open H.265 video codec implementation",
+      "supplier": {
+        "name": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+      },
+      "license": "LGPL-3+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/strukturag/libde265"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libde265-0_1.0.15-1+b3.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libdebconfclient0",
+      "version": "0.280",
+      "description": "Debian Configuration Management System (C-implementation library)",
+      "supplier": {
+        "name": "Debian Install System Team <debian-boot@lists.debian.org>"
+      },
+      "license": "BSD-2-Clause",
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libdebconfclient0_0.280.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Install System Team <debian-boot@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libdeflate0",
+      "version": "1.23-2",
+      "description": "fast, whole-buffer DEFLATE-based compression and decompression",
+      "supplier": {
+        "name": "Deflate Team <libdeflate@packages.debian.org>"
+      },
+      "license": "Expat",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/ebiggers/libdeflate"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libdeflate0_1.23-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Deflate Team <libdeflate@packages.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libedit2",
+      "version": "3.1-20250104-1",
+      "description": "BSD editline and history libraries",
+      "supplier": {
+        "name": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>"
+      },
+      "license": "BSD-3-clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.thrysoee.dk/editline/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libedit2_3.1-20250104-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libexpat1",
+      "version": "2.7.1-2",
+      "description": "XML parsing C library - runtime library",
+      "supplier": {
+        "name": "Laszlo Boszormenyi (GCS) <gcs@debian.org>"
+      },
+      "license": "MIT",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://libexpat.github.io/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libexpat1_2.7.1-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Laszlo Boszormenyi (GCS) <gcs@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libffi8",
+      "version": "3.4.8-2",
+      "description": "Foreign Function Interface library runtime",
+      "supplier": {
+        "name": "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+      },
+      "license": "Expat",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://sourceware.org/libffi/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libffi8_3.4.8-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libfontconfig1",
+      "version": "2.15.0-2.3",
+      "description": "generic font configuration library - runtime",
+      "supplier": {
+        "name": "Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>"
+      },
+      "license": "Copyright © 2001,2003 Keith Packard",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.freedesktop.org/wiki/Software/fontconfig/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libfontconfig1_2.15.0-2.3.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libfreetype6",
+      "version": "2.13.3+dfsg-1",
+      "description": "FreeType 2 font engine, shared library files",
+      "supplier": {
+        "name": "Hugh McMaster <hmc@debian.org>"
+      },
+      "license": "FTL",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://freetype.org"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libfreetype6_2.13.3+dfsg-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Hugh McMaster <hmc@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libgav1-1",
+      "version": "0.19.0-3+b1",
+      "description": "AV1 decoder developed by Google -- runtime library",
+      "supplier": {
+        "name": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+      },
+      "license": "Apache-2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://chromium.googlesource.com/codecs/libgav1/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libgav1-1_0.19.0-3+b1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libgcc-s1",
+      "version": "14.2.0-19",
+      "description": "GCC support library",
+      "supplier": {
+        "name": "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+      },
+      "license": "Biarch support: On some 64-bit platforms which can also run 32-bit code, Debian provides addition...",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://gcc.gnu.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libgcc-s1_14.2.0-19.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libgcrypt20",
+      "version": "1.11.0-7",
+      "description": "LGPL Crypto library - runtime library",
+      "supplier": {
+        "name": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>"
+      },
+      "license": "Most of the package is licensed under the GNU Lesser General Public",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://gnupg.org/software/libgcrypt/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libgcrypt20_1.11.0-7.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libgd3",
+      "version": "2.3.3-13",
+      "description": "GD Graphics Library",
+      "supplier": {
+        "name": "GD Team <team+gd@tracker.debian.org>"
+      },
+      "license": "GD",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://www.libgd.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libgd3_2.3.3-13.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "GD Team <team+gd@tracker.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libgeoip1t64",
+      "version": "1.6.12-11.1+b1",
+      "description": "non-DNS IP-to-country resolver library",
+      "supplier": {
+        "name": "Patrick Matthäi <pmatthaei@debian.org>"
+      },
+      "license": "LGPL-2.1+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.maxmind.com/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libgeoip1t64_1.6.12-11.1+b1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Patrick Matthäi <pmatthaei@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libgmp10",
+      "version": "2:6.3.0+dfsg-3",
+      "description": "Multiprecision arithmetic library",
+      "supplier": {
+        "name": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+      },
+      "license": "GPL-2+ or LGPL-3+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://gmplib.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libgmp10_2:6.3.0+dfsg-3.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libgnutls30t64",
+      "version": "3.8.9-3",
+      "description": "GNU TLS library - main runtime library",
+      "supplier": {
+        "name": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>"
+      },
+      "license": "Public domain.",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.gnutls.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libgnutls30t64_3.8.9-3.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libgomp1",
+      "version": "14.2.0-19",
+      "description": "GCC OpenMP (GOMP) support library",
+      "supplier": {
+        "name": "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+      },
+      "license": "Biarch support: On some 64-bit platforms which can also run 32-bit code, Debian provides addition...",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://gcc.gnu.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libgomp1_14.2.0-19.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libgpg-error0",
+      "version": "1.51-4",
+      "description": "GnuPG development runtime library",
+      "supplier": {
+        "name": "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>"
+      },
+      "license": "LGPL-2.1+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.gnupg.org/related_software/libgpg-error/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libgpg-error0_1.51-4.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libgssapi-krb5-2",
+      "version": "1.21.3-5",
+      "description": "MIT Kerberos runtime libraries - krb5 GSS-API Mechanism",
+      "supplier": {
+        "name": "Sam Hartman <hartmans@debian.org>"
+      },
+      "license": "Copyright 2011 Red Hat, Inc.",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://web.mit.edu/kerberos/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libgssapi-krb5-2_1.21.3-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Sam Hartman <hartmans@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libheif-plugin-dav1d",
+      "version": "1.19.8-1",
+      "description": "HEIF and AVIF file format decoder and encoder - dav1d plugin",
+      "supplier": {
+        "name": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+      },
+      "license": "LGPL-3+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://www.libheif.org"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libheif-plugin-dav1d_1.19.8-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libheif-plugin-libde265",
+      "version": "1.19.8-1",
+      "description": "HEIF and AVIF file format decoder and encoder - libde265 plugin",
+      "supplier": {
+        "name": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+      },
+      "license": "LGPL-3+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://www.libheif.org"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libheif-plugin-libde265_1.19.8-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libheif1",
+      "version": "1.19.8-1",
+      "description": "HEIF and AVIF file format decoder and encoder - shared library",
+      "supplier": {
+        "name": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+      },
+      "license": "LGPL-3+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://www.libheif.org"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libheif1_1.19.8-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libhogweed6t64",
+      "version": "3.10.1-1",
+      "description": "low level cryptographic library (public-key cryptos)",
+      "supplier": {
+        "name": "Magnus Holmgren <holmgren@debian.org>"
+      },
+      "license": "LGPL-3+ or GPL-2+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.lysator.liu.se/~nisse/nettle/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libhogweed6t64_3.10.1-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Magnus Holmgren <holmgren@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libidn2-0",
+      "version": "2.3.8-2",
+      "description": "Internationalized domain names (IDNA2008/TR46) library",
+      "supplier": {
+        "name": "Debian Libidn team <help-libidn@gnu.org>"
+      },
+      "license": "GPL-3.0-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.gnu.org/software/libidn/#libidn2"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libidn2-0_2.3.8-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Libidn team <help-libidn@gnu.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libimagequant0",
+      "version": "2.18.0-1+b2",
+      "description": "palette quantization library",
+      "supplier": {
+        "name": "Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>"
+      },
+      "license": "GPL-3.0+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/ImageOptim/libimagequant"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libimagequant0_2.18.0-1+b2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libjbig0",
+      "version": "2.1-6.1+b2",
+      "description": "JBIGkit libraries",
+      "supplier": {
+        "name": "Michael van der Kolff <mvanderkolff@gmail.com>"
+      },
+      "license": "GPL-2.0-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://www.cl.cam.ac.uk/~mgk25/jbigkit/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libjbig0_2.1-6.1+b2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Michael van der Kolff <mvanderkolff@gmail.com>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libjpeg62-turbo",
+      "version": "1:2.1.5-4",
+      "description": "libjpeg-turbo JPEG runtime library",
+      "supplier": {
+        "name": "Ondřej Surý <ondrej@debian.org>"
+      },
+      "license": "BSD-BY-LC-NE",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.libjpeg-turbo.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libjpeg62-turbo_1:2.1.5-4.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Ondřej Surý <ondrej@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libk5crypto3",
+      "version": "1.21.3-5",
+      "description": "MIT Kerberos runtime libraries - Crypto Library",
+      "supplier": {
+        "name": "Sam Hartman <hartmans@debian.org>"
+      },
+      "license": "Copyright 2011 Red Hat, Inc.",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://web.mit.edu/kerberos/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libk5crypto3_1.21.3-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Sam Hartman <hartmans@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libkeyutils1",
+      "version": "1.6.3-6",
+      "description": "Linux Key Management Utilities (library)",
+      "supplier": {
+        "name": "Christian Kastner <ckk@debian.org>"
+      },
+      "license": "GPL-2.0-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libkeyutils1_1.6.3-6.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Christian Kastner <ckk@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libkrb5-3",
+      "version": "1.21.3-5",
+      "description": "MIT Kerberos runtime libraries",
+      "supplier": {
+        "name": "Sam Hartman <hartmans@debian.org>"
+      },
+      "license": "Copyright 2011 Red Hat, Inc.",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://web.mit.edu/kerberos/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libkrb5-3_1.21.3-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Sam Hartman <hartmans@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libkrb5support0",
+      "version": "1.21.3-5",
+      "description": "MIT Kerberos runtime libraries - Support library",
+      "supplier": {
+        "name": "Sam Hartman <hartmans@debian.org>"
+      },
+      "license": "Copyright 2011 Red Hat, Inc.",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://web.mit.edu/kerberos/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libkrb5support0_1.21.3-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Sam Hartman <hartmans@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "liblastlog2-2",
+      "version": "2.41-5",
+      "description": "lastlog2 database shared library",
+      "supplier": {
+        "name": "Chris Hofstaedtler <zeha@debian.org>"
+      },
+      "license": "GPL-2+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/util-linux/util-linux"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "liblastlog2-2_2.41-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Chris Hofstaedtler <zeha@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libldap2",
+      "version": "2.6.10+dfsg-1",
+      "description": "OpenLDAP libraries",
+      "supplier": {
+        "name": "Debian OpenLDAP Maintainers <pkg-openldap-devel@lists.alioth.debian.org>"
+      },
+      "license": "OpenLDAP-2.8",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.openldap.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libldap2_2.6.10+dfsg-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian OpenLDAP Maintainers <pkg-openldap-devel@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "liblerc4",
+      "version": "4.0.0+ds-5",
+      "description": "Limited Error Raster Compression library",
+      "supplier": {
+        "name": "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
+      },
+      "license": "Apache-2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/Esri/lerc"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "liblerc4_4.0.0+ds-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "liblz4-1",
+      "version": "1.10.0-4",
+      "description": "Fast LZ compression algorithm library - runtime",
+      "supplier": {
+        "name": "Nobuhiro Iwamatsu <iwamatsu@debian.org>"
+      },
+      "license": "GPL-2.0-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/lz4/lz4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "liblz4-1_1.10.0-4.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Nobuhiro Iwamatsu <iwamatsu@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "liblzma5",
+      "version": "5.8.1-1",
+      "description": "XZ-format compression library",
+      "supplier": {
+        "name": "Sebastian Andrzej Siewior <sebastian@breakpoint.cc>"
+      },
+      "license": "0BSD",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://tukaani.org/xz/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "liblzma5_5.8.1-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Sebastian Andrzej Siewior <sebastian@breakpoint.cc>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libmd0",
+      "version": "1.1.0-2+b1",
+      "description": "message digest functions from BSD systems - shared library",
+      "supplier": {
+        "name": "Guillem Jover <guillem@debian.org>"
+      },
+      "license": "BSD-3-clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.hadrons.org/software/libmd/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libmd0_1.1.0-2+b1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Guillem Jover <guillem@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libmount1",
+      "version": "2.41-5",
+      "description": "device mounting library",
+      "supplier": {
+        "name": "Chris Hofstaedtler <zeha@debian.org>"
+      },
+      "license": "GPL-2+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/util-linux/util-linux"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libmount1_2.41-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Chris Hofstaedtler <zeha@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libnettle8t64",
+      "version": "3.10.1-1",
+      "description": "low level cryptographic library (symmetric and one-way cryptos)",
+      "supplier": {
+        "name": "Magnus Holmgren <holmgren@debian.org>"
+      },
+      "license": "LGPL-3+ or GPL-2+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.lysator.liu.se/~nisse/nettle/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libnettle8t64_3.10.1-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Magnus Holmgren <holmgren@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libnghttp2-14",
+      "version": "1.64.0-1.1",
+      "description": "library implementing HTTP/2 protocol (shared library)",
+      "supplier": {
+        "name": "Tomasz Buchert <tomasz@debian.org>"
+      },
+      "license": "Expat",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://nghttp2.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libnghttp2-14_1.64.0-1.1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Tomasz Buchert <tomasz@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libnghttp3-9",
+      "version": "1.8.0-1",
+      "description": "HTTP/3 library with QUIC and QPACK (library)",
+      "supplier": {
+        "name": "Debian Curl Maintainers <team+curl@tracker.debian.org>"
+      },
+      "license": "MIT",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/ngtcp2/nghttp3"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libnghttp3-9_1.8.0-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Curl Maintainers <team+curl@tracker.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libp11-kit0",
+      "version": "0.25.5-3",
+      "description": "library for loading and coordinating access to PKCS#11 modules - runtime",
+      "supplier": {
+        "name": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>"
+      },
+      "license": "BSD-3-clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://p11-glue.github.io/p11-glue/p11-kit.html"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libp11-kit0_0.25.5-3.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libpam-modules",
+      "version": "1.7.0-5",
+      "description": "Pluggable Authentication Modules for PAM",
+      "supplier": {
+        "name": "Sam Hartman <hartmans@debian.org>"
+      },
+      "license": "BSD-3-clause or GPL",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://www.linux-pam.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libpam-modules_1.7.0-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Sam Hartman <hartmans@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libpam-modules-bin",
+      "version": "1.7.0-5",
+      "description": "Pluggable Authentication Modules for PAM - helper binaries",
+      "supplier": {
+        "name": "Sam Hartman <hartmans@debian.org>"
+      },
+      "license": "BSD-3-clause or GPL",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://www.linux-pam.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libpam-modules-bin_1.7.0-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Sam Hartman <hartmans@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libpam-runtime",
+      "version": "1.7.0-5",
+      "description": "Runtime support for the PAM library",
+      "supplier": {
+        "name": "Sam Hartman <hartmans@debian.org>"
+      },
+      "license": "BSD-3-clause or GPL",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://www.linux-pam.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libpam-runtime_1.7.0-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Sam Hartman <hartmans@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libpam0g",
+      "version": "1.7.0-5",
+      "description": "Pluggable Authentication Modules library",
+      "supplier": {
+        "name": "Sam Hartman <hartmans@debian.org>"
+      },
+      "license": "BSD-3-clause or GPL",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://www.linux-pam.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libpam0g_1.7.0-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Sam Hartman <hartmans@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libpcre2-8-0",
+      "version": "10.46-1~deb13u1",
+      "description": "New Perl Compatible Regular Expression Library- 8 bit runtime files",
+      "supplier": {
+        "name": "Matthew Vernon <matthew@debian.org>"
+      },
+      "license": "BSD-3-clause-Cambridge with BINARY LIBRARY-LIKE PACKAGES exception",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/PCRE2Project/pcre2"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libpcre2-8-0_10.46-1~deb13u1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Matthew Vernon <matthew@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libpng16-16t64",
+      "version": "1.6.48-1",
+      "description": "PNG library - runtime (version 1.6)",
+      "supplier": {
+        "name": "Maintainers of libpng1.6 packages <libpng1.6@packages.debian.org>"
+      },
+      "license": "libpng",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://libpng.org/pub/png/libpng.html"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libpng16-16t64_1.6.48-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Maintainers of libpng1.6 packages <libpng1.6@packages.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libpsl5t64",
+      "version": "0.21.2-1.1+b1",
+      "description": "Library for Public Suffix List (shared libraries)",
+      "supplier": {
+        "name": "Tim Rühsen <tim.ruehsen@gmx.de>"
+      },
+      "license": "MIT",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/rockdaboot/libpsl"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libpsl5t64_0.21.2-1.1+b1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Tim Rühsen <tim.ruehsen@gmx.de>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "librav1e0.7",
+      "version": "0.7.1-9+b2",
+      "description": "Fastest and safest AV1 encoder - shared library",
+      "supplier": {
+        "name": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+      },
+      "license": "BSD-2-clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/xiph/rav1e/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "librav1e0.7_0.7.1-9+b2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "name": "librtmp1",
+      "version": "2.4+20151223.gitfa8646d.1-2+b5",
+      "description": "toolkit for RTMP streams (shared library)",
+      "supplier": {
+        "name": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+      },
+      "license": "Upstream Authors and Copyright:",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://rtmpdump.mplayerhq.hu/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "librtmp1_2.4+20151223.gitfa8646d.1-2+b5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libsasl2-2",
+      "version": "2.1.28+dfsg1-9",
+      "description": "Cyrus SASL - authentication abstraction library",
+      "supplier": {
+        "name": "Debian Cyrus Team <team+cyrus@tracker.debian.org>"
+      },
+      "license": "BSD-3-Clause-Attribution",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.cyrusimap.org/sasl/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libsasl2-2_2.1.28+dfsg1-9.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Cyrus Team <team+cyrus@tracker.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libsasl2-modules-db",
+      "version": "2.1.28+dfsg1-9",
+      "description": "Cyrus SASL - pluggable authentication modules (DB)",
+      "supplier": {
+        "name": "Debian Cyrus Team <team+cyrus@tracker.debian.org>"
+      },
+      "license": "BSD-3-Clause-Attribution",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.cyrusimap.org/sasl/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libsasl2-modules-db_2.1.28+dfsg1-9.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Cyrus Team <team+cyrus@tracker.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libseccomp2",
+      "version": "2.6.0-2",
+      "description": "high level interface to Linux seccomp filter",
+      "supplier": {
+        "name": "Kees Cook <kees@debian.org>"
+      },
+      "license": "LGPL-2.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/seccomp/libseccomp"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libseccomp2_2.6.0-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Kees Cook <kees@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libselinux1",
+      "version": "3.8.1-1",
+      "description": "SELinux runtime shared libraries",
+      "supplier": {
+        "name": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
+      },
+      "license": "public-domain",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/SELinuxProject"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libselinux1_3.8.1-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libsemanage-common",
+      "version": "3.8.1-1",
+      "description": "Common files for SELinux policy management libraries",
+      "supplier": {
+        "name": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
+      },
+      "license": "LGPL-2.1+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://selinuxproject.org"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libsemanage-common_3.8.1-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libsemanage2",
+      "version": "3.8.1-1",
+      "description": "SELinux policy management library",
+      "supplier": {
+        "name": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
+      },
+      "license": "LGPL-2.1+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://selinuxproject.org"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libsemanage2_3.8.1-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libsepol2",
+      "version": "3.8.1-1",
+      "description": "SELinux library for manipulating binary security policies",
+      "supplier": {
+        "name": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
+      },
+      "license": "LGPL-2.1+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://selinuxproject.org"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libsepol2_3.8.1-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libsharpyuv0",
+      "version": "1.5.0-0.1",
+      "description": "Library for sharp RGB to YUV conversion",
+      "supplier": {
+        "name": "Jeff Breidenbach <jab@debian.org>"
+      },
+      "license": "BSD-3-Clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://developers.google.com/speed/webp/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libsharpyuv0_1.5.0-0.1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Jeff Breidenbach <jab@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libsmartcols1",
+      "version": "2.41-5",
+      "description": "smart column output alignment library",
+      "supplier": {
+        "name": "Chris Hofstaedtler <zeha@debian.org>"
+      },
+      "license": "GPL-2+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/util-linux/util-linux"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libsmartcols1_2.41-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Chris Hofstaedtler <zeha@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libsqlite3-0",
+      "version": "3.46.1-7",
+      "description": "SQLite 3 shared library",
+      "supplier": {
+        "name": "Laszlo Boszormenyi (GCS) <gcs@debian.org>"
+      },
+      "license": "public-domain",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.sqlite.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libsqlite3-0_3.46.1-7.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Laszlo Boszormenyi (GCS) <gcs@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libssh2-1t64",
+      "version": "1.11.1-1",
+      "description": "SSH2 client-side library",
+      "supplier": {
+        "name": "Nicolas Mora <babelouest@debian.org>"
+      },
+      "license": "BSD3",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://libssh2.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libssh2-1t64_1.11.1-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Nicolas Mora <babelouest@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "name": "libssl3t64",
+      "version": "3.5.1-1+deb13u1",
+      "description": "Secure Sockets Layer toolkit - shared libraries",
+      "supplier": {
+        "name": "Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>"
+      },
+      "license": "Apache-2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://openssl-library.org"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libssl3t64_3.5.1-1+deb13u1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libstdc++6",
+      "version": "14.2.0-19",
+      "description": "GNU Standard C++ Library v3",
+      "supplier": {
+        "name": "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+      },
+      "license": "Biarch support: On some 64-bit platforms which can also run 32-bit code, Debian provides addition...",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://gcc.gnu.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libstdc++6_14.2.0-19.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libsvtav1enc2",
+      "version": "2.3.0+dfsg-1",
+      "description": "Scalable Video Technology for AV1 (libsvtav1enc shared library)",
+      "supplier": {
+        "name": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+      },
+      "license": "BSD-3-Clause-Clear",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://gitlab.com/AOMediaCodec/SVT-AV1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libsvtav1enc2_2.3.0+dfsg-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libsystemd0",
+      "version": "257.8-1~deb13u2",
+      "description": "systemd utility library",
+      "supplier": {
+        "name": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>"
+      },
+      "license": "LGPL-2.1+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://systemd.io"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libsystemd0_257.8-1~deb13u2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libtasn1-6",
+      "version": "4.20.0-2",
+      "description": "Manage ASN.1 structures (runtime)",
+      "supplier": {
+        "name": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>"
+      },
+      "license": "The library itself is licensed as LGPLv2.1+, the build system, test-suite and command-line tools ...",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.gnu.org/software/libtasn1/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libtasn1-6_4.20.0-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libtiff6",
+      "version": "4.7.0-3",
+      "description": "Tag Image File Format (TIFF) library",
+      "supplier": {
+        "name": "Laszlo Boszormenyi (GCS) <gcs@debian.org>"
+      },
+      "license": "Hylafax",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://libtiff.gitlab.io/libtiff/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libtiff6_4.7.0-3.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Laszlo Boszormenyi (GCS) <gcs@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libtinfo6",
+      "version": "6.5+20250216-2",
+      "description": "shared low-level terminfo library for terminal handling",
+      "supplier": {
+        "name": "Ncurses Maintainers <ncurses@packages.debian.org>"
+      },
+      "license": "MIT/X11",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://invisible-island.net/ncurses/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libtinfo6_6.5+20250216-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Ncurses Maintainers <ncurses@packages.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libudev1",
+      "version": "257.8-1~deb13u2",
+      "description": "libudev shared library",
+      "supplier": {
+        "name": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>"
+      },
+      "license": "LGPL-2.1+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://systemd.io"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libudev1_257.8-1~deb13u2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libunistring5",
+      "version": "1.3-2",
+      "description": "Unicode string library for C",
+      "supplier": {
+        "name": "Jörg Frings-Fürst <debian@jff.email>"
+      },
+      "license": "GPL-3.0-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.gnu.org/software/libunistring/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libunistring5_1.3-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Jörg Frings-Fürst <debian@jff.email>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libuuid1",
+      "version": "2.41-5",
+      "description": "Universally Unique ID library",
+      "supplier": {
+        "name": "Chris Hofstaedtler <zeha@debian.org>"
+      },
+      "license": "GPL-2+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/util-linux/util-linux"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libuuid1_2.41-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Chris Hofstaedtler <zeha@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libwebp7",
+      "version": "1.5.0-0.1",
+      "description": "Lossy compression of digital photographic images (shared library)",
+      "supplier": {
+        "name": "Jeff Breidenbach <jab@debian.org>"
+      },
+      "license": "BSD-3-Clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://developers.google.com/speed/webp/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libwebp7_1.5.0-0.1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Jeff Breidenbach <jab@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libx11-6",
+      "version": "2:1.8.12-1",
+      "description": "X11 client-side library",
+      "supplier": {
+        "name": "Debian X Strike Force <debian-x@lists.debian.org>"
+      },
+      "license": "The following is the 'standard copyright' agreed upon by most contributors, and is currently the ...",
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libx11-6_2:1.8.12-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian X Strike Force <debian-x@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libx11-data",
+      "version": "2:1.8.12-1",
+      "description": "X11 client-side library",
+      "supplier": {
+        "name": "Debian X Strike Force <debian-x@lists.debian.org>"
+      },
+      "license": "The following is the 'standard copyright' agreed upon by most contributors, and is currently the ...",
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libx11-data_2:1.8.12-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian X Strike Force <debian-x@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libxau6",
+      "version": "1:1.0.11-1",
+      "description": "X11 authorisation library",
+      "supplier": {
+        "name": "Debian X Strike Force <debian-x@lists.debian.org>"
+      },
+      "license": "Copyright 1988, 1998 The Open Group",
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libxau6_1:1.0.11-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian X Strike Force <debian-x@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libxcb1",
+      "version": "1.17.0-2+b1",
+      "description": "X C Binding",
+      "supplier": {
+        "name": "Debian X Strike Force <debian-x@lists.debian.org>"
+      },
+      "license": "Copyright:",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://xcb.freedesktop.org"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libxcb1_1.17.0-2+b1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian X Strike Force <debian-x@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libxdmcp6",
+      "version": "1:1.1.5-1",
+      "description": "X11 Display Manager Control Protocol library",
+      "supplier": {
+        "name": "Debian X Strike Force <debian-x@lists.debian.org>"
+      },
+      "license": "Copyright 1989, 1998 The Open Group",
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libxdmcp6_1:1.1.5-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian X Strike Force <debian-x@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libxml2",
+      "version": "2.12.7+dfsg+really2.9.14-2.1+deb13u1",
+      "description": "GNOME XML library",
+      "supplier": {
+        "name": "Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>"
+      },
+      "license": "MIT-1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://xmlsoft.org"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libxml2_2.12.7+dfsg+really2.9.14-2.1+deb13u1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libxpm4",
+      "version": "1:3.5.17-1+b3",
+      "description": "X11 pixmap library",
+      "supplier": {
+        "name": "Debian X Strike Force <debian-x@lists.debian.org>"
+      },
+      "license": "Copyright (C) 1989-95 GROUPE BULL",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.x.org"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libxpm4_1:3.5.17-1+b3.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian X Strike Force <debian-x@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libxslt1.1",
+      "version": "1.1.35-1.2+deb13u2",
+      "description": "XSLT 1.0 processing library - runtime library",
+      "supplier": {
+        "name": "Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>"
+      },
+      "license": "Copyright:",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://gitlab.gnome.org/GNOME/libxslt/-/wikis/home"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libxslt1.1_1.1.35-1.2+deb13u2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libxxhash0",
+      "version": "0.8.3-2",
+      "description": "shared library for xxhash",
+      "supplier": {
+        "name": "Josue Ortega <josue@debian.org>"
+      },
+      "license": "BSD-2-clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://cyan4973.github.io/xxHash"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libxxhash0_0.8.3-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Josue Ortega <josue@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libyuv0",
+      "version": "0.0.1904.20250204-1",
+      "description": "Library for YUV scaling (shared library)",
+      "supplier": {
+        "name": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+      },
+      "license": "BSD-3-Clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://chromium.googlesource.com/libyuv/libyuv/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libyuv0_0.0.1904.20250204-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libzstd1",
+      "version": "1.5.7+dfsg-1",
+      "description": "fast lossless compression algorithm",
+      "supplier": {
+        "name": "RPM packaging team <team+pkg-rpm@tracker.debian.org>"
+      },
+      "license": "BSD-3-clause or GPL-2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/facebook/zstd"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libzstd1_1.5.7+dfsg-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "RPM packaging team <team+pkg-rpm@tracker.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "login",
+      "version": "1:4.16.0-2+really2.41-5",
+      "description": "system login tools",
+      "supplier": {
+        "name": "Chris Hofstaedtler <zeha@debian.org>"
+      },
+      "license": "GPL-2+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/util-linux/util-linux"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "login_1:4.16.0-2+really2.41-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Chris Hofstaedtler <zeha@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "login.defs",
+      "version": "1:4.17.4-2",
+      "description": "system user management configuration",
+      "supplier": {
+        "name": "Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>"
+      },
+      "license": "BSD-3-clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/shadow-maint/shadow"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "login.defs_1:4.17.4-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "mawk",
+      "version": "1.3.4.20250131-1",
+      "description": "Pattern scanning and text processing language",
+      "supplier": {
+        "name": "Boyuan Yang <byang@debian.org>"
+      },
+      "license": "GPL-2.0-only",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://invisible-island.net/mawk/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "mawk_1.3.4.20250131-1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Boyuan Yang <byang@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "mount",
+      "version": "2.41-5",
+      "description": "tools for mounting and manipulating filesystems",
+      "supplier": {
+        "name": "Chris Hofstaedtler <zeha@debian.org>"
+      },
+      "license": "GPL-2+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/util-linux/util-linux"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "mount_2.41-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Chris Hofstaedtler <zeha@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "ncurses-base",
+      "version": "6.5+20250216-2",
+      "description": "basic terminal type definitions",
+      "supplier": {
+        "name": "Ncurses Maintainers <ncurses@packages.debian.org>"
+      },
+      "license": "MIT/X11",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://invisible-island.net/ncurses/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "ncurses-base_6.5+20250216-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Ncurses Maintainers <ncurses@packages.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "ncurses-bin",
+      "version": "6.5+20250216-2",
+      "description": "terminal-related programs and man pages",
+      "supplier": {
+        "name": "Ncurses Maintainers <ncurses@packages.debian.org>"
+      },
+      "license": "MIT/X11",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://invisible-island.net/ncurses/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "ncurses-bin_6.5+20250216-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Ncurses Maintainers <ncurses@packages.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "nginx",
+      "version": "1.29.2-1~trixie",
+      "description": "high performance web server",
+      "supplier": {
+        "name": "NGINX Packaging <nginx-packaging@f5.com>"
+      },
+      "license": "BSD-2-Clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://nginx.org"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "nginx_1.29.2-1~trixie.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "NGINX Packaging <nginx-packaging@f5.com>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "nginx-module-geoip",
+      "version": "1.29.2-1~trixie",
+      "description": "nginx GeoIP dynamic modules",
+      "supplier": {
+        "name": "NGINX Packaging <nginx-packaging@f5.com>"
+      },
+      "license": "BSD-2-Clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://nginx.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "nginx-module-geoip_1.29.2-1~trixie.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "NGINX Packaging <nginx-packaging@f5.com>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "nginx-module-image-filter",
+      "version": "1.29.2-1~trixie",
+      "description": "nginx image filter dynamic module",
+      "supplier": {
+        "name": "NGINX Packaging <nginx-packaging@f5.com>"
+      },
+      "license": "BSD-2-Clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://nginx.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "nginx-module-image-filter_1.29.2-1~trixie.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "NGINX Packaging <nginx-packaging@f5.com>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "nginx-module-njs",
+      "version": "1.29.2+0.9.3-1~trixie",
+      "description": "nginx njs dynamic modules",
+      "supplier": {
+        "name": "NGINX Packaging <nginx-packaging@f5.com>"
+      },
+      "license": "BSD-2-Clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://nginx.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "nginx-module-njs_1.29.2+0.9.3-1~trixie.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "NGINX Packaging <nginx-packaging@f5.com>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "nginx-module-xslt",
+      "version": "1.29.2-1~trixie",
+      "description": "nginx xslt dynamic module",
+      "supplier": {
+        "name": "NGINX Packaging <nginx-packaging@f5.com>"
+      },
+      "license": "BSD-2-Clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://nginx.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "nginx-module-xslt_1.29.2-1~trixie.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "NGINX Packaging <nginx-packaging@f5.com>"
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "name": "openssl",
+      "version": "3.5.1-1+deb13u1",
+      "description": "Secure Sockets Layer toolkit - cryptographic utility",
+      "supplier": {
+        "name": "Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>"
+      },
+      "license": "Apache-2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://openssl-library.org"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "openssl_3.5.1-1+deb13u1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>"
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "name": "openssl-provider-legacy",
+      "version": "3.5.1-1+deb13u1",
+      "description": "Secure Sockets Layer toolkit - cryptographic utility",
+      "supplier": {
+        "name": "Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>"
+      },
+      "license": "Apache-2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://openssl-library.org"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "openssl-provider-legacy_3.5.1-1+deb13u1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "passwd",
+      "version": "1:4.17.4-2",
+      "description": "change and administer password and group data",
+      "supplier": {
+        "name": "Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>"
+      },
+      "license": "BSD-3-clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/shadow-maint/shadow"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "passwd_1:4.17.4-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "perl-base",
+      "version": "5.40.1-6",
+      "description": "minimal Perl system",
+      "supplier": {
+        "name": "Niko Tyni <ntyni@debian.org>"
+      },
+      "license": "GPL-1+ or Artistic",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://dev.perl.org/perl5/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "perl-base_5.40.1-6.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Niko Tyni <ntyni@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "sed",
+      "version": "4.9-2",
+      "description": "GNU stream editor for filtering/transforming text",
+      "supplier": {
+        "name": "Clint Adams <clint@debian.org>"
+      },
+      "license": "GPL-3.0-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.gnu.org/software/sed/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "sed_4.9-2.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Clint Adams <clint@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "sqv",
+      "version": "1.3.0-3",
+      "description": "OpenPGP signature verification program from Sequoia",
+      "supplier": {
+        "name": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+      },
+      "license": "LGPL-2.0-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://sequoia-pgp.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "sqv_1.3.0-3.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "sysvinit-utils",
+      "version": "3.14-4",
+      "description": "System-V-like utilities",
+      "supplier": {
+        "name": "Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>"
+      },
+      "license": "GPL-2.0+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/slicer69/sysvinit"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "sysvinit-utils_3.14-4.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "tar",
+      "version": "1.35+dfsg-3.1",
+      "description": "GNU version of the tar archiving utility",
+      "supplier": {
+        "name": "Janos Lenart <ocsi@debian.org>"
+      },
+      "license": "GPL-3.0-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.gnu.org/software/tar/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "tar_1.35+dfsg-3.1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Janos Lenart <ocsi@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "tzdata",
+      "version": "2025b-4+deb13u1",
+      "description": "time zone and daylight-saving time data",
+      "supplier": {
+        "name": "GNU Libc Maintainers <debian-glibc@lists.debian.org>"
+      },
+      "license": "public-domain",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.iana.org/time-zones"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "tzdata_2025b-4+deb13u1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "GNU Libc Maintainers <debian-glibc@lists.debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "util-linux",
+      "version": "2.41-5",
+      "description": "miscellaneous system utilities",
+      "supplier": {
+        "name": "Chris Hofstaedtler <zeha@debian.org>"
+      },
+      "license": "GPL-2+",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/util-linux/util-linux"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "util-linux_2.41-5.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Chris Hofstaedtler <zeha@debian.org>"
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "zlib1g",
+      "version": "1:1.3.dfsg+really1.3.1-1+b1",
+      "description": "compression library - runtime",
+      "supplier": {
+        "name": "Mark Brown <broonie@debian.org>"
+      },
+      "license": "Zlib",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://zlib.net/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "dpkg"
+        },
+        {
+          "name": "package_file_name",
+          "value": "zlib1g_1:1.3.dfsg+really1.3.1-1+b1.deb"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Mark Brown <broonie@debian.org>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1167 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:sbom:cleanstart/nginx:latest@sha256:8a71058998f50f0c8d26441b83da1e8eec2323ac12b57ea82c157d8fa0bd8da1",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-10-16T09:30:44Z",
+    "tools": [
+      {
+        "vendor": "Clnstrt",
+        "name": "Enhanced-Docker-SBOM-Generator",
+        "version": "2.3"
+      }
+    ],
+    "component": {
+      "type": "container",
+      "name": "cleanstart/nginx:latest",
+      "version": "latest"
+    }
+  },
+  "components": [
+    {
+      "type": "package",
+      "name": "busybox",
+      "version": "1.37.0-r30",
+      "description": "Size optimized toolbox of many common UNIX utilities",
+      "supplier": {
+        "name": "Sören Tempel <soeren+alpine@soeren-tempel.net>"
+      },
+      "license": "GPL-2.0-only",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://busybox.net/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "busybox-1.37.0-r30.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-07-11T07:44:34Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Sören Tempel <soeren+alpine@soeren-tempel.net>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1k3R6PiyPqR8B+GpUZz39SD3gbXI="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "busybox-binsh",
+      "version": "1.37.0-r30",
+      "description": "busybox ash /bin/sh",
+      "supplier": {
+        "name": "Sören Tempel <soeren+alpine@soeren-tempel.net>"
+      },
+      "license": "GPL-2.0-only",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://busybox.net/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "busybox-binsh-1.37.0-r30.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-07-11T07:44:34Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Sören Tempel <soeren+alpine@soeren-tempel.net>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1tHdtykRbJbcbhPA62YhfmKsEvTM="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "busybox-ifupdown",
+      "version": "1.37.0-r30",
+      "description": "placeholder package for busybox ifupdown",
+      "supplier": {
+        "name": "Sören Tempel <soeren+alpine@soeren-tempel.net>"
+      },
+      "license": "GPL-2.0-only",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://busybox.net/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "busybox-ifupdown-1.37.0-r30.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-07-11T07:44:34Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Sören Tempel <soeren+alpine@soeren-tempel.net>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1zxbwYUup8x9no+OxAdxOAYUEL9k="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "busybox-mdev-openrc",
+      "version": "1.37.0-r30",
+      "description": "Size optimized toolbox of many common UNIX utilities",
+      "supplier": {
+        "name": "Sören Tempel <soeren+alpine@soeren-tempel.net>"
+      },
+      "license": "GPL-2.0-only",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://busybox.net/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "busybox-mdev-openrc-1.37.0-r30.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-07-11T07:44:34Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Sören Tempel <soeren+alpine@soeren-tempel.net>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1XVQeN1Gt0rV0DHnFMnw3Ur2ML5s="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "busybox-openrc",
+      "version": "1.37.0-r30",
+      "description": "Size optimized toolbox of many common UNIX utilities",
+      "supplier": {
+        "name": "Sören Tempel <soeren+alpine@soeren-tempel.net>"
+      },
+      "license": "GPL-2.0-only",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://busybox.net/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "busybox-openrc-1.37.0-r30.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-07-11T07:44:34Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Sören Tempel <soeren+alpine@soeren-tempel.net>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1orNVSETeul1k3R75WC8TJy9POXs="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "busybox-suid",
+      "version": "1.37.0-r30",
+      "description": "suid binaries of Busybox",
+      "supplier": {
+        "name": "Sören Tempel <soeren+alpine@soeren-tempel.net>"
+      },
+      "license": "GPL-2.0-only",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://busybox.net/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "busybox-suid-1.37.0-r30.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-07-11T07:44:34Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Sören Tempel <soeren+alpine@soeren-tempel.net>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1excDoV9MKr1IGoVYcohwaNGyLL0="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "clnstrt-baselayout",
+      "version": "3.6.5-r0",
+      "description": "Cleanstart base dir structure and init scripts",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "license": "GPL-2.0-only",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://clnstrt.dev"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "clnstrt-baselayout-3.6.5-r0.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-02-01T08:39:30Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Natanael Copa <ncopa@alpinelinux.org>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1OYXbsiRAPjkyiNVN/yFjwWqjC3k="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "clnstrt-baselayout-data",
+      "version": "3.6.5-r0",
+      "description": "Cleanstart base dir structure and init scripts",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "license": "GPL-2.0-only",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://clnstrt.dev"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "clnstrt-baselayout-data-3.6.5-r0.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-02-01T08:39:30Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Natanael Copa <ncopa@alpinelinux.org>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1Q2dFvt8f7cDDFMlHjFe+CbErVMQ="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "clnstrt-conf",
+      "version": "3.18.1-r0",
+      "description": "Clnstrt configuration management scripts",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "license": "MIT",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://clnstrt.dev"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "clnstrt-conf-3.18.1-r0.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-02-01T11:00:30Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Natanael Copa <ncopa@alpinelinux.org>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1yIALV4VAUB52w1q3taSftDGGJb4="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "clnstrt-release",
+      "version": "3.20.3-r0",
+      "description": "Clnstrt release data",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "license": "MIT",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://clnstrt.dev"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "clnstrt-release-3.20.3-r0.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-02-01T11:40:33Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Natanael Copa <ncopa@alpinelinux.org>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1vXpIwRrKI3aSx8To3sV8Oted0PI="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "glibc-clnstrt",
+      "version": "2.41-r0",
+      "description": "GlibC library for Cleanstart",
+      "supplier": {
+        "name": "Triam Security <packages-admin@triamsecurity.com>"
+      },
+      "license": "GNU LGPL",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.gnu.org/software/libc/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "glibc-clnstrt-2.41-r0.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-05-20T07:43:21Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Triam Security <packages-admin@triamsecurity.com>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1w0V5DTqwo3qDNJ3sKovldFCNQLU="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libcap2",
+      "version": "2.70-r1",
+      "description": "POSIX 1003.1e capabilities (libraries)",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "license": "BSD-3-Clause OR GPL-2.0-only",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://sites.google.com/site/fullycapable/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libcap2-2.70-r1.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2024-10-27T20:05:07Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Natanael Copa <ncopa@alpinelinux.org>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1JaIndMjFnV2UoWjy7cBPMFaitIQ="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libcrypto3",
+      "version": "3.5.2-r0",
+      "description": "Crypto library from openssl",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "license": "Apache-2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.openssl.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libcrypto3-3.5.2-r0.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-08-08T00:33:39Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Natanael Copa <ncopa@alpinelinux.org>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q14XzCdS7r/hhpXFjvkIPuplYcFJ4="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libgcc",
+      "version": "15.1.0_git20250607-r0",
+      "description": "GNU C compiler runtime libraries",
+      "supplier": {
+        "name": "Ariadne Conill <ariadne@dereferenced.org>"
+      },
+      "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://gcc.gnu.org"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libgcc-15.1.0_git20250607-r0.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-06-14T12:11:37Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Ariadne Conill <ariadne@dereferenced.org>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1DwHjsHn8gZF0BjsNH56U7LOVwkk="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libssl3",
+      "version": "3.5.2-r0",
+      "description": "SSL shared libraries",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "license": "Apache-2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.openssl.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libssl3-3.5.2-r0.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-08-08T00:33:39Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Natanael Copa <ncopa@alpinelinux.org>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1DSi3QzYflepUjnvH7P8PnoQB4y8="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "libxcrypt",
+      "version": "4.4.36-r0",
+      "description": "Replacement for deprecated crypt in GlibC",
+      "supplier": {
+        "name": "Triam Security <packages-admin@triamsecurity.com>"
+      },
+      "license": "LGPL-2.1 license",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/besser82/libxcrypt"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libxcrypt-4.4.36-r0.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2024-11-27T07:17:40Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Triam Security <packages-admin@triamsecurity.com>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1HT8q81TzNTQWbg4VDgEdNNtES5k="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "mdev-conf",
+      "version": "4.7-r0",
+      "description": "Configuration files for mdev and mdevd",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "license": "MIT",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://gitlab.alpinelinux.org/alpine/mdev-conf"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "mdev-conf-4.7-r0.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2024-05-20T08:36:25Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Natanael Copa <ncopa@alpinelinux.org>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1EjMCMeObJW5ewynxwZsKARc3S6E="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "nginx",
+      "version": "1.29.0-r0",
+      "description": "HTTP and reverse proxy server (stable version)",
+      "supplier": {
+        "name": "Jakub Jirutka <jakub@jirutka.cz>"
+      },
+      "license": "BSD-2-Clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.nginx.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "nginx-1.29.0-r0.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-07-16T12:58:51Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Jakub Jirutka <jakub@jirutka.cz>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1PVvxTY4VCZB0t+XC9n1aJM7nGJk="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "nginx-openrc",
+      "version": "1.29.0-r0",
+      "description": "HTTP and reverse proxy server (stable version) (OpenRC init scripts)",
+      "supplier": {
+        "name": "Jakub Jirutka <jakub@jirutka.cz>"
+      },
+      "license": "BSD-2-Clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.nginx.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "nginx-openrc-1.29.0-r0.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-07-16T12:58:51Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Jakub Jirutka <jakub@jirutka.cz>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1BfQAhU5EdKMlnPS+59sC3GsbN8g="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "openrc",
+      "version": "0.54-r1",
+      "description": "OpenRC manages the services, startup and shutdown of a host",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "license": "BSD-2-Clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/OpenRC/openrc"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "openrc-0.54-r1.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2024-04-08T06:08:20Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Natanael Copa <ncopa@alpinelinux.org>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q17vxIVfxoxfYSaNtArRnk/aMP+CI="
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "name": "openssl",
+      "version": "3.5.2-r0",
+      "description": "Toolkit for Transport Layer Security (TLS)",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "license": "Apache-2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.openssl.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "openssl-3.5.2-r0.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-08-08T00:33:39Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Natanael Copa <ncopa@alpinelinux.org>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1GL0ojf3tizLbPCHPR6yjkj2jtA8="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pcre",
+      "version": "8.45-r3",
+      "description": "Perl-compatible regular expression library",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "license": "BSD-3-Clause",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.pcre.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "pcre-8.45-r3.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2024-05-22T08:13:48Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Natanael Copa <ncopa@alpinelinux.org>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1eH0V01DXIr71xPzXHhPdJGOyQ0o="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "scanelf",
+      "version": "1.3.8-r2",
+      "description": "Scan ELF binaries for stuff",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "license": "GPL-2.0-only",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "scanelf-1.3.8-r2.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2024-10-27T19:12:52Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Natanael Copa <ncopa@alpinelinux.org>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1dD480pCCIMBddvDrwVQMNHf/Rfk="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "skalibs-libs",
+      "version": "2.14.3.0-r0",
+      "description": "Set of general-purpose C programming libraries for skarnet.org software. (libraries)",
+      "supplier": {
+        "name": "Laurent Bercot <ska-devel@skarnet.org>"
+      },
+      "license": "ISC",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://skarnet.org/software/skalibs/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "skalibs-libs-2.14.3.0-r0.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2024-10-18T18:46:39Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Laurent Bercot <ska-devel@skarnet.org>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1PiD+tMSth9l5dHOOGPLrvgMfE7g="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "ssl_client",
+      "version": "1.37.0-r30",
+      "description": "EXternal ssl_client for busybox wget",
+      "supplier": {
+        "name": "Sören Tempel <soeren+alpine@soeren-tempel.net>"
+      },
+      "license": "GPL-2.0-only",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://busybox.net/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "ssl_client-1.37.0-r30.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2025-07-11T07:44:34Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Sören Tempel <soeren+alpine@soeren-tempel.net>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1QH+SJsV3Oy5/TecvKhM6zaoVbko="
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "name": "zlib",
+      "version": "1.3.1-r3",
+      "description": "A compression/decompression Library",
+      "supplier": {
+        "name": "Natanael Copa <ncopa@alpinelinux.org>"
+      },
+      "license": "Zlib",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://zlib.net/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "package_manager",
+          "value": "apk"
+        },
+        {
+          "name": "package_file_name",
+          "value": "zlib-1.3.1-r3.apk"
+        },
+        {
+          "name": "build_date",
+          "value": "2024-10-26T15:14:23Z"
+        },
+        {
+          "name": "license_source",
+          "value": "package_metadata"
+        },
+        {
+          "name": "maintainer",
+          "value": "Natanael Copa <ncopa@alpinelinux.org>"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "sha1",
+          "content": "Q1rPOvLfWtAfnn98LAAfUjMLMyBqY="
+        }
+      ]
+    }
+  ]
+}
