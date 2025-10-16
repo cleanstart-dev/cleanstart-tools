@@ -1,0 +1,1782 @@
+{
+  "spdxVersion": "SPDX-3.0",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SBOM for cleanstart/nginx:latest",
+  "image-digest": "sha256:8a71058998f50f0c8d26441b83da1e8eec2323ac12b57ea82c157d8fa0bd8da1",
+  "documentNamespace": "cleanstart/nginx:latest@sha256:8a71058998f50f0c8d26441b83da1e8eec2323ac12b57ea82c157d8fa0bd8da1",
+  "creationInfo": {
+    "created": "2025-10-16T09:38:39Z",
+    "creators": [
+      "Tool: Clnstrt-Enhanced-SBOM-generator-2.0"
+    ],
+    "licenseListVersion": "3.20"
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-busybox-bdbb835e2ef5d66f",
+      "name": "busybox",
+      "versionInfo": "1.37.0-r30",
+      "filesAnalyzed": true,
+      "maintainer": "Sören Tempel <soeren+alpine@soeren-tempel.net>",
+      "license": "GPL-2.0-only",
+      "copyrightText": "NOASSERTION",
+      "description": "Size optimized toolbox of many common UNIX utilities",
+      "URL": "https://busybox.net/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "busybox@1.37.0-r30"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1k3R6PiyPqR8B+GpUZz39SD3gbXI="
+        }
+      ],
+      "builtDate": "2025-07-11T07:44:34Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "28"
+        },
+        {
+          "name": "package_file_name",
+          "value": "busybox-1.37.0-r30.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "so:libc.so.6, so:libcrypt.so.2, so:libm.so.6, so:libresolv.so.2, so:libskarnet.so.2.14"
+        },
+        {
+          "name": "provides",
+          "value": "cmd:busybox=1.37.0-r30"
+        },
+        {
+          "name": "package_size",
+          "value": "502482"
+        },
+        {
+          "name": "installed_size",
+          "value": "925696"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-busybox-binsh-d974381e56e078e6",
+      "name": "busybox-binsh",
+      "versionInfo": "1.37.0-r30",
+      "filesAnalyzed": true,
+      "maintainer": "Sören Tempel <soeren+alpine@soeren-tempel.net>",
+      "license": "GPL-2.0-only",
+      "copyrightText": "NOASSERTION",
+      "description": "busybox ash /bin/sh",
+      "URL": "https://busybox.net/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "busybox-binsh@1.37.0-r30"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1tHdtykRbJbcbhPA62YhfmKsEvTM="
+        }
+      ],
+      "builtDate": "2025-07-11T07:44:34Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "2"
+        },
+        {
+          "name": "package_file_name",
+          "value": "busybox-binsh-1.37.0-r30.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "busybox=1.37.0-r30"
+        },
+        {
+          "name": "provides",
+          "value": "/bin/sh, cmd:sh=1.37.0-r30"
+        },
+        {
+          "name": "package_size",
+          "value": "1470"
+        },
+        {
+          "name": "installed_size",
+          "value": "8192"
+        },
+        {
+          "name": "origin_package",
+          "value": "busybox"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-busybox-ifupdown-b636b690a225418f",
+      "name": "busybox-ifupdown",
+      "versionInfo": "1.37.0-r30",
+      "filesAnalyzed": false,
+      "maintainer": "Sören Tempel <soeren+alpine@soeren-tempel.net>",
+      "license": "GPL-2.0-only",
+      "copyrightText": "NOASSERTION",
+      "description": "placeholder package for busybox ifupdown",
+      "URL": "https://busybox.net/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "busybox-ifupdown@1.37.0-r30"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1zxbwYUup8x9no+OxAdxOAYUEL9k="
+        }
+      ],
+      "builtDate": "2025-07-11T07:44:34Z",
+      "properties": [
+        {
+          "name": "package_file_name",
+          "value": "busybox-ifupdown-1.37.0-r30.apk"
+        },
+        {
+          "name": "provides",
+          "value": "ifupdown-any"
+        },
+        {
+          "name": "package_size",
+          "value": "1453"
+        },
+        {
+          "name": "installed_size",
+          "value": "4096"
+        },
+        {
+          "name": "origin_package",
+          "value": "busybox"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-busybox-mdev-openrc-690540d3c7aa8477",
+      "name": "busybox-mdev-openrc",
+      "versionInfo": "1.37.0-r30",
+      "filesAnalyzed": true,
+      "maintainer": "Sören Tempel <soeren+alpine@soeren-tempel.net>",
+      "license": "GPL-2.0-only",
+      "copyrightText": "NOASSERTION",
+      "description": "Size optimized toolbox of many common UNIX utilities",
+      "URL": "https://busybox.net/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "busybox-mdev-openrc@1.37.0-r30"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1XVQeN1Gt0rV0DHnFMnw3Ur2ML5s="
+        }
+      ],
+      "builtDate": "2025-07-11T07:44:34Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "3"
+        },
+        {
+          "name": "package_file_name",
+          "value": "busybox-mdev-openrc-1.37.0-r30.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "openrc>=0.24.1-r6, mdev-conf"
+        },
+        {
+          "name": "provides",
+          "value": "dev-openrc"
+        },
+        {
+          "name": "package_size",
+          "value": "1983"
+        },
+        {
+          "name": "installed_size",
+          "value": "16384"
+        },
+        {
+          "name": "origin_package",
+          "value": "busybox"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-busybox-openrc-a3a88948723309d2",
+      "name": "busybox-openrc",
+      "versionInfo": "1.37.0-r30",
+      "filesAnalyzed": true,
+      "maintainer": "Sören Tempel <soeren+alpine@soeren-tempel.net>",
+      "license": "GPL-2.0-only",
+      "copyrightText": "NOASSERTION",
+      "description": "Size optimized toolbox of many common UNIX utilities",
+      "URL": "https://busybox.net/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "busybox-openrc@1.37.0-r30"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1orNVSETeul1k3R75WC8TJy9POXs="
+        }
+      ],
+      "builtDate": "2025-07-11T07:44:34Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "21"
+        },
+        {
+          "name": "package_file_name",
+          "value": "busybox-openrc-1.37.0-r30.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "openrc>=0.24.1-r6"
+        },
+        {
+          "name": "package_size",
+          "value": "4175"
+        },
+        {
+          "name": "installed_size",
+          "value": "90112"
+        },
+        {
+          "name": "origin_package",
+          "value": "busybox"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-busybox-suid-292007263174aa7f",
+      "name": "busybox-suid",
+      "versionInfo": "1.37.0-r30",
+      "filesAnalyzed": true,
+      "maintainer": "Sören Tempel <soeren+alpine@soeren-tempel.net>",
+      "license": "GPL-2.0-only",
+      "copyrightText": "NOASSERTION",
+      "description": "suid binaries of Busybox",
+      "URL": "https://busybox.net/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "busybox-suid@1.37.0-r30"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1excDoV9MKr1IGoVYcohwaNGyLL0="
+        }
+      ],
+      "builtDate": "2025-07-11T07:44:34Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "2"
+        },
+        {
+          "name": "package_file_name",
+          "value": "busybox-suid-1.37.0-r30.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "busybox=1.37.0-r30, so:libc.so.6"
+        },
+        {
+          "name": "provides",
+          "value": "cmd:bbsuid=1.37.0-r30"
+        },
+        {
+          "name": "package_size",
+          "value": "3862"
+        },
+        {
+          "name": "installed_size",
+          "value": "24576"
+        },
+        {
+          "name": "origin_package",
+          "value": "busybox"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-clnstrt-baselayout-9bcf40e6251b7d95",
+      "name": "clnstrt-baselayout",
+      "versionInfo": "3.6.5-r0",
+      "filesAnalyzed": true,
+      "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+      "license": "GPL-2.0-only",
+      "copyrightText": "NOASSERTION",
+      "description": "Cleanstart base dir structure and init scripts",
+      "URL": "https://clnstrt.dev",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "clnstrt-baselayout@3.6.5-r0"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1OYXbsiRAPjkyiNVN/yFjwWqjC3k="
+        }
+      ],
+      "builtDate": "2025-02-01T08:39:30Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "79"
+        },
+        {
+          "name": "package_file_name",
+          "value": "clnstrt-baselayout-3.6.5-r0.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "clnstrt-baselayout-data=3.6.5-r0, /bin/sh"
+        },
+        {
+          "name": "package_size",
+          "value": "8048"
+        },
+        {
+          "name": "installed_size",
+          "value": "6532"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-clnstrt-baselayout-data-f1dd71ec51449a93",
+      "name": "clnstrt-baselayout-data",
+      "versionInfo": "3.6.5-r0",
+      "filesAnalyzed": true,
+      "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+      "license": "GPL-2.0-only",
+      "copyrightText": "NOASSERTION",
+      "description": "Cleanstart base dir structure and init scripts",
+      "URL": "https://clnstrt.dev",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "clnstrt-baselayout-data@3.6.5-r0"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1Q2dFvt8f7cDDFMlHjFe+CbErVMQ="
+        }
+      ],
+      "builtDate": "2025-02-01T08:39:30Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "16"
+        },
+        {
+          "name": "package_file_name",
+          "value": "clnstrt-baselayout-data-3.6.5-r0.apk"
+        },
+        {
+          "name": "package_size",
+          "value": "10667"
+        },
+        {
+          "name": "installed_size",
+          "value": "19034"
+        },
+        {
+          "name": "origin_package",
+          "value": "clnstrt-baselayout"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-clnstrt-conf-6b324ec974aadf90",
+      "name": "clnstrt-conf",
+      "versionInfo": "3.18.1-r0",
+      "filesAnalyzed": true,
+      "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+      "license": "MIT",
+      "copyrightText": "NOASSERTION",
+      "description": "Clnstrt configuration management scripts",
+      "URL": "https://clnstrt.dev",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "clnstrt-conf@3.18.1-r0"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1yIALV4VAUB52w1q3taSftDGGJb4="
+        }
+      ],
+      "builtDate": "2025-02-01T11:00:30Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "40"
+        },
+        {
+          "name": "package_file_name",
+          "value": "clnstrt-conf-3.18.1-r0.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "openrc>=0.24.1-r6, busybox>=1.26.1-r3, so:libc.so.6"
+        },
+        {
+          "name": "provides",
+          "value": "cmd:copy-modloop=3.18.1-r0, cmd:lbu=3.18.1-r0, cmd:lbu_commit=3.18.1-r0, cmd:lbu_exclude=3.18.1-r0, cmd:lbu_include=3.18.1-r0"
+        },
+        {
+          "name": "package_size",
+          "value": "59684"
+        },
+        {
+          "name": "installed_size",
+          "value": "175439"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-clnstrt-release-14052bf7696c35a1",
+      "name": "clnstrt-release",
+      "versionInfo": "3.20.3-r0",
+      "filesAnalyzed": true,
+      "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+      "license": "MIT",
+      "copyrightText": "NOASSERTION",
+      "description": "Clnstrt release data",
+      "URL": "https://clnstrt.dev",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "clnstrt-release@3.20.3-r0"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1vXpIwRrKI3aSx8To3sV8Oted0PI="
+        }
+      ],
+      "builtDate": "2025-02-01T11:40:33Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "6"
+        },
+        {
+          "name": "package_file_name",
+          "value": "clnstrt-release-3.20.3-r0.apk"
+        },
+        {
+          "name": "package_size",
+          "value": "1826"
+        },
+        {
+          "name": "installed_size",
+          "value": "311"
+        },
+        {
+          "name": "origin_package",
+          "value": "clnstrt-base"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-glibc-clnstrt-6f806511a27a96ee",
+      "name": "glibc-clnstrt",
+      "versionInfo": "2.41-r0",
+      "filesAnalyzed": true,
+      "maintainer": "Triam Security <packages-admin@triamsecurity.com>",
+      "license": "GNU LGPL",
+      "copyrightText": "NOASSERTION",
+      "description": "GlibC library for Cleanstart",
+      "URL": "https://www.gnu.org/software/libc/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "glibc-clnstrt@2.41-r0"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1w0V5DTqwo3qDNJ3sKovldFCNQLU="
+        }
+      ],
+      "builtDate": "2025-05-20T07:43:21Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "42"
+        },
+        {
+          "name": "package_file_name",
+          "value": "glibc-clnstrt-2.41-r0.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "/bin/sh"
+        },
+        {
+          "name": "provides",
+          "value": "glibc-runtime, glibc, bsd-compat-headers, so:ld-linux-x86-64.so.2=2, so:libBrokenLocale.so.1=1"
+        },
+        {
+          "name": "package_size",
+          "value": "2456187"
+        },
+        {
+          "name": "installed_size",
+          "value": "5414912"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libcap2-04de26314de65d37",
+      "name": "libcap2",
+      "versionInfo": "2.70-r1",
+      "filesAnalyzed": true,
+      "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+      "license": "BSD-3-Clause OR GPL-2.0-only",
+      "copyrightText": "NOASSERTION",
+      "description": "POSIX 1003.1e capabilities (libraries)",
+      "URL": "https://sites.google.com/site/fullycapable/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "libcap2@2.70-r1"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1JaIndMjFnV2UoWjy7cBPMFaitIQ="
+        }
+      ],
+      "builtDate": "2024-10-27T20:05:07Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "6"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libcap2-2.70-r1.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "glibc-runtime"
+        },
+        {
+          "name": "provides",
+          "value": "so:libcap.so.2=2.70, so:libpsx.so.2=2.70"
+        },
+        {
+          "name": "package_size",
+          "value": "27721"
+        },
+        {
+          "name": "installed_size",
+          "value": "73720"
+        },
+        {
+          "name": "origin_package",
+          "value": "libcap"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libcrypto3-a7105f2a5e71bce9",
+      "name": "libcrypto3",
+      "versionInfo": "3.5.2-r0",
+      "filesAnalyzed": true,
+      "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+      "license": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "description": "Crypto library from openssl",
+      "URL": "https://www.openssl.org/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "libcrypto3@3.5.2-r0"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q14XzCdS7r/hhpXFjvkIPuplYcFJ4="
+        }
+      ],
+      "builtDate": "2025-08-08T00:33:39Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "20"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libcrypto3-3.5.2-r0.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "so:libc.so.6"
+        },
+        {
+          "name": "provides",
+          "value": "so:libcrypto.so.3=3"
+        },
+        {
+          "name": "package_size",
+          "value": "1958930"
+        },
+        {
+          "name": "installed_size",
+          "value": "5242880"
+        },
+        {
+          "name": "origin_package",
+          "value": "openssl"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libgcc-58a502241561eb48",
+      "name": "libgcc",
+      "versionInfo": "15.1.0_git20250607-r0",
+      "filesAnalyzed": true,
+      "maintainer": "Ariadne Conill <ariadne@dereferenced.org>",
+      "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "copyrightText": "NOASSERTION",
+      "description": "GNU C compiler runtime libraries",
+      "URL": "https://gcc.gnu.org",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "libgcc@15.1.0_git20250607-r0"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1DwHjsHn8gZF0BjsNH56U7LOVwkk="
+        }
+      ],
+      "builtDate": "2025-06-14T12:11:37Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "3"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libgcc-15.1.0_git20250607-r0.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "so:ld-linux-x86-64.so.2, so:libc.so.6"
+        },
+        {
+          "name": "provides",
+          "value": "so:libgcc_s.so.1=1"
+        },
+        {
+          "name": "package_size",
+          "value": "82235"
+        },
+        {
+          "name": "installed_size",
+          "value": "192512"
+        },
+        {
+          "name": "origin_package",
+          "value": "gcc"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libssl3-4713bb79b504289d",
+      "name": "libssl3",
+      "versionInfo": "3.5.2-r0",
+      "filesAnalyzed": true,
+      "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+      "license": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "description": "SSL shared libraries",
+      "URL": "https://www.openssl.org/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "libssl3@3.5.2-r0"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1DSi3QzYflepUjnvH7P8PnoQB4y8="
+        }
+      ],
+      "builtDate": "2025-08-08T00:33:39Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "5"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libssl3-3.5.2-r0.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "libcrypto3=3.5.2-r0, so:libc.so.6, so:libcrypto.so.3"
+        },
+        {
+          "name": "provides",
+          "value": "so:libssl.so.3=3"
+        },
+        {
+          "name": "package_size",
+          "value": "375998"
+        },
+        {
+          "name": "installed_size",
+          "value": "851968"
+        },
+        {
+          "name": "origin_package",
+          "value": "openssl"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libxcrypt-2190213ea8b50d1c",
+      "name": "libxcrypt",
+      "versionInfo": "4.4.36-r0",
+      "filesAnalyzed": true,
+      "maintainer": "Triam Security <packages-admin@triamsecurity.com>",
+      "license": "LGPL-2.1 license",
+      "copyrightText": "NOASSERTION",
+      "description": "Replacement for deprecated crypt in GlibC",
+      "URL": "https://github.com/besser82/libxcrypt",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "libxcrypt@4.4.36-r0"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1HT8q81TzNTQWbg4VDgEdNNtES5k="
+        }
+      ],
+      "builtDate": "2024-11-27T07:17:40Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "4"
+        },
+        {
+          "name": "package_file_name",
+          "value": "libxcrypt-4.4.36-r0.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "glibc-clnstrt"
+        },
+        {
+          "name": "provides",
+          "value": "so:libcrypt.so.2=2.0.0"
+        },
+        {
+          "name": "package_size",
+          "value": "69190"
+        },
+        {
+          "name": "installed_size",
+          "value": "165800"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-mdev-conf-a3fed1179203e691",
+      "name": "mdev-conf",
+      "versionInfo": "4.7-r0",
+      "filesAnalyzed": true,
+      "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+      "license": "MIT",
+      "copyrightText": "NOASSERTION",
+      "description": "Configuration files for mdev and mdevd",
+      "URL": "https://gitlab.alpinelinux.org/alpine/mdev-conf",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "mdev-conf@4.7-r0"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1EjMCMeObJW5ewynxwZsKARc3S6E="
+        }
+      ],
+      "builtDate": "2024-05-20T08:36:25Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "8"
+        },
+        {
+          "name": "package_file_name",
+          "value": "mdev-conf-4.7-r0.apk"
+        },
+        {
+          "name": "package_size",
+          "value": "5031"
+        },
+        {
+          "name": "installed_size",
+          "value": "9212"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-nginx-9f003734ec406507",
+      "name": "nginx",
+      "versionInfo": "1.29.0-r0",
+      "filesAnalyzed": true,
+      "maintainer": "Jakub Jirutka <jakub@jirutka.cz>",
+      "license": "BSD-2-Clause",
+      "copyrightText": "NOASSERTION",
+      "description": "HTTP and reverse proxy server (stable version)",
+      "URL": "https://www.nginx.org/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "nginx@1.29.0-r0"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1PVvxTY4VCZB0t+XC9n1aJM7nGJk="
+        }
+      ],
+      "builtDate": "2025-07-16T12:58:51Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "36"
+        },
+        {
+          "name": "package_file_name",
+          "value": "nginx-1.29.0-r0.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "/bin/sh, so:libc.so.6, so:libcrypt.so.2, so:libcrypto.so.3, so:libpcre.so.1, so:libssl.so.3, so:libz.so.1"
+        },
+        {
+          "name": "provides",
+          "value": "cmd:nginx=1.29.0-r0"
+        },
+        {
+          "name": "package_size",
+          "value": "450178"
+        },
+        {
+          "name": "installed_size",
+          "value": "1163264"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-nginx-openrc-f2201b4224d7e9dc",
+      "name": "nginx-openrc",
+      "versionInfo": "1.29.0-r0",
+      "filesAnalyzed": true,
+      "maintainer": "Jakub Jirutka <jakub@jirutka.cz>",
+      "license": "BSD-2-Clause",
+      "copyrightText": "NOASSERTION",
+      "description": "HTTP and reverse proxy server (stable version) (OpenRC init scripts)",
+      "URL": "https://www.nginx.org/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "nginx-openrc@1.29.0-r0"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1BfQAhU5EdKMlnPS+59sC3GsbN8g="
+        }
+      ],
+      "builtDate": "2025-07-16T12:58:51Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "5"
+        },
+        {
+          "name": "package_file_name",
+          "value": "nginx-openrc-1.29.0-r0.apk"
+        },
+        {
+          "name": "package_size",
+          "value": "2479"
+        },
+        {
+          "name": "installed_size",
+          "value": "24576"
+        },
+        {
+          "name": "origin_package",
+          "value": "nginx"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-openrc-37e5769143cec505",
+      "name": "openrc",
+      "versionInfo": "0.54-r1",
+      "filesAnalyzed": true,
+      "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+      "license": "BSD-2-Clause",
+      "copyrightText": "NOASSERTION",
+      "description": "OpenRC manages the services, startup and shutdown of a host",
+      "URL": "https://github.com/OpenRC/openrc",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "openrc@0.54-r1"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q17vxIVfxoxfYSaNtArRnk/aMP+CI="
+        }
+      ],
+      "builtDate": "2024-04-08T06:08:20Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "164"
+        },
+        {
+          "name": "package_file_name",
+          "value": "openrc-0.54-r1.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "ifupdown-any, /bin/sh, so:libc.so.6, so:libcap.so.2"
+        },
+        {
+          "name": "provides",
+          "value": "ifupdown-ng-openrc=0.12.1-r4, so:libeinfo.so.1=1, so:librc.so.1=1, cmd:mkmntdirs=0.54-r1, cmd:openrc-run=0.54-r1"
+        },
+        {
+          "name": "package_size",
+          "value": "209152"
+        },
+        {
+          "name": "installed_size",
+          "value": "1352878"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-openssl-0572b9d9bfbc4e2b",
+      "name": "openssl",
+      "versionInfo": "3.5.2-r0",
+      "filesAnalyzed": true,
+      "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+      "license": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "description": "Toolkit for Transport Layer Security (TLS)",
+      "URL": "https://www.openssl.org/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "openssl@3.5.2-r0"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1GL0ojf3tizLbPCHPR6yjkj2jtA8="
+        }
+      ],
+      "builtDate": "2025-08-08T00:33:39Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "3"
+        },
+        {
+          "name": "package_file_name",
+          "value": "openssl-3.5.2-r0.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "libssl3=3.5.2-r0, libcrypto3=3.5.2-r0, so:libc.so.6, so:libcrypto.so.3, so:libssl.so.3"
+        },
+        {
+          "name": "provides",
+          "value": "openssl3=3.5.2-r0, cmd:openssl=3.5.2-r0"
+        },
+        {
+          "name": "package_size",
+          "value": "342869"
+        },
+        {
+          "name": "installed_size",
+          "value": "839680"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-pcre-3ed463cf1853b472",
+      "name": "pcre",
+      "versionInfo": "8.45-r3",
+      "filesAnalyzed": true,
+      "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+      "license": "BSD-3-Clause",
+      "copyrightText": "NOASSERTION",
+      "description": "Perl-compatible regular expression library",
+      "URL": "https://www.pcre.org/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "pcre@8.45-r3"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1eH0V01DXIr71xPzXHhPdJGOyQ0o="
+        }
+      ],
+      "builtDate": "2024-05-22T08:13:48Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "6"
+        },
+        {
+          "name": "package_file_name",
+          "value": "pcre-8.45-r3.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "so:libc.so.6"
+        },
+        {
+          "name": "provides",
+          "value": "so:libpcre.so.1=1.2.13, so:libpcreposix.so.0=0.0.7"
+        },
+        {
+          "name": "package_size",
+          "value": "146124"
+        },
+        {
+          "name": "installed_size",
+          "value": "389176"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-scanelf-e1ff22f014d4f20c",
+      "name": "scanelf",
+      "versionInfo": "1.3.8-r2",
+      "filesAnalyzed": true,
+      "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+      "license": "GPL-2.0-only",
+      "copyrightText": "NOASSERTION",
+      "description": "Scan ELF binaries for stuff",
+      "URL": "https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "scanelf@1.3.8-r2"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1dD480pCCIMBddvDrwVQMNHf/Rfk="
+        }
+      ],
+      "builtDate": "2024-10-27T19:12:52Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "3"
+        },
+        {
+          "name": "package_file_name",
+          "value": "scanelf-1.3.8-r2.apk"
+        },
+        {
+          "name": "provides",
+          "value": "cmd:scanelf=1.3.8-r2"
+        },
+        {
+          "name": "package_size",
+          "value": "51463"
+        },
+        {
+          "name": "installed_size",
+          "value": "138720"
+        },
+        {
+          "name": "origin_package",
+          "value": "pax-utils"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-skalibs-libs-c0773fc8fa501661",
+      "name": "skalibs-libs",
+      "versionInfo": "2.14.3.0-r0",
+      "filesAnalyzed": true,
+      "maintainer": "Laurent Bercot <ska-devel@skarnet.org>",
+      "license": "ISC",
+      "copyrightText": "NOASSERTION",
+      "description": "Set of general-purpose C programming libraries for skarnet.org software. (libraries)",
+      "URL": "https://skarnet.org/software/skalibs/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "skalibs-libs@2.14.3.0-r0"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1PiD+tMSth9l5dHOOGPLrvgMfE7g="
+        }
+      ],
+      "builtDate": "2024-10-18T18:46:39Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "4"
+        },
+        {
+          "name": "package_file_name",
+          "value": "skalibs-libs-2.14.3.0-r0.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "glibc-runtime"
+        },
+        {
+          "name": "provides",
+          "value": "so:libskarnet.so.2.14=2.14.3.0"
+        },
+        {
+          "name": "package_size",
+          "value": "72778"
+        },
+        {
+          "name": "installed_size",
+          "value": "183896"
+        },
+        {
+          "name": "origin_package",
+          "value": "skalibs"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ssl_client-96223464ccf474ba",
+      "name": "ssl_client",
+      "versionInfo": "1.37.0-r30",
+      "filesAnalyzed": true,
+      "maintainer": "Sören Tempel <soeren+alpine@soeren-tempel.net>",
+      "license": "GPL-2.0-only",
+      "copyrightText": "NOASSERTION",
+      "description": "EXternal ssl_client for busybox wget",
+      "URL": "https://busybox.net/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "ssl_client@1.37.0-r30"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1QH+SJsV3Oy5/TecvKhM6zaoVbko="
+        }
+      ],
+      "builtDate": "2025-07-11T07:44:34Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "3"
+        },
+        {
+          "name": "package_file_name",
+          "value": "ssl_client-1.37.0-r30.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "so:libc.so.6, so:libcrypto.so.3, so:libssl.so.3"
+        },
+        {
+          "name": "provides",
+          "value": "cmd:ssl_client=1.37.0-r30"
+        },
+        {
+          "name": "package_size",
+          "value": "4531"
+        },
+        {
+          "name": "installed_size",
+          "value": "28672"
+        },
+        {
+          "name": "origin_package",
+          "value": "busybox"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-zlib-c7a6c7d124529034",
+      "name": "zlib",
+      "versionInfo": "1.3.1-r3",
+      "filesAnalyzed": true,
+      "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+      "license": "Zlib",
+      "copyrightText": "NOASSERTION",
+      "description": "A compression/decompression Library",
+      "URL": "https://zlib.net/",
+      "sourceInfo": "Package info acquired from apk db: /lib/apk/db/installed",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "apk",
+          "referenceLocator": "zlib@1.3.1-r3"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "architecture",
+          "referenceLocator": "x86_64"
+        }
+      ],
+      "checksums": [
+        {
+          "checksumValue": "Q1rPOvLfWtAfnn98LAAfUjMLMyBqY="
+        }
+      ],
+      "builtDate": "2024-10-26T15:14:23Z",
+      "properties": [
+        {
+          "name": "file_count",
+          "value": "4"
+        },
+        {
+          "name": "package_file_name",
+          "value": "zlib-1.3.1-r3.apk"
+        },
+        {
+          "name": "dependencies",
+          "value": "glibc"
+        },
+        {
+          "name": "provides",
+          "value": "so:libz.so.1=1.3.1"
+        },
+        {
+          "name": "package_size",
+          "value": "55855"
+        },
+        {
+          "name": "installed_size",
+          "value": "108808"
+        },
+        {
+          "name": "component_type",
+          "value": "os_package"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-busybox-bdbb835e2ef5d66f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-busybox-binsh-d974381e56e078e6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-busybox-binsh-d974381e56e078e6",
+      "relatedSpdxElement": "SPDXRef-Package-busybox-313edfe75f5ffdb9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-busybox-ifupdown-b636b690a225418f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-busybox-mdev-openrc-690540d3c7aa8477",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-busybox-mdev-openrc-690540d3c7aa8477",
+      "relatedSpdxElement": "SPDXRef-Package-openrc-23d54c38dd488f2f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-busybox-mdev-openrc-690540d3c7aa8477",
+      "relatedSpdxElement": "SPDXRef-Package-mdev-conf-c7c31833aceb5ca2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-busybox-openrc-a3a88948723309d2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-busybox-openrc-a3a88948723309d2",
+      "relatedSpdxElement": "SPDXRef-Package-openrc-4d3afac91e9dff9a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-busybox-suid-292007263174aa7f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-busybox-suid-292007263174aa7f",
+      "relatedSpdxElement": "SPDXRef-Package-busybox-24fbf3eddfe66308",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-clnstrt-baselayout-9bcf40e6251b7d95",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-clnstrt-baselayout-9bcf40e6251b7d95",
+      "relatedSpdxElement": "SPDXRef-Package-clnstrt-baselayout-data-ae7969ba9d29f1c6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-clnstrt-baselayout-data-f1dd71ec51449a93",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-clnstrt-conf-6b324ec974aadf90",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-clnstrt-conf-6b324ec974aadf90",
+      "relatedSpdxElement": "SPDXRef-Package-openrc-1e4ce62d82f29410",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-clnstrt-conf-6b324ec974aadf90",
+      "relatedSpdxElement": "SPDXRef-Package-busybox-fa8406a1d246d300",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-clnstrt-release-14052bf7696c35a1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-glibc-clnstrt-6f806511a27a96ee",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-libcap2-04de26314de65d37",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-libcrypto3-a7105f2a5e71bce9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-libgcc-58a502241561eb48",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-libssl3-4713bb79b504289d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-libssl3-4713bb79b504289d",
+      "relatedSpdxElement": "SPDXRef-Package-libcrypto3-346f9904ca7c3d90",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-libxcrypt-2190213ea8b50d1c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-libxcrypt-2190213ea8b50d1c",
+      "relatedSpdxElement": "SPDXRef-Package-glibc-clnstrt-15cca4caa0d1efda",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-mdev-conf-a3fed1179203e691",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-nginx-9f003734ec406507",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-nginx-openrc-f2201b4224d7e9dc",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-openrc-37e5769143cec505",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-openssl-0572b9d9bfbc4e2b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-openssl-0572b9d9bfbc4e2b",
+      "relatedSpdxElement": "SPDXRef-Package-libssl3-827bf89b420bd4fd",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-openssl-0572b9d9bfbc4e2b",
+      "relatedSpdxElement": "SPDXRef-Package-libcrypto3-f28b4e46dc431d6c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-pcre-3ed463cf1853b472",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-scanelf-e1ff22f014d4f20c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-skalibs-libs-c0773fc8fa501661",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-ssl_client-96223464ccf474ba",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-cleanstart-nginx-latest-310f244eb1264b52",
+      "relatedSpdxElement": "SPDXRef-Package-zlib-c7a6c7d124529034",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}
