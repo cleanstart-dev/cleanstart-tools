@@ -16,7 +16,7 @@ This repository is to hold tools built by CleanStart.
 
 
 ## Resources
-- CleanStart ORganization URL: https://www.cleanstart.com/ 
+- CleanStart Ogranization URL: https://www.cleanstart.com/ 
 
 
 ## Contact us
