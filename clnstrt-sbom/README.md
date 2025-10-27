@@ -1,8 +1,23 @@
-## Clnstrt-SBOM Tool.
+## clnstrt-SBOM Tool
 
 Clnstrt-SBOM tool is meant to generate Software Bill of Materials (SBOM) for container images. 
 
-Key features: 
+
+## What is the clnstrt-SBOM Generation Tool?
+
+Our SBOM (Software Bill of Materials) Generation Tool is a comprehensive container scanning solution that creates detailed software inventories for Docker images. The tool analyzes container images to identify all software components, libraries, and dependencies, producing standardized SBOM documents that help organizations understand their software.
+
+
+## Importance of SBOM
+
+SBOMs are now a compliance baseline. Incomplete SBOMs create blind spots and operational
+risks. CleanStart SBOM delivers compliance-ready, complete, and actionable intelligence at scale,
+giving security leaders the confidence to meet regulatory requirements and strengthen supply
+chain resilience.
+
+
+## Key features: 
+
 * Generate SBOM of any CleanStart image
 * Generate SBOM of any another maintainer's image
 * Compare SBOM of multiple images
@@ -10,6 +25,9 @@ Key features:
 * Curate package list of any another maintainer's image
 * Generate SBOM in SPDX and CYCLONEDX format
 
+
+## clnstrt - SBOM - Whitepaper 
+https://www.cleanstart.com/resources/software-bill-of-materials
 
 --- 
 ## Quick start
