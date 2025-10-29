@@ -26,6 +26,7 @@ labels:
 ```
 
 
+
 #### Purpose of the YAML Configuration:
 
 - Base Image: Specifies the base image (alpine:latest) from which the build will start.
