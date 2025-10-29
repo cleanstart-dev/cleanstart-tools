@@ -1,28 +1,26 @@
 ## Clnstrt CLI Tool Usage Guide
 
-## Introduction:
-Clnstrt is a powerful tool for building minimal, secure container images. It focuses on creating optimized and secure-by-default containers, making it ideal for modern application development. The tool provides a comprehensive set of commands to analyze, build, manage, and validate container images while emphasizing security and efficiency.
+### Introduction to clnstrt-cli Tool:
 
-The YAML configuration file is central to building images and running commands in this process.
+Clnstrt is a powerful command-line tool designed for building minimal, secure container images in modern cloud-native environments. It focuses on creating optimized and secure-by-default containers, ideal for enterprise application development and deployment. The tool provides extensive commands to analyze, build, manage, and validate container images while emphasizing security and compliance. At the heart of clnstrt's workflow is the YAML configuration file, which serves as the central component for orchestrating various container operations and ensuring consistency across all environments.
 
-## Key Features:
-- Build minimal Images: 
-  - Build lightweight container images tailored to your application's requirements.
-- Image Signing & Verification: 
-  - Cosign compatibility for container signing.
-  - Key-based verification with public/private key pairs.
-  - Use minimal base images to reduce attack surface.
-- Vulnerability Scanning:
-  - Built-in Trivy integration for comprehensive vulnerability detection.
-  - Severity filtering (CRITICAL, HIGH, MEDIUM, LOW).
-  - Multiple output formats (JSON, plain text).
-- Comprehensive Analysis:
-  - Provides detailed insights into image structure, vulnerabilities, and Software Bill of Materials (SBOM).
-- Easy Management:
-  - Manage image layers, packages, and multi-image compositions with ease.
+### Importance:
 
+In today's security-conscious development landscape, container image security and optimization are critical for successful application deployment. Clnstrt addresses supply chain security needs by providing integrated vulnerability scanning, image signing and comprehensive SBOM generation. The tool's ability to create minimal images reduces attack surface, improves performance and decreases storage costs. By consolidating multiple container security capabilities into a single unified tool, clnstrt significantly streamlines DevSecOps workflows and reduces operational complexity.
 
-## Quick Start:
+### Key Features:
+
+- Build Minimal Images: Create lightweight, optimized container images with layer optimization, multi-stage builds, and configurable base images through the required from: field in configuration files
+- Image Signing & Verification: Cosign-compatible container signing with key-based verification using public/private key pairs, policy enforcement for trusted images, and certificate chain validation for comprehensive security
+- Vulnerability Scanning: Built-in Trivy integration for comprehensive vulnerability detection with severity filtering (CRITICAL, HIGH, MEDIUM, LOW), multiple output formats (JSON, plain text), and exit codes for CI/CD integration
+- Comprehensive Analysis: Detailed layer inspection, metadata extraction, image comparison capabilities, and Software Bill of Materials (SBOM) generation in multiple formats (SPDX, CycloneDX) with license tracking and vulnerability inclusion
+- Easy Management: Intuitive layer management, package tracking and export, Docker Compose integration for multi-service orchestration, and efficient cache management for faster builds.
+
+### Conclusion:
+
+Clnstrt-cli is a production-ready tool that addresses the complete lifecycle of secure container image management from build to deployment. By combining security scanning, signing, SBOM generation, and analysis into a unified platform, it streamlines workflows while maintaining enterprise-grade security. The configuration-driven approach ensures reproducibility, while extensive features provide flexibility for local development to enterprise CI/CD pipelines, making it essential for modern DevSecOps workflows.
+
+### Quick Start:
 
 ### Follow these steps to set up the clnstrt-cli tool.
 
