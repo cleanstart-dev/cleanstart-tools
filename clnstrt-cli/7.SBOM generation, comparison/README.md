@@ -1,12 +1,8 @@
-### 📄 SBOM (Software Bill of Materials)
+## SBOM (Software Bill of Materials)
 
-The clnstrt diff and clnstrt sbomdiff commands are part of the Clnstrt CLI tool and are used to compare container images and their respective Software Bills of Materials (SBOMs). These commands help you identify differences in the images, such as layer structure, installed packages, and vulnerabilities, allowing for better image management, security auditing, and compliance checks.
+Generates an SBOM and also generate clnstrt diff(v1/v2) and clnstrt sbomdiff(sbom1/sbom2) using the Clnstrt CLI tool and are used to compare container images and their respective Software Bills of Materials (SBOMs). These commands help you identify differences in the images, such as layer structure, installed packages, and vulnerabilities, allowing for better image management, security auditing, and compliance checks.
 
-#### sbom - Generate SBOM
-
-Purpose: Generates an SBOM for the specified image in different formats. 
-How It Works: The clnstrt sbom command analyzes the image, extracts package and dependency information, and saves it in the specified file format (default, CycloneDX, or SPDX). 
-Outcome: SBOMs are generated and saved as sbom.json, sbom-cyclonedx.json, and sbom-spdx.json.
+### Generate SBOM
 
 ```bash
 # Generate SBOM (default output to console)
@@ -25,7 +21,11 @@ clnstrt sbom --include-licenses --output sbom-with-licenses.json image:tag
 clnstrt sbom --include-vulns --output sbom-with-vulns.json image:tag
 ```
 
-Output Files Generated:
+- Purpose: Generates an SBOM for the specified image in different formats. 
+- How It Works: The clnstrt sbom command analyzes the image, extracts package and dependency information, and saves it in the specified file format (default, CycloneDX, or SPDX). 
+- Outcome: SBOMs are generated and saved as sbom.json, sbom-cyclonedx.json, and sbom-spdx.json.
+
+### Output Files Generated:
 
 - `sbom.json` - Standard SBOM in JSON format
 - `my-sbom.json` - SPDX format SBOM
@@ -33,7 +33,7 @@ Output Files Generated:
 - `sbom-with-licenses.json` - SBOM including license information
 - `sbom-with-vulns.json` - SBOM with vulnerability data
 
-#### sbomdiff - Compare SBOMs Between Images
+### sbomdiff - Compare SBOMs Between Images
 
 Compares two images SBOM to show added, removed, and changed components.
 
@@ -52,7 +52,7 @@ clnstrt sbomdiff --detailed --output detailed-diff.json image1:tag image2:tag
 clnstrt sbomdiff --output no-diff.json image:tag image:tag
 ```
 
-Output Files Generated:
+### Output Files Generated:
 
 - `sbom-diff.json` - Differences in JSON format
 - `sbom-diff.csv` - Differences in CSV format for spreadsheet analysis
@@ -63,9 +63,9 @@ Output Files Generated:
 
 
 
-#### sbomdiff json files - Compare Local SBOM Files
+### sbomdiff json files - Compare Local SBOM Files
 
-What it does: Compares two local SBOM files and exports differences in multiple formats.
+Compares two local SBOM files and exports differences in multiple formats.
 
 ```bash
 # Compare two SBOM files (output to console)
@@ -82,7 +82,7 @@ clnstrt sbomdifffiles --format table --output table-diff.txt sbom1.json sbom2.js
 clnstrt sbomdifffiles --detailed --output detailed-file-diff.json sbom1.json sbom2.json
 ```
 
-Output Files Generated:
+### Output Files Generated:
 
 - `file-diff.json` - File comparison in JSON format
 - `file-diff.csv` - Spreadsheet-compatible CSV comparison
@@ -108,6 +108,6 @@ clnstrt sbomdiff --format csv --output version-diff.csv my-app:v1.0 my-app:v2.0
 clnstrt sbomdifffiles --output file-comparison.json baseline-sbom.json complete-sbom.json
 ```
 
-Purpose: These commands facilitate the comparison of container images and their Software Bill of Materials (SBOM) to identify differences in layers, packages, configurations, and software components across two images.
-How It Works: The clnstrt diff command compares two container images, highlighting differences in their layers, packages, and configurations, with the option to output the comparison in a CSV format. This can be done for both local and remote images. The clnstrt sbomdiff command compares the SBOMs of two container images, displaying differences in the software components included, with support for different SBOM formats like CycloneDX or SPDX. It outputs the results in CSV format as well. 
-Outcome: These commands enable users to efficiently identify and track changes between container images or their SBOMs, helping with version control, security audits, and compliance monitoring. They ensure that users can compare images in terms of both their content and underlying software composition across different versions or architectures.
+- Purpose: These commands facilitate the comparison of container images and their Software Bill of Materials (SBOM) to identify differences in layers, packages, configurations, and software components across two images.
+- How It Works: The clnstrt diff command compares two container images, highlighting differences in their layers, packages, and configurations, with the option to output the comparison in a CSV format. This can be done for both local and remote images. The clnstrt sbomdiff command compares the SBOMs of two container images, displaying differences in the software components included, with support for different SBOM formats like CycloneDX or SPDX. It outputs the results in CSV format as well. 
+- Outcome: These commands enable users to efficiently identify and track changes between container images or their SBOMs, helping with version control, security audits, and compliance monitoring. They ensure that users can compare images in terms of both their content and underlying software composition across different versions or architectures.

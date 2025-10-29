@@ -1,38 +1,39 @@
-##Clnstrt CLI Tool Usage Guide
+## Clnstrt CLI Tool Usage Guide
 
-##Introduction:
+## Introduction:
 Clnstrt is a powerful tool for building minimal, secure container images. It focuses on creating optimized and secure-by-default containers, making it ideal for modern application development. The tool provides a comprehensive set of commands to analyze, build, manage, and validate container images while emphasizing security and efficiency.
+
 The YAML configuration file is central to building images and running commands in this process.
 
-##Key Features:
-##Minimal Images: Build lightweight container images tailored to your application's requirements.
-##Security-First: Includes tools for scanning, signing, and verifying container images to ensure secure deployment.
-##Comprehensive Analysis: Provides detailed insights into image structure, vulnerabilities, and Software Bill of Materials (SBOM).
-##Easy Management: Manage image layers, packages, and multi-image compositions with ease.
+## Key Features:
+- Minimal Images: Build lightweight container images tailored to your application's requirements.
+- Security-First: Includes tools for scanning, signing, and verifying container images to ensure secure deployment.
+- Comprehensive Analysis: Provides detailed insights into image structure, vulnerabilities, and Software Bill of Materials (SBOM).
+- Easy Management: Manage image layers, packages, and multi-image compositions with ease.
 
 
 ## Troubleshooting
 
-### Common Issues
+### Common Issues:
 
-#### Authentication Errors
+- #### Authentication Errors
 
 ```bash
+docker login
 # Error: Unauthenticated request
 # Solution: Configure registry authentication
-docker login
 ```
 
-#### Missing Key Files
+- #### Missing Key Files
 
 ```bash
-# Error: required flag "key" not set
-# Solution: Provide key file for sign/verify operations
 clnstrt sign -k private.key image:tag
 clnstrt verify -k public.key image:tag
+# Error: required flag "key" not set
+# Solution: Provide key file for sign/verify operations
 ```
 
-#### Package Scanning Issues
+- #### Package Scanning Issues
 
 ```bash
 Error: no packages found in image
@@ -52,8 +53,6 @@ Error: no packages found in image
 
 - Cosign compatibility for container signing
 - Key-based verification with public/private key pairs
-- Policy enforcement for trusted images
-- Certificate chain validation
 
 ### Security Best Practices
 
@@ -66,7 +65,7 @@ Error: no packages found in image
 
 ### Key Files Required
 
-- `config.yaml` - Build configuration with from: field
+- `config.yaml` - Build configuration for custom image
 - `private.key/public.key` - For signing and verification
 
 ## Best Practices
@@ -94,14 +93,22 @@ Error: no packages found in image
 - Regular cleanup - clear caches and unused images
 
 
-how to use guide:
+## how to use guide:
 
-Quick start: how to quick start
-Build and Push image: Configure, Build and Push image using clnstrt-cli
-Scan you custom Image: Scan image
-Sign and Verify: sign and verify images for compliance
-Packages: list all the packages
-SBOM generation & comparison: Generate SBOM, Compare and Analyze
-Reports for Image: get Image reports
-Compliance and Audit: 
-Prod Deployment & Validation: 
+- how to quick start : Get started instantly with CleanStart CLI by installing the tool and setting up your environment for image management and scanning.
+
+- Build and Push Image : Configure your project, build container images, and push them securely to your preferred container registry using the clnstrt-cli.
+
+- Scan Your Custom Image : Perform vulnerability and misconfiguration scans on your custom-built container images to ensure they meet security standards.
+
+- Sign and Verify : Digitally sign your container images and verify their authenticity to maintain trust and compliance across deployments.
+
+- List Packages : List and inspect all software packages and dependencies included within your container image for better visibility.
+
+- SBOM Generation & Comparison : Generate a detailed Software Bill of Materials (SBOM), compare multiple SBOMs, and analyze differences for security and license compliance.
+
+- Reports for Image : Access comprehensive reports containing scan results, vulnerabilities, and compliance summaries for your container images.
+
+- Compliance and Audit : Ensure your images adhere to organizational or regulatory compliance standards and maintain audit-ready documentation.
+
+- Prod Deployment & Validation : Deploy verified images to production and validate their integrity, ensuring only secure and compliant builds reach your environments.

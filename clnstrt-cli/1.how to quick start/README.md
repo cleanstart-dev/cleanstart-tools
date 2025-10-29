@@ -1,4 +1,4 @@
-### follow these steps to set up the clnstrt-cli tool.
+## Follow these steps to set up the clnstrt-cli tool.
 
 Contact sales@cleanstart.com 
 
@@ -8,15 +8,15 @@ Pull the clnstrt-cli image using the following command.
 docker pull < location will be shared on demand >clnstrt-tool/< clnstrt cli image name >
 
 ```
-- replace < clnstrt cli image name > =>> clnstrt-cli:latest
+replace < clnstrt cli image name > =>> clnstrt-cli:latest
 
-###Tag the image
+### Tag the image
 
 ```bash
 docker tag < image name > clnstrt
 ```
 
-Set user/bin
+### Clnstrt Cli Tool Setup
 
 ```bash
 echo -e '#!/bin/bash\ndocker \
