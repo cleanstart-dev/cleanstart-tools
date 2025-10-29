@@ -1,0 +1,381 @@
+{
+    "image": {
+      "name": "python-test",
+      "tag": "latest",
+      "id": "sha256:a7ea36f3935b12acb1c6a174322e201e8051c4a15b8fbb525a9d1a98ebe897aa",
+      "created": "2025-10-29T12:30:20.677414829Z"
+    },
+    "packages": [
+      {
+        "name": "\u0002\u0000\u0000\u0000\u0000\u0000\u0000\ufffdWARNING: opening from cache https://dl",
+        "version": "cdn.alpinelinux.org/alpine/v3.22/main: No such file or directory",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "WARNING: opening from cache https://dl",
+        "version": "cdn.alpinelinux.org/alpine/v3.22/community: No such file or directory",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "\u0001\u0000\u0000\u0000\u0000\u0000\u0004 alpine",
+        "version": "baselayout-3.7.0-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "alpine",
+        "version": "baselayout-data-3.7.0-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "alpine",
+        "version": "keys-2.5-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "alpine",
+        "version": "release-3.22.2-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "apk",
+        "version": "tools-2.14.9-r3",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "brotli",
+        "version": "libs-1.1.0-r2",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "busybox",
+        "version": "1.37.0-r19",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "busybox",
+        "version": "binsh-1.37.0-r19",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "c",
+        "version": "ares-1.34.5-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "ca",
+        "version": "certificates-20250911-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "ca",
+        "version": "certificates-bundle-20250911-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "curl",
+        "version": "8.14.1-r2",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "gdbm",
+        "version": "1.24-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "libapk2",
+        "version": "2.14.9-r3",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "libbz2",
+        "version": "1.0.8-r6",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "libcrypto3",
+        "version": "3.5.4-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "libcurl",
+        "version": "8.14.1-r2",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "libexpat",
+        "version": "2.7.3-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "libffi",
+        "version": "3.4.8-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "libgcc",
+        "version": "14.2.0-r6",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "libidn2",
+        "version": "2.3.7-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "libncursesw",
+        "version": "6.5_p20250503-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "libpanelw",
+        "version": "6.5_p20250503-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "libpsl",
+        "version": "0.21.5-r3",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "libssl3",
+        "version": "3.5.4-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "libstdc++",
+        "version": "14.2.0-r6",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "libunistring",
+        "version": "1.3-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "mpdecimal",
+        "version": "4.0.1-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "musl",
+        "version": "1.2.5-r10",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "musl",
+        "version": "utils-1.2.5-r10",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "ncurses",
+        "version": "terminfo-base-6.5_p20250503-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "nghttp2",
+        "version": "libs-1.65.0-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "py3",
+        "version": "packaging-25.0-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "py3",
+        "version": "packaging-pyc-25.0-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "py3",
+        "version": "parsing-3.2.3-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "py3",
+        "version": "parsing-pyc-3.2.3-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "py3",
+        "version": "pip-25.1.1-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "py3",
+        "version": "pip-pyc-25.1.1-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "py3",
+        "version": "setuptools-80.9.0-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "py3",
+        "version": "setuptools-pyc-80.9.0-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "pyc",
+        "version": "3.12.12-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "python3",
+        "version": "3.12.12-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "python3",
+        "version": "pyc-3.12.12-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "python3",
+        "version": "pycache-pyc0-3.12.12-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "readline",
+        "version": "8.2.13-r1",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "scanelf",
+        "version": "1.3.8-r1",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "sqlite",
+        "version": "libs-3.49.2-r1",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "ssl_client",
+        "version": "1.37.0-r19",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "xz",
+        "version": "libs-5.8.1-r0\u0001\u0000\u0000\u0000\u0000\u0000\u0000\"",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "zlib",
+        "version": "1.3.1-r2",
+        "description": "",
+        "size": 0,
+        "installed": true
+      },
+      {
+        "name": "zstd",
+        "version": "libs-1.5.7-r0",
+        "description": "",
+        "size": 0,
+        "installed": true
+      }
+    ]
+}

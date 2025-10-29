@@ -1,0 +1,28 @@
+Comparing layers between python-test:latest and cleanstart/go:latest
+Found 3 layers in image python-test:latest
+Found 6 layers in image cleanstart/go:latest
+Layer differences between python-test:latest and cleanstart/go:latest:
+
+Difference 1:
+  Modified: /bin/sh -c #(nop)  CMD ["python3" "-c" "print('Hello from Python Alpine!')"]
+  Size Change: 0.00 MB
+
+Difference 2:
+  Modified: /bin/sh -c #(nop)  LABEL org.opencontainers.image.description=Python application with SBOM
+  Size Change: 0.00 MB
+
+Difference 3:
+  Modified: /bin/sh -c #(nop)  LABEL org.opencontainers.image.version=1.0.0
+  Size Change: 0.00 MB
+
+Difference 4:
+  Added: LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/
+  Size Change: 0.00 MB
+
+Difference 5:
+  Added: CMD ["help"]
+  Size Change: 0.00 MB
+
+Difference 6:
+  Added: ENTRYPOINT ["/usr/bin/go"]
+  Size Change: 0.00 MB

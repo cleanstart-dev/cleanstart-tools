@@ -4,31 +4,27 @@
 
 ### 1. Full Security Scan
 ```bash
-clnstrt scan --severity HIGH,CRITICAL production-image:latest
+clnstrt scan --severity HIGH,CRITICAL production-image:latest -v
+# refer output at /prod deployment validation/scan.txt
 ```
 
 - Performs a comprehensive vulnerability scan on the production image, detecting only high and critical severity issues.
 - This ensures that only secure images are promoted to production environments.
 
-### 2. Generate Compliance Report
-```bash
-clnstrt report --format pdf --dir ./compliance production-image:latest
-```
 
-- Generates a compliance report in PDF format and stores it in the ./compliance directory.
-- The report includes license compliance, security posture, and verification status — useful for audits and internal reviews.
-
-### 3. Verify Signatures
+### 2. Verify Signatures
 ```bash
-clnstrt verify -k production.pub production-image:latest
+ clnstrt verify -k public-key.pem python-test:latest -v
+ # refer output at /list packages/verify.txt
 ```
 
 - Verifies the digital signature of the production image using the provided public key (production.pub).
 - This step ensures image authenticity, integrity, and trustworthiness before deployment.
 
-### 4. Generate Deployment SBOM
+### 3. Generate Deployment SBOM
 ```bash
-clnstrt sbom production-image:latest > deployment-sbom.json
+clnstrt sbom python-test:latest
+ # refer output at /list packages/sbom.txt
 ```
 
 - Creates a Software Bill of Materials (SBOM) for the deployed image, listing all included packages and dependencies.

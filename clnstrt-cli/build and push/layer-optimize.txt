@@ -1,0 +1,3 @@
+Optimizing layers for image python-test:latest
+Found 3 layers in image python-test:latest
+No optimization recommendations found.

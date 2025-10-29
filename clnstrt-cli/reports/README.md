@@ -7,6 +7,8 @@
 ```bash
 # JSON report (console output)
 clnstrt report --format json image:tag
+
+
 # Save JSON report to file
 clnstrt report --format json --output analysis-report.json image:tag
 # HTML report with custom output file

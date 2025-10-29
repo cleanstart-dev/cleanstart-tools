@@ -2,15 +2,30 @@
 
 - For image signing and verification, both a public key and a private key are required.
 
+you can generate private and public key using below commands
+
+```bash
+# Private key can be generated using this command
+openssl genpkey -algorithm RSA -out private-key.pem
+```
+```bash
+# Public key can be generated using this command
+openssl pkey -in private-key.pem -pubout -out public-key.pem
+```
 ### Image Signing
 
 Cryptographically signs an image to attest integrity and provenance.
 
+you can generate private and public key using below commands
+
 ```bash
-# Sign image (requires key file)
-clnstrt sign -k private.key image:tag
+# Sign image (requires key file genearted from previous step)
+clnstrt sign -k private-key.pem python-test:latest -v
+# refer output at /sign and verify/sign.txt
+
 # Sign with config
-clnstrt sign -k private.key -c sign-config.yaml image:tag
+clnstrt sign -k private-key.pem -c python-test.yaml python-test:latest -v
+# refer output at /sign and verify/signwithconfig.txt
 ```
 
 - Purpose: Signs the container image to provide authenticity and ensure it can be verified using the corresponding public key.
@@ -24,9 +39,12 @@ Verifies an image’s signature using a public key to ensure trust.
 
 ```bash
 # Verify image signature (requires public key)
-clnstrt verify -k public.key image:tag
+clnstrt verify -k public-key.pem python-test:latest -v
+# refer output at /sign and verify/verify.txt
+
 # Verify with config
-clnstrt verify -k public.key -c verify-config.yaml image:tag
+clnstrt verify -k public-key.pem -c python-test.yaml python-test:latest -v
+# refer output at /sign and verify/verifywithconfig.txt
 ```
 
 Public key file for verification is required.

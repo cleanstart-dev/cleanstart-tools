@@ -1,0 +1,97 @@
+{"stream":"Step 1/11 : FROM alpine:latest"}
+{"stream":"\n"}
+{"status":"Pulling from library/alpine","id":"latest"}
+{"status":"Digest: sha256:4b7ce07002c69e8f3d704a9c5d6fd3053be500b7f1c69fc0d80990c2ad8dd412"}
+{"status":"Status: Image is up to date for alpine:latest"}
+{"stream":" ---\u003e 706db57fb206\n"}
+{"stream":"Step 2/11 : ENV PYTHONUNBUFFERED=1"}
+{"stream":"\n"}
+{"stream":" ---\u003e Running in 80d3987cf23b\n"}
+{"stream":" ---\u003e Removed intermediate container 80d3987cf23b\n"}
+{"stream":" ---\u003e 11e8e8dd5843\n"}
+{"stream":"Step 3/11 : ENV APP_ENV=production"}
+{"stream":"\n"}
+{"stream":" ---\u003e Running in 7a7ec8d0547e\n"}
+{"stream":" ---\u003e Removed intermediate container 7a7ec8d0547e\n"}
+{"stream":" ---\u003e c51a467cd076\n"}
+{"stream":"Step 4/11 : ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"}
+{"stream":"\n"}
+{"stream":" ---\u003e Running in b67958e4a5e0\n"}
+{"stream":" ---\u003e Removed intermediate container b67958e4a5e0\n"}
+{"stream":" ---\u003e 7a16b0a1237c\n"}
+{"stream":"Step 5/11 : RUN apk add --no-cache ca-certificates curl python3 py3-pip"}
+{"stream":"\n"}
+{"stream":" ---\u003e Running in 9c0044c71052\n"}
+{"stream":"fetch https://dl-cdn.alpinelinux.org/alpine/v3.22/main/x86_64/APKINDEX.tar.gz\n"}
+{"stream":"fetch https://dl-cdn.alpinelinux.org/alpine/v3.22/community/x86_64/APKINDEX.tar.gz\n"}
+{"stream":"(1/35) Installing ca-certificates (20250911-r0)\n"}
+{"stream":"(2/35) Installing brotli-libs (1.1.0-r2)\n"}
+{"stream":"(3/35) Installing c-ares (1.34.5-r0)\n"}
+{"stream":"(4/35) Installing libunistring (1.3-r0)\n"}
+{"stream":"(5/35) Installing libidn2 (2.3.7-r0)\n"}
+{"stream":"(6/35) Installing nghttp2-libs (1.65.0-r0)\n"}
+{"stream":"(7/35) Installing libpsl (0.21.5-r3)\n"}
+{"stream":"(8/35) Installing zstd-libs (1.5.7-r0)\n"}
+{"stream":"(9/35) Installing libcurl (8.14.1-r2)\n"}
+{"stream":"(10/35) Installing curl (8.14.1-r2)\n"}
+{"stream":"(11/35) Installing libbz2 (1.0.8-r6)\n"}
+{"stream":"(12/35) Installing libexpat (2.7.3-r0)\n"}
+{"stream":"(13/35) Installing libffi (3.4.8-r0)\n"}
+{"stream":"(14/35) Installing gdbm (1.24-r0)\n"}
+{"stream":"(15/35) Installing xz-libs (5.8.1-r0)\n"}
+{"stream":"(16/35) Installing libgcc (14.2.0-r6)\n"}
+{"stream":"(17/35) Installing libstdc++ (14.2.0-r6)\n"}
+{"stream":"(18/35) Installing mpdecimal (4.0.1-r0)\n"}
+{"stream":"(19/35) Installing ncurses-terminfo-base (6.5_p20250503-r0)\n"}
+{"stream":"(20/35) Installing libncursesw (6.5_p20250503-r0)\n"}
+{"stream":"(21/35) Installing libpanelw (6.5_p20250503-r0)\n"}
+{"stream":"(22/35) Installing readline (8.2.13-r1)\n"}
+{"stream":"(23/35) Installing sqlite-libs (3.49.2-r1)\n"}
+{"stream":"(24/35) Installing python3 (3.12.12-r0)\n"}
+{"stream":"(25/35) Installing python3-pycache-pyc0 (3.12.12-r0)\n"}
+{"stream":"(26/35) Installing pyc (3.12.12-r0)\n(27/35) Installing py3-setuptools-pyc (80.9.0-r0)\n"}
+{"stream":"(28/35) Installing py3-pip-pyc (25.1.1-r0)\n"}
+{"stream":"(29/35) Installing py3-parsing (3.2.3-r0)\n"}
+{"stream":"(30/35) Installing py3-parsing-pyc (3.2.3-r0)\n"}
+{"stream":"(31/35) Installing py3-packaging-pyc (25.0-r0)\n"}
+{"stream":"(32/35) Installing python3-pyc (3.12.12-r0)\n(33/35) Installing py3-packaging (25.0-r0)\n"}
+{"stream":"(34/35) Installing py3-setuptools (80.9.0-r0)\n"}
+{"stream":"(35/35) Installing py3-pip (25.1.1-r0)\n"}
+{"stream":"Executing busybox-1.37.0-r19.trigger\n"}
+{"stream":"Executing ca-certificates-20250911-r0.trigger\n"}
+{"stream":"OK: 71 MiB in 51 packages\n"}
+{"stream":" ---\u003e Removed intermediate container 9c0044c71052\n"}
+{"stream":" ---\u003e 171a4b5e8c19\n"}
+{"stream":"Step 6/11 : WORKDIR /app"}
+{"stream":"\n"}
+{"stream":" ---\u003e Running in 57a5a2d1b5d7\n"}
+{"stream":" ---\u003e Removed intermediate container 57a5a2d1b5d7\n"}
+{"stream":" ---\u003e 363bda8c813e\n"}
+{"stream":"Step 7/11 : USER nobody"}
+{"stream":"\n"}
+{"stream":" ---\u003e Running in 794e46bde4e6\n"}
+{"stream":" ---\u003e Removed intermediate container 794e46bde4e6\n"}
+{"stream":" ---\u003e b3959880c5ef\n"}
+{"stream":"Step 8/11 : LABEL org.opencontainers.image.source=\"clnstrt\""}
+{"stream":"\n"}
+{"stream":" ---\u003e Running in 542a3f7fcffb\n"}
+{"stream":" ---\u003e Removed intermediate container 542a3f7fcffb\n"}
+{"stream":" ---\u003e f9a8b1cf43a5\n"}
+{"stream":"Step 9/11 : LABEL org.opencontainers.image.version=\"1.0.0\""}
+{"stream":"\n"}
+{"stream":" ---\u003e Running in faffcdfbb13c\n"}
+{"stream":" ---\u003e Removed intermediate container faffcdfbb13c\n"}
+{"stream":" ---\u003e 87ec5239bcbe\n"}
+{"stream":"Step 10/11 : LABEL org.opencontainers.image.description=\"Python application with SBOM\""}
+{"stream":"\n"}
+{"stream":" ---\u003e Running in 44bed6b2c897\n"}
+{"stream":" ---\u003e Removed intermediate container 44bed6b2c897\n"}
+{"stream":" ---\u003e 4a2dfa994ed9\n"}
+{"stream":"Step 11/11 : CMD [\"python3\", \"-c\", \"print('Hello from Python Alpine!')\"]"}
+{"stream":"\n"}
+{"stream":" ---\u003e Running in adb57eef7b0f\n"}
+{"stream":" ---\u003e Removed intermediate container adb57eef7b0f\n"}
+{"stream":" ---\u003e 2dc19ebac1a2\n"}
+{"aux":{"ID":"sha256:2dc19ebac1a2102dce2e15b05e2a513c83fbc6fd0d3e854a83df1d125ad0fd74"}}
+{"stream":"Successfully built 2dc19ebac1a2\n"}
+{"stream":"Successfully tagged python-test:latest\n"}

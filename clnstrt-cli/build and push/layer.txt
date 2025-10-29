@@ -1,0 +1,17 @@
+Layer 1:
+  ID: sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1
+  Size: 0.00 MB
+  Command: /bin/sh -c #(nop)  CMD ["python3" "-c" "print('Hello from Python Alpine!')"]
+  Created: 2025-10-28T08:46:19.08825949Z
+
+Layer 2:
+  ID: sha256:dd470f20ade091148addc76ae5e462a7092c0343d43c99187aeb8fb010960bfc
+  Size: 0.00 MB
+  Command: /bin/sh -c #(nop)  LABEL org.opencontainers.image.description=Python application with SBOM
+  Created: 2025-10-28T08:46:19.08825949Z
+
+Layer 3:
+  ID: sha256:47536822ea4ab01a8a7e5855c3c6d40c88518fd3008c12efac1368b679322aee
+  Size: 0.00 MB
+  Command: /bin/sh -c #(nop)  LABEL org.opencontainers.image.version=1.0.0
+  Created: 2025-10-28T08:46:19.08825949Z

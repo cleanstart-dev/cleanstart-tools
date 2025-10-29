@@ -1,0 +1,4 @@
+🔍 Starting verification of image: python-test:latest
+✅ Image verification successful!
+└── Signature is valid
+└── Image has not been tampered

@@ -5,6 +5,8 @@
 ### 1. Generate Compliance Report with SBOM
 ```bash
 clnstrt report --format json --output compliance-report.json production-image:latest
+# refer output at /build and push/build.json
+
 clnstrt sbom --include-licenses --output compliance-sbom.json production-image:latest
 ```
 

@@ -1,0 +1,57 @@
+Image Analysis: python-test:latest
+
+Basic Information:
+  ID: sha256:e2c740590f35dcc693e8f0c0fcf40b67713573a4f908a0a2632111f8da4bbb0f
+  Created: 2025-10-28 08:46:19.08825949 +0000 UTC
+  Size: 72.15 MB
+  Architecture: linux/amd64
+
+Layer Information:
+  Layer 1:
+    Size: 0.00 MB
+    Command: /bin/sh -c #(nop)  CMD ["python3" "-c" "print('Hello from Python Alpine!')"]
+    Created: 2025-10-28 08:46:19 +0000 UTC
+  Layer 2:
+    Size: 0.00 MB
+    Command: /bin/sh -c #(nop)  LABEL org.opencontainers.image.description=Python application with SBOM
+    Created: 2025-10-28 08:46:18 +0000 UTC
+  Layer 3:
+    Size: 0.00 MB
+    Command: /bin/sh -c #(nop)  LABEL org.opencontainers.image.version=1.0.0
+    Created: 2025-10-28 08:46:18 +0000 UTC
+  Layer 4:
+    Size: 0.00 MB
+    Command: /bin/sh -c #(nop)  LABEL org.opencontainers.image.source=clnstrt
+    Created: 2025-10-28 08:46:18 +0000 UTC
+  Layer 5:
+    Size: 0.00 MB
+    Command: /bin/sh -c #(nop)  USER nobody
+    Created: 2025-10-28 08:46:17 +0000 UTC
+  Layer 6:
+    Size: 0.00 MB
+    Command: /bin/sh -c #(nop) WORKDIR /app
+    Created: 2025-10-28 08:46:17 +0000 UTC
+  Layer 7:
+    Size: 64.21 MB
+    Command: /bin/sh -c apk add --no-cache ca-certificates curl python3 py3-pip
+    Created: 2025-10-28 08:46:16 +0000 UTC
+  Layer 8:
+    Size: 0.00 MB
+    Command: /bin/sh -c #(nop)  ENV APP_ENV=production
+    Created: 2025-10-28 08:46:07 +0000 UTC
+  Layer 9:
+    Size: 0.00 MB
+    Command: /bin/sh -c #(nop)  ENV PYTHONUNBUFFERED=1
+    Created: 2025-10-28 08:46:07 +0000 UTC
+  Layer 10:
+    Size: 0.00 MB
+    Command: /bin/sh -c #(nop)  ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    Created: 2025-10-28 08:46:06 +0000 UTC
+  Layer 11:
+    Size: 0.00 MB
+    Command: CMD ["/bin/sh"]
+    Created: 2025-10-08 11:04:56 +0000 UTC
+  Layer 12:
+    Size: 7.94 MB
+    Command: ADD alpine-minirootfs-3.22.2-x86_64.tar.gz / # buildkit
+    Created: 2025-10-08 11:04:56 +0000 UTC

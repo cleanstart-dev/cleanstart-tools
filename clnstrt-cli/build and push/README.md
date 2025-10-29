@@ -43,13 +43,21 @@ Builds a new container image from a declarative config with options for caching 
 
 ```bash
 # Basic build
-clnstrt build python-test.yaml python-test:latest
+clnstrt build python-test.yaml python-test:latest -v
+# refer output at /build and push/build.json
+
 # Build with squashed layers
-clnstrt build --squash python-test.yaml python-test:latest
+clnstrt build --squash python-test.yaml python-test:latest -v
+# refer output at /build and push/build-squash.json
+
 # Build without cache
-clnstrt build --no-cache python-test.yaml python-test:latest
+clnstrt build --no-cache python-test.yaml python-test:latest -v
+# refer output at /build and push/build-nocache.json
+
 # Custom cache directory
-clnstrt build --cache-dir /tmp/cache python-test.yaml python-test:latest
+clnstrt build --cache-dir /tmp/cache python-test.yaml python-test:latest -v
+# refer output at /build and push/build-cachedir.json
+
 ```
 
 - Purpose: Builds a Docker image using the provided config.yaml file.
@@ -64,11 +72,12 @@ Analyze a container image and provide detailed information about its structure, 
 
 ```bash
 # Basic analysis
-clnstrt analyze python-test:latest
-# With verbose output
-clnstrt analyze -v python-test:latest
+clnstrt analyze python-test:latest -v
+# refer output at /build and push/analyze.txt
+
 # Using config file
-clnstrt analyze -c python-test.yaml python-test:latest
+clnstrt analyze -c python-test.yaml python-test:latest -v
+# refer output at /build and push/analyze-c.txt
 ```
 
 - Purpose: Facilitates the analysis of container images by providing detailed insights into their structure, security posture, and performance characteristics.
@@ -82,12 +91,17 @@ clnstrt analyze -c python-test.yaml python-test:latest
 Displays detailed information about the image layers.
 
 ```bash
-# Inspect image layers
-clnstrt layer inspect image:tag
-# Compare layers between images  
-clnstrt layer compare image1:tag image2:tag
+# Inspect image layers 
+clnstrt layer inspect python-test:latest -v
+# refer output at /build and push/layer.txt
+
+# Compare layers between images
+clnstrt layer compare python-test:latest cleanstart/go:latest -v
+# refer output at /build and push/layer-compare.txt
+
 # Optimize layers
-clnstrt layer optimize image:tag
+clnstrt layer optimize python-test:latest -v
+# refer output at /build and push/layer-optimize.txt
 ```
 
 - Purpose: Manages image layers to optimize and inspect images.
@@ -102,9 +116,26 @@ Compares two images and shows exactly what changed across layers and files.
 
 ```bash
 # Compare two images
-clnstrt diff image1:tag image2:tag -v
+clnstrt diff python-test:latest cleanstart/go:latest -v
+# Outout will be similar to this:
+# Comparing images:
+#   1: python-test:latest
+#   2: cleanstart/go:latest
+# Output will be written to: diff_20251029_114804.csv
+# Adjusting output filename to ensure .json extension: diff_20251029_114804.json
+# Successfully wrote comparison report to: diff_20251029_114804.json
+# refer output at /build and push/diff_20251029_114804.json
+
 # Compare same image (should show no differences)
-clnstrt diff image:tag image:tag
+clnstrt diff python-test:latest python-test:latest -v
+# Outout will be similar to this:
+# Comparing images:
+#   1: python-test:latest
+#   2: python-test:latest
+# Output will be written to: diff_20251029_115654.csv
+# Adjusting output filename to ensure .json extension: diff_20251029_115654.json
+# Successfully wrote comparison report to: diff_20251029_115654.json
+# refer output at /build and push/diff_20251029_115654.json
 ```
 
 - Detailed differences between images including layers and files.
@@ -126,9 +157,19 @@ docker login your-registry.com
 
 ```bash
 # Push to Docker Hub (requires username/image format)
-clnstrt push -u username -p password username/image:tag
-# Push with verbose output
 clnstrt push -u username -p password username/image:tag -v
+# Outout will be similar to this:
+# Pushing image: username/python-test:latest
+# The push refers to repository [docker.io/username/python-test]
+# [47536822ea4a] Preparing
+# [dd470f20ade0] Preparing
+# [256f393e029f] Preparing
+# [dd470f20ade0] Layer already exists
+# [47536822ea4a] Layer already exists
+# [256f393e029f] Layer already exists
+# [256f393e029f] latest: digest: sha256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx size: 946
+# [256f393e029f] latest: digest: sha256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx size: 946
+# Successfully pushed username/python-test:latest
 ```
 
 ---
