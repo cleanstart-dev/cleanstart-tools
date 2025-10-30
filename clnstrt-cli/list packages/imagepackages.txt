@@ -1,0 +1,165 @@
+Image: python-test:latest
+ID: sha256:a7ea36f3935b12acb1c6a174322e201e8051c4a15b8fbb525a9d1a98ebe897aa
+Created: 2025-10-29T12:30:20Z
+
+Packages (53):
+--------------
+
+Package: �WARNING: opening from cache https://dl
+Version: cdn.alpinelinux.org/alpine/v3.22/main: No such file or directory
+
+Package: WARNING: opening from cache https://dl
+Version: cdn.alpinelinux.org/alpine/v3.22/community: No such file or directory
+
+Package:  alpine
+Version: baselayout-3.7.0-r0
+
+Package: alpine
+Version: baselayout-data-3.7.0-r0
+
+Package: alpine
+Version: keys-2.5-r0
+
+Package: alpine
+Version: release-3.22.2-r0
+
+Package: apk
+Version: tools-2.14.9-r3
+
+Package: brotli
+Version: libs-1.1.0-r2
+
+Package: busybox
+Version: 1.37.0-r19
+
+Package: busybox
+Version: binsh-1.37.0-r19
+
+Package: c
+Version: ares-1.34.5-r0
+
+Package: ca
+Version: certificates-20250911-r0
+
+Package: ca
+Version: certificates-bundle-20250911-r0
+
+Package: curl
+Version: 8.14.1-r2
+
+Package: gdbm
+Version: 1.24-r0
+
+Package: libapk2
+Version: 2.14.9-r3
+
+Package: libbz2
+Version: 1.0.8-r6
+
+Package: libcrypto3
+Version: 3.5.4-r0
+
+Package: libcurl
+Version: 8.14.1-r2
+
+Package: libexpat
+Version: 2.7.3-r0
+
+Package: libffi
+Version: 3.4.8-r0
+
+Package: libgcc
+Version: 14.2.0-r6
+
+Package: libidn2
+Version: 2.3.7-r0
+
+Package: libncursesw
+Version: 6.5_p20250503-r0
+
+Package: libpanelw
+Version: 6.5_p20250503-r0
+
+Package: libpsl
+Version: 0.21.5-r3
+
+Package: libssl3
+Version: 3.5.4-r0
+
+Package: libstdc++
+Version: 14.2.0-r6
+
+Package: libunistring
+Version: 1.3-r0
+
+Package: mpdecimal
+Version: 4.0.1-r0
+
+Package: musl
+Version: 1.2.5-r10
+
+Package: musl
+Version: utils-1.2.5-r10
+
+Package: ncurses
+Version: terminfo-base-6.5_p20250503-r0
+
+Package: nghttp2
+Version: libs-1.65.0-r0
+
+Package: py3
+Version: packaging-25.0-r0
+
+Package: py3
+Version: packaging-pyc-25.0-r0
+
+Package: py3
+Version: parsing-3.2.3-r0
+
+Package: py3
+Version: parsing-pyc-3.2.3-r0
+
+Package: py3
+Version: pip-25.1.1-r0
+
+Package: py3
+Version: pip-pyc-25.1.1-r0
+
+Package: py3
+Version: setuptools-80.9.0-r0
+
+Package: py3
+Version: setuptools-pyc-80.9.0-r0
+
+Package: pyc
+Version: 3.12.12-r0
+
+Package: python3
+Version: 3.12.12-r0
+
+Package: python3
+Version: pyc-3.12.12-r0
+
+Package: python3
+Version: pycache-pyc0-3.12.12-r0
+
+Package: readline
+Version: 8.2.13-r1
+
+Package: scanelf
+Version: 1.3.8-r1
+
+Package: sqlite
+Version: libs-3.49.2-r1
+
+Package: ssl_client
+Version: 1.37.0-r19
+
+Package: xz
+Version: libs-5.8.1-r0"
+
+Package: zlib
+Version: 1.3.1-r2
+
+Package: zstd
+Version: libs-1.5.7-r0

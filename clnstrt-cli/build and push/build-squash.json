@@ -1,0 +1,49 @@
+{"stream":"Step 1/11 : FROM alpine:latest"}
+{"stream":"\n"}
+{"status":"Pulling from library/alpine","id":"latest"}
+{"status":"Digest: sha256:4b7ce07002c69e8f3d704a9c5d6fd3053be500b7f1c69fc0d80990c2ad8dd412"}
+{"status":"Status: Image is up to date for alpine:latest"}
+{"stream":" ---\u003e 706db57fb206\n"}
+{"stream":"Step 2/11 : ENV PYTHONUNBUFFERED=1"}
+{"stream":"\n"}
+{"stream":" ---\u003e Using cache\n"}
+{"stream":" ---\u003e 736ed01b43b4\n"}
+{"stream":"Step 3/11 : ENV APP_ENV=production"}
+{"stream":"\n"}
+{"stream":" ---\u003e Using cache\n"}
+{"stream":" ---\u003e 8d4eab32569a\n"}
+{"stream":"Step 4/11 : ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"}
+{"stream":"\n"}
+{"stream":" ---\u003e Using cache\n"}
+{"stream":" ---\u003e 0998063167e7\n"}
+{"stream":"Step 5/11 : RUN apk add --no-cache ca-certificates curl python3 py3-pip"}
+{"stream":"\n"}
+{"stream":" ---\u003e Using cache\n"}
+{"stream":" ---\u003e cfa76fd41feb\n"}
+{"stream":"Step 6/11 : WORKDIR /app"}
+{"stream":"\n"}
+{"stream":" ---\u003e Using cache\n"}
+{"stream":" ---\u003e 093d72b82a70\n"}
+{"stream":"Step 7/11 : USER nobody"}
+{"stream":"\n"}
+{"stream":" ---\u003e Using cache\n"}
+{"stream":" ---\u003e 35fad1517ffc\n"}
+{"stream":"Step 8/11 : LABEL org.opencontainers.image.source=\"clnstrt\""}
+{"stream":"\n"}
+{"stream":" ---\u003e Using cache\n"}
+{"stream":" ---\u003e 82ee1d3229e9\n"}
+{"stream":"Step 9/11 : LABEL org.opencontainers.image.version=\"1.0.0\""}
+{"stream":"\n"}
+{"stream":" ---\u003e Using cache\n"}
+{"stream":" ---\u003e e46bf203cecd\n"}
+{"stream":"Step 10/11 : LABEL org.opencontainers.image.description=\"Python application with SBOM\""}
+{"stream":"\n"}
+{"stream":" ---\u003e Using cache\n"}
+{"stream":" ---\u003e 44aa0e3e99d2\n"}
+{"stream":"Step 11/11 : CMD [\"python3\", \"-c\", \"print('Hello from Python Alpine!')\"]"}
+{"stream":"\n"}
+{"stream":" ---\u003e Using cache\n"}
+{"stream":" ---\u003e 0bf471b40cc6\n"}
+{"aux":{"ID":"sha256:0bf471b40cc6948b5738a41c8b22947b76085ae61ccd31c338c7d7c407677f56"}}
+{"stream":"Successfully built 0bf471b40cc6\n"}
+{"stream":"Successfully tagged python-test:latest\n"}

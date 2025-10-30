@@ -1,0 +1,29 @@
+🔑 Starting image signing process
+Image: python-test:latest
+Using private key: private-key.pem
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+Sending build context to Docker daemon   2.56kB
+Step 1/5 : FROM python-test:latest
+ ---> e2c740590f35
+Step 2/5 : LABEL org.opencontainers.image.signature=Vb8y53WFNGsTeXXTftCl0K7IET8EFiYWO7Riln4ZnmF7GvQAVGNGzDlmLRtHfnoHdNjKpLDkqFF9kB2JurS9VKyWTkeQrnL5dvaujUE7iK9GSuk7s6jH6jW0E5eZdouHoR1zmTgVR9yJD7q1gDE3rf8+d3ohruiw/FQmkgsyCMfmo3kVR3QNQGEqd2TVMLRYa+IYFI2Q2i0b1RuBkcYEuqmKBhEynwQjKixxLrL0npgH9LA3mIkuSJUZiIc5bhCSqfyghMe+OwdYSC9Rj+RDRGaTLjBtEVl8a8lqN/FJClv2tb+y+V7ctKvwpYP+AobeI6tp9JtyvIUJpM0RHfCS0A==
+ ---> Running in edae65e92120
+ ---> Removed intermediate container edae65e92120
+ ---> 4126ec4b18ca
+Step 3/5 : LABEL org.opencontainers.image.config=eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsIm9zIjoibGludXgiLCJjb25maWciOnsiRW52IjpbIlBBVEg9L3Vzci9sb2NhbC9zYmluOi91c3IvbG9jYWwvYmluOi91c3Ivc2JpbjovdXNyL2Jpbjovc2JpbjovYmluIiwiUFlUSE9OVU5CVUZGRVJFRD0xIiwiQVBQX0VOVj1wcm9kdWN0aW9uIl0sIkNtZCI6WyJweXRob24zIiwiLWMiLCJwcmludCgnSGVsbG8gZnJvbSBQeXRob24gQWxwaW5lIScpIl0sIldvcmtpbmdEaXIiOiIvYXBwIiwiVXNlciI6Im5vYm9keSJ9LCJyb290ZnMiOnsidHlwZSI6ImxheWVycyIsImRpZmZfaWRzIjpudWxsfX0=
+ ---> Running in c85ac65f84a3
+ ---> Removed intermediate container c85ac65f84a3
+ ---> 0da2e62b6b0f
+Step 4/5 : LABEL org.opencontainers.image.signed.time=2025-10-29T12:24:50Z
+ ---> Running in d8013381d534
+ ---> Removed intermediate container d8013381d534
+ ---> ed5eae5801de
+Step 5/5 : LABEL org.opencontainers.image.signed.by="clnstrt"
+ ---> Running in 2ab726988f4a
+ ---> Removed intermediate container 2ab726988f4a
+ ---> e3ae41ec5f21
+Successfully built e3ae41ec5f21
+Successfully tagged python-test:latest
+✅ Image signed successfully!

@@ -1,0 +1,532 @@
+System Information
+==================
+OS: Alpine Linux v3.20
+Version: 3.20.6
+Hostname: ab753aafe201
+Architecture: x86_64
+Package System: apk
+Generated: 2025-10-29T12:38:30Z
+
+Package List
+============
+Total Packages: 130
+
+Name: acl
+Version: libs-2.3.2-r1
+Installed: true
+
+Name: alpine
+Version: baselayout-3.6.5-r0
+Installed: true
+
+Name: alpine
+Version: baselayout-data-3.6.5-r0
+Installed: true
+
+Name: alpine
+Version: keys-2.4-r1
+Installed: true
+
+Name: apk
+Version: tools-2.14.4-r5
+Installed: true
+
+Name: apk
+Version: tools-static-2.14.4-r5
+Installed: true
+
+Name: bash
+Version: 5.2.26-r0
+Installed: true
+
+Name: binutils
+Version: 2.43.1-r1
+Installed: true
+
+Name: brotli
+Version: 1.1.0-r2
+Installed: true
+
+Name: brotli
+Version: dev-1.1.0-r2
+Installed: true
+
+Name: brotli
+Version: libs-1.1.0-r2
+Installed: true
+
+Name: build
+Version: base-0.5-r4
+Installed: true
+
+Name: busybox
+Version: 1.37.0-r1
+Installed: true
+
+Name: busybox
+Version: binsh-1.37.0-r1
+Installed: true
+
+Name: c
+Version: ares-1.34.2-r0
+Installed: true
+
+Name: c
+Version: ares-dev-1.34.2-r0
+Installed: true
+
+Name: ca
+Version: certificates-20241121-r2
+Installed: true
+
+Name: ca
+Version: certificates-bundle-20241121-r2
+Installed: true
+
+Name: curl
+Version: 8.13.0-r0
+Installed: true
+
+Name: curl
+Version: dev-8.13.0-r0
+Installed: true
+
+Name: cyrus
+Version: sasl-2.1.28-r6
+Installed: true
+
+Name: file
+Version: 5.45-r1
+Installed: true
+
+Name: fortify
+Version: headers-1.1-r5
+Installed: true
+
+Name: g++
+Version: 15.1.0_git20250607-r0
+Installed: true
+
+Name: gcc
+Version: 15.1.0_git20250607-r0
+Installed: true
+
+Name: gdbm
+Version: 1.24-r0
+Installed: true
+
+Name: git
+Version: 2.47.2-r0
+Installed: true
+
+Name: git
+Version: init-template-2.47.2-r0
+Installed: true
+
+Name: glibc
+Version: clnstrt-2.40-r6
+Installed: true
+
+Name: glibc
+Version: clnstrt-dev-2.40-r6
+Installed: true
+
+Name: glibc
+Version: clnstrt-i18n-2.41-r0
+Installed: true
+
+Name: gmp
+Version: 6.3.0-r2
+Installed: true
+
+Name: gmp
+Version: dev-6.3.0-r2
+Installed: true
+
+Name: gnupg
+Version: 2.4.5-r0
+Installed: true
+
+Name: gnupg
+Version: dirmngr-2.4.5-r0
+Installed: true
+
+Name: gnupg
+Version: gpgconf-2.4.5-r0
+Installed: true
+
+Name: gnupg
+Version: keyboxd-2.4.5-r0
+Installed: true
+
+Name: gnupg
+Version: utils-2.4.5-r0
+Installed: true
+
+Name: gnupg
+Version: wks-client-2.4.5-r0
+Installed: true
+
+Name: gnutls
+Version: 3.8.5-r0
+Installed: true
+
+Name: go1.23
+Version: 1.23.8-r0
+Installed: true
+
+Name: gpg
+Version: 2.4.5-r0
+Installed: true
+
+Name: gpg
+Version: agent-2.4.5-r0
+Installed: true
+
+Name: gpg
+Version: wks-server-2.4.5-r0
+Installed: true
+
+Name: gpgsm
+Version: 2.4.5-r0
+Installed: true
+
+Name: gpgv
+Version: 2.4.5-r0
+Installed: true
+
+Name: heimdal
+Version: libs-7.8.0-r3
+Installed: true
+
+Name: iptables
+Version: 1.8.10-r3
+Installed: true
+
+Name: isl
+Version: dev-0.26-r1
+Installed: true
+
+Name: isl26
+Version: 0.26-r1
+Installed: true
+
+Name: jansson
+Version: 2.14-r4
+Installed: true
+
+Name: jq
+Version: 1.7.1-r0
+Installed: true
+
+Name: keyutils
+Version: libs-1.6.3-r3
+Installed: true
+
+Name: krb5
+Version: conf-1.0-r2
+Installed: true
+
+Name: krb5
+Version: libs-1.21.3-r0
+Installed: true
+
+Name: libassuan
+Version: 2.5.7-r0
+Installed: true
+
+Name: libatomic
+Version: 15.1.0_git20250607-r0
+Installed: true
+
+Name: libattr
+Version: 2.5.2-r2
+Installed: true
+
+Name: libbz2
+Version: 1.0.8-r7
+Installed: true
+
+Name: libcom_err
+Version: 1.47.0-r5
+Installed: true
+
+Name: libcrypto3
+Version: 3.4.0-r0
+Installed: true
+
+Name: libcurl
+Version: 8.13.0-r0
+Installed: true
+
+Name: libedit
+Version: 20240517.3.1-r0
+Installed: true
+
+Name: libevent
+Version: 2.1.12-r7
+Installed: true
+
+Name: libexpat
+Version: 2.7.0-r0
+Installed: true
+
+Name: libffi
+Version: 3.4.6-r0
+Installed: true
+
+Name: libgcc
+Version: 13.2.1_git20240309-r3
+Installed: true
+
+Name: libgcrypt
+Version: 1.10.3-r0
+Installed: true
+
+Name: libgmpxx
+Version: 6.3.0-r2
+Installed: true
+
+Name: libgomp
+Version: 15.1.0_git20250607-r0
+Installed: true
+
+Name: libgpg
+Version: error-1.49-r0
+Installed: true
+
+Name: libidn2
+Version: 2.3.7-r0
+Installed: true
+
+Name: libidn2
+Version: dev-2.3.7-r0
+Installed: true
+
+Name: libksba
+Version: 1.6.6-r0
+Installed: true
+
+Name: libldap
+Version: 2.6.8-r0
+Installed: true
+
+Name: libmagic
+Version: 5.45-r1
+Installed: true
+
+Name: libmnl
+Version: 1.0.5-r2
+Installed: true
+
+Name: libncursesw
+Version: 6.5_p20241006-r0
+Installed: true
+
+Name: libnetfilter_conntrack
+Version: 1.0.9-r3
+Installed: true
+
+Name: libnfnetlink
+Version: 1.0.2-r3
+Installed: true
+
+Name: libnftnl
+Version: 1.2.6-r0
+Installed: true
+
+Name: libpsl
+Version: 0.21.5-r3
+Installed: true
+
+Name: libpsl
+Version: dev-0.21.5-r3
+Installed: true
+
+Name: libpsl
+Version: utils-0.21.5-r3
+Installed: true
+
+Name: libsasl
+Version: 2.1.28-r6
+Installed: true
+
+Name: libssl3
+Version: 3.4.0-r0
+Installed: true
+
+Name: libstdc++
+Version: 15.1.0_git20250607-r0
+Installed: true
+
+Name: libstdc++
+Version: dev-15.1.0_git20250607-r0
+Installed: true
+
+Name: libtasn1
+Version: 4.20.0-r0
+Installed: true
+
+Name: libunistring
+Version: 1.2-r1
+Installed: true
+
+Name: libuuid
+Version: 2.40.1-r1
+Installed: true
+
+Name: libverto
+Version: 0.3.2-r2
+Installed: true
+
+Name: libxcrypt
+Version: 4.4.36-r0
+Installed: true
+
+Name: libxtables
+Version: 1.8.10-r3
+Installed: true
+
+Name: linux
+Version: headers-6.6-r1
+Installed: true
+
+Name: linux
+Version: pam-1.7.0-r0
+Installed: true
+
+Name: make
+Version: 4.4.1-r2
+Installed: true
+
+Name: mpc1
+Version: 1.3.1-r1
+Installed: true
+
+Name: mpfr
+Version: dev-4.2.1-r0
+Installed: true
+
+Name: mpfr4
+Version: 4.2.1-r0
+Installed: true
+
+Name: ncurses
+Version: 6.5_p20241006-r0
+Installed: true
+
+Name: ncurses
+Version: terminfo-base-6.5_p20241006-r0
+Installed: true
+
+Name: nettle
+Version: 3.9.1-r0
+Installed: true
+
+Name: nghttp2
+Version: dev-1.62.1-r0
+Installed: true
+
+Name: nghttp2
+Version: libs-1.62.1-r0
+Installed: true
+
+Name: npth
+Version: 1.6-r4
+Installed: true
+
+Name: oniguruma
+Version: 6.9.9-r0
+Installed: true
+
+Name: openssh
+Version: client-common-9.7_p1-r5
+Installed: true
+
+Name: openssh
+Version: client-default-9.7_p1-r5
+Installed: true
+
+Name: openssh
+Version: keygen-9.7_p1-r5
+Installed: true
+
+Name: openssl
+Version: dev-3.4.0-r0
+Installed: true
+
+Name: p11
+Version: kit-0.25.3-r0
+Installed: true
+
+Name: patch
+Version: 2.7.6-r10
+Installed: true
+
+Name: pcre2
+Version: 10.43-r0
+Installed: true
+
+Name: pinentry
+Version: 1.3.0-r0
+Installed: true
+
+Name: pkgconf
+Version: 2.3.0-r0
+Installed: true
+
+Name: readline
+Version: 8.2.13-r0
+Installed: true
+
+Name: scanelf
+Version: 1.3.8-r2
+Installed: true
+
+Name: skalibs
+Version: libs-2.14.3.0-r0
+Installed: true
+
+Name: sqlite
+Version: libs-3.49.2-r0
+Installed: true
+
+Name: ssl_client
+Version: 1.37.0-r1
+Installed: true
+
+Name: tar
+Version: 1.35-r3
+Installed: true
+
+Name: utmps
+Version: libs-0.1.2.3-r1
+Installed: true
+
+Name: wget
+Version: 1.24.5-r1
+Installed: true
+
+Name: xz
+Version: libs-5.8.1-r0
+Installed: true
+
+Name: zlib
+Version: 1.3.1-r3
+Installed: true
+
+Name: zlib
+Version: dev-1.3.1-r3
+Installed: true
+
+Name: zstd
+Version: 1.5.6-r0
+Installed: true
+
+Name: zstd
+Version: dev-1.5.6-r0
+Installed: true
+
+Name: zstd
+Version: libs-1.5.6-r0
+Installed: true
