@@ -2,6 +2,11 @@
 
 Generates an SBOM and also generate clnstrt diff(v1/v2) and clnstrt sbomdiff(sbom1/sbom2) using the Clnstrt CLI tool and are used to compare container images and their respective Software Bills of Materials (SBOMs). These commands help you identify differences in the images, such as layer structure, installed packages, and vulnerabilities, allowing for better image management, security auditing, and compliance checks.
 
+### Note:
+We are using python-test:latest, python:latest images here.
+- python-test:latest - custom image build using python-test.yaml configuration, in /build and push/README.md 
+- python:latest - public image of python
+
 ### Generate SBOM
 
 ```bash

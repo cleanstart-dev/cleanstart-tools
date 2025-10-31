@@ -2,6 +2,11 @@
 
 - This section covers how to generate compliance reports, perform security audits, and analyze image changes using the clnstrt-cli.
 
+### Note:
+We are using python-test:latest, python:latest images here.
+- python-test:latest - custom image build using python-test.yaml configuration, in /build and push/README.md 
+- python:latest - public image of python
+
 ### 1. Generate Compliance Report with Image
 ```bash
 clnstrt report --format json python-test:latest -v

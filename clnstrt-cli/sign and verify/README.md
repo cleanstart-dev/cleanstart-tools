@@ -2,7 +2,12 @@
 
 - For image signing and verification, both a public key and a private key are required.
 
-you can generate private and public key using below commands
+### Note:
+We are using python-test:latest, python:latest images here.
+- python-test:latest - custom image build using python-test.yaml configuration, in /build and push/README.md 
+- python:latest - public image of python
+
+you can generate private and public key using below commands.
 
 ```bash
 # Private key can be generated using this command

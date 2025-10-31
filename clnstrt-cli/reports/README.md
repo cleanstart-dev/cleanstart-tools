@@ -1,6 +1,9 @@
 ## Create analysis reports for container images in multiple formats.
 
-### Generate Reports
+### Note:
+We are using python-test:latest, python:latest images here.
+- python-test:latest - custom image build using python-test.yaml configuration, in /build and push/README.md 
+- python:latest - public image of python
 
 #### Produces image analysis reports in these formats (JSON/HTML/plain) for audits and sharing.
 

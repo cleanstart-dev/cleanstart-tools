@@ -2,6 +2,11 @@
 
 - This section help ensure that your production image is secure, verified, compliant, and well-documented before deployment.
 
+### Note:
+We are using python-test:latest, python:latest images here.
+- python-test:latest - custom image build using python-test.yaml configuration, in /build and push/README.md 
+- python:latest - public image of python
+
 ### 1. Full Security Scan
 ```bash
 clnstrt scan --severity HIGH,CRITICAL,MEDIUM,LOW python:latest -v

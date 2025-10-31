@@ -37,6 +37,11 @@ labels:
 - Command: Default command to execute when the container runs.
 - Labels: Metadata labels for the image.
 
+### Note:
+We are using python-test:latest, python:latest images here.
+- python-test:latest - custom image build using python-test.yaml configuration, in /build and push/README.md 
+- python:latest - public image of python
+
 ### Build Container Images
 
 Builds a new container image from a declarative config with options for caching and squashing.
