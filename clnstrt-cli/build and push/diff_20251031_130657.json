@@ -1,0 +1,77 @@
+{
+  "comparison_info": {
+    "main_image": "python-test:latest",
+    "target_image": "python:latest",
+    "timestamp": "2025-10-31T13:06:57Z"
+  },
+  "image_info": {
+    "image1": {
+      "size": 75655414,
+      "layers": 3,
+      "created": "2025-10-28T08:46:19.08825949Z",
+      "env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "PYTHONUNBUFFERED=1",
+        "APP_ENV=production"
+      ],
+      "cmd": [
+        "python3",
+        "-c",
+        "print('Hello from Python Alpine!')"
+      ],
+      "entrypoint": null,
+      "workdir": "/app",
+      "labels": {
+        "org.opencontainers.image.description": "Python application with SBOM",
+        "org.opencontainers.image.source": "clnstrt",
+        "org.opencontainers.image.version": "1.0.0"
+      }
+    },
+    "image2": {
+      "size": 1115587118,
+      "layers": 7,
+      "created": "2025-10-08T18:52:37Z",
+      "env": [
+        "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "PYTHON_VERSION=3.14.0",
+        "PYTHON_SHA256=2299dae542d395ce3883aca00d3c910307cd68e0b2f7336098c8e7b7eee9f3e9"
+      ],
+      "cmd": [
+        "python3"
+      ],
+      "entrypoint": null,
+      "workdir": "",
+      "labels": null
+    }
+  },
+  "env_diff": {
+    "added": {
+      "PYTHON_SHA256": "2299dae542d395ce3883aca00d3c910307cd68e0b2f7336098c8e7b7eee9f3e9",
+      "PYTHON_VERSION": "3.14.0"
+    },
+    "removed": {
+      "APP_ENV": "production",
+      "PYTHONUNBUFFERED": "1"
+    },
+    "modified": {
+      "PATH": {
+        "old_value": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "new_value": "/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      }
+    }
+  },
+  "label_diff": {
+    "added": {},
+    "removed": {
+      "org.opencontainers.image.description": "Python application with SBOM",
+      "org.opencontainers.image.source": "clnstrt",
+      "org.opencontainers.image.version": "1.0.0"
+    },
+    "modified": {}
+  },
+  "size_diff": {
+    "image1_size": 75655414,
+    "image2_size": 1115587118,
+    "difference": 1039931704
+  }
+}

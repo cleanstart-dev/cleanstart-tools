@@ -48,8 +48,8 @@ clnstrt sbom -c sbom-config.yaml --output configured-sbom.json python-test:lates
 ```
 
 - Purpose: Generates an SBOM for the specified image in different formats. 
-- How It Works: The clnstrt sbom command analyzes the image, extracts package and dependency information, and saves it in the specified file format (default, CycloneDX, or SPDX). 
-- Outcome: SBOMs are generated and saved as sbom.json, cyclonedx-sbom.json, and spdx-sbom.json.
+- How It Works: The clnstrt sbom command analyzes the image, extracts package and dependency information, and saves it in the specified file format (default, CycloneDX and SPDX). 
+- Outcome: SBOMs are generated and saved as sbom.json, cyclonedx-sbom.json and spdx-sbom.json.
 
 ### Output Files Generated:
 

@@ -8,7 +8,7 @@ clnstrt scan python-test:latest -v
 # refer output at /scan image/scan.txt
 
 # Filter by severity
-clnstrt scan --severity HIGH,CRITICAL python-test:latest -v
+clnstrt scan --severity HIGH,CRITICAL,MEDIUM,LOW python:latest -v
 # refer output at /scan image/severity.txt
 
 # Save results to file

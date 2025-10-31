@@ -2,7 +2,7 @@
 
 ### Generate Reports
 
-#### Produces image analysis reports in these formats (JSON/HTML/PDF/CSV/plain) for audits and sharing.
+#### Produces image analysis reports in these formats (JSON/HTML/plain) for audits and sharing.
 
 ```bash
 # JSON report (console output)
@@ -16,7 +16,6 @@ clnstrt report --format plain python-test:latest -v
 # html text report to file
 clnstrt report --format html python-test:latest -v
 # refer output at /reports/a45f77a4-b48d-4480-b7fd-b45aa456c853.html
-
 ```
 
 - Output Files Generated will be saved with randomly generated filename

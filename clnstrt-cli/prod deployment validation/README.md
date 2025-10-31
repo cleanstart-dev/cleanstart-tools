@@ -4,8 +4,8 @@
 
 ### 1. Full Security Scan
 ```bash
-clnstrt scan --severity HIGH,CRITICAL production-image:latest -v
-# refer output at /prod deployment validation/scan.txt
+clnstrt scan --severity HIGH,CRITICAL,MEDIUM,LOW python:latest -v
+# refer output at /prod deployment validation/severity.txt
 ```
 
 - Performs a comprehensive vulnerability scan on the production image, detecting only high and critical severity issues.
@@ -23,7 +23,7 @@ clnstrt scan --severity HIGH,CRITICAL production-image:latest -v
 
 ### 3. Generate Deployment SBOM
 ```bash
-clnstrt sbom python-test:latest
+clnstrt sbom python-test:latest -v
  # refer output at /list packages/sbom.txt
 ```
 
@@ -35,6 +35,5 @@ clnstrt sbom python-test:latest
 #### After running these commands, you’ll have:
 
 - Verified and vulnerability-free production image
-- PDF compliance report for auditing
 - Verified digital signature for authenticity
 - SBOM for monitoring and inventory tracking

@@ -96,7 +96,7 @@ clnstrt layer inspect python-test:latest -v
 # refer output at /build and push/layer.txt
 
 # Compare layers between images
-clnstrt layer compare python-test:latest cleanstart/go:latest -v
+clnstrt layer compare python-test:latest python:latest -v
 # refer output at /build and push/layer-compare.txt
 
 # Optimize layers
@@ -116,15 +116,15 @@ Compares two images and shows exactly what changed across layers and files.
 
 ```bash
 # Compare two images
-clnstrt diff python-test:latest cleanstart/go:latest -v
+clnstrt diff python-test:latest python:latest -v
 # Outout will be similar to this:
 # Comparing images:
 #   1: python-test:latest
-#   2: cleanstart/go:latest
-# Output will be written to: diff_20251029_114804.csv
-# Adjusting output filename to ensure .json extension: diff_20251029_114804.json
-# Successfully wrote comparison report to: diff_20251029_114804.json
-# refer output at /build and push/diff_20251029_114804.json
+#   2: python:latest
+# Output will be written to: diff_20251031_130657.csv
+# Adjusting output filename to ensure .json extension: diff_20251031_130657.json
+# Successfully wrote comparison report to: diff_20251031_130657.json
+# refer output at /build and push/diff_20251031_130657.json
 
 # Compare same image (should show no differences)
 clnstrt diff python-test:latest python-test:latest -v
