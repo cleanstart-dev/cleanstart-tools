@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Container Image Analysis Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-bottom: 2px solid #dee2e6;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+        }
+        .vulnerability {
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 4px solid;
+        }
+        .vulnerability.critical { border-color: #dc3545; }
+        .vulnerability.high { border-color: #fd7e14; }
+        .vulnerability.medium { border-color: #ffc107; }
+        .vulnerability.low { border-color: #28a745; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #dee2e6;
+            text-align: left;
+        }
+        th {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Container Image Analysis Report</h1>
+        <p>Generated: 2025-10-30 07:17:15</p>
+        <p>Image: python-test:latest</p>
+    </div>
+
+    <div class="section">
+        <h2>Image Information</h2>
+        <table>
+            <tr><th>ID</th><td>sha256:2dbc5a8ccac26fd193ab9caf18e264bbf9e8de40d975dba3c6bd2c9ab60d692e</td></tr>
+            <tr><th>Created</th><td>2025-10-29 14:02:08.581794292 &#43;0000 UTC</td></tr>
+            <tr><th>Size</th><td>75655414 bytes</td></tr>
+            <tr><th>Architecture</th><td>amd64</td></tr>
+            <tr><th>OS</th><td>linux</td></tr>
+            
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Security Analysis</h2>
+        
+
+        
+
+        
+        <h3>Permissions</h3>
+        <ul>
+            
+            <li>User: nobody</li>
+            
+        </ul>
+        
+    </div>
+
+    <div class="section">
+        <h2>Performance Analysis</h2>
+        <table>
+            <tr><th>Layer Count</th><td>12</td></tr>
+            <tr><th>Compressed Size</th><td>75655414 bytes</td></tr>
+            <tr><th>Wasted Space</th><td>0 bytes</td></tr>
+        </table>
+    </div>
+
+    
+    <div class="section">
+        <h2>Summary</h2>
+        <table>
+            <tr><th>Total Vulnerabilities</th><td>0</td></tr>
+            <tr><th>High Vulnerabilities</th><td>0</td></tr>
+            <tr><th>Total Size</th><td>75655414 bytes</td></tr>
+            <tr><th>Total Layers</th><td>12</td></tr>
+        </table>
+
+        
+    </div>
+    
+</body>
+</html>

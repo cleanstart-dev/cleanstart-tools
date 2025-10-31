@@ -1,0 +1,30 @@
+from: alpine:latest
+
+packages:
+  - ca-certificates
+  - curl
+  - python3
+  - py3-pip
+  - git
+
+env:
+  PATH: "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+  PYTHONUNBUFFERED: "1"
+  APP_ENV: "production"
+
+workdir: /app
+user: nobody
+
+cmd:
+  - python3
+  - -c
+  - "print('Hello from Python Alpine v2!')"
+
+labels:
+  org.opencontainers.image.title: "Python Alpine App"
+  org.opencontainers.image.source: "clnstrt"
+  org.opencontainers.image.version: "2.0.0"
+  org.opencontainers.image.description: "Lightweight Python application base image with SBOM support"
+  org.opencontainers.image.licenses: "MIT"
+  org.opencontainers.image.vendor: "Clnstrt Project"
+

@@ -1,0 +1,35 @@
+
+Container Image Analysis Report
+=============================
+Generated: 2025-10-30 07:04:25
+Image: python-test:latest
+
+Image Information
+----------------
+ID: sha256:2dbc5a8ccac26fd193ab9caf18e264bbf9e8de40d975dba3c6bd2c9ab60d692e
+Created: 2025-10-29 14:02:08.581794292 &#43;0000 UTC
+Size: 75655414 bytes
+Architecture: amd64
+OS: linux
+
+
+Security Analysis
+---------------
+
+
+
+
+Performance Metrics
+-----------------
+Layer Count: 12
+Compressed Size: 75655414 bytes
+Wasted Space: 0 bytes
+
+Summary
+-------
+Total Vulnerabilities: 0
+High Vulnerabilities: 0
+Total Size: 75655414 bytes
+Total Layers: 12
+
+

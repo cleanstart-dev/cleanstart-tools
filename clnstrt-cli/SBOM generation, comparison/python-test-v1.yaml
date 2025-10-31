@@ -1,0 +1,20 @@
+from: alpine:latest
+packages:
+      - ca-certificates
+      - curl
+      - python3
+      - py3-pip
+env:
+    PATH: "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+    PYTHONUNBUFFERED: "1"
+    APP_ENV: "production"
+workdir: /app
+user: nobody
+cmd:
+     - "python3"
+     - "-c"
+     - "print('Hello from Python Alpine!')"
+labels:
+        org.opencontainers.image.source: "clnstrt"
+        org.opencontainers.image.version: "1.0.0"
+        org.opencontainers.image.description: "Python application with SBOM"
