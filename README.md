@@ -23,7 +23,7 @@ This repository is to hold tools built by CleanStart.
 _Report any issue or feature request to: community-admin@cleanstart.com_
 
 
-## About CleanStart Security
+## About CleanStart
 CleanStart is dedicated to reshaping the landscape of software supply chain security. With seamless integration, combined with continuous monitoring and vulnerability intelligence, CleanStart provides a platform that secures every step from development to delivery.
 Our main goal is to make security easy for users while taking on the hard work of finding and fixing security issues. 
 Here's how we do it:
