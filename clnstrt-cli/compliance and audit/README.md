@@ -19,23 +19,21 @@ clnstrt report --format json python-test:latest -v
 
 ### 2. Security Audit with Vulnerability Scan
 ```bash
-clnstrt scan --severity HIGH,CRITICAL --output security-scan.json python-test:latest -v
-# Outout will be similar to this:
-# Starting Trivy scan for image: python-test:latest with severity filter: [HIGH CRITICAL]
-# Vulnerability counts - Critical: 0, High: 0, Medium: 0, Low: 0 (Unknown: 0)
+clnstrt scan --severity HIGH,CRITICAL,MEDIUM,LOW --output security-scan.json python:latest -v
+# Starting Trivy scan for image: python:latest with severity filter: [HIGH CRITICAL MEDIUM LOW]
+# Vulnerability counts - Critical: 0, High: 82, Medium: 211, Low: 211 (Unknown: 0)
 
-# Trivy Scan Results for python-test:latest
-# Scan Time: 2025-10-30T10:17:34Z
+# Trivy Scan Results for python:latest
+# Scan Time: 2025-10-31T13:52:13Z
 
 # Vulnerability Summary:
 #   Critical: 0
-#   High:     0
-#   Medium:   0
-#   Low:      0
-#   Total:    0
+#   High:     82
+#   Medium:   211
+#   Low:      211
+#   Total:    504
 
 # Detailed results saved to: security-scan.json
-# refer output at /compliance and audit/security-scan.json
 ```
 
 - Performs a vulnerability scan to detect high and critical severity issues in your image and generates an SBOM enriched with vulnerability data.
