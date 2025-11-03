@@ -2,6 +2,11 @@
 
 Lists and exports OS/application packages detected inside an image.
 
+### Note:
+We are using python-test:latest, python:latest images here.
+- python-test:latest - custom image build using python-test.yaml configuration, in /build and push/README.md 
+- python:latest - public image of python
+
 ```bash
 # List packages in image
 clnstrt package image-packages python-test:latest -v

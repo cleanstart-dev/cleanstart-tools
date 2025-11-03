@@ -2,13 +2,18 @@
 ### Vulnerability Scanning
 - Clnstrt-CLI tool can scan images for known vulnerabilities and generate detailed reports.
 
+### Note:
+We are using python-test:latest, python:latest images here.
+- python-test:latest - custom image build using python-test.yaml configuration, in /build and push/README.md 
+- python:latest - public image of python
+
 ```bash
 # Basic scan
 clnstrt scan python-test:latest -v
 # refer output at /scan image/scan.txt
 
 # Filter by severity
-clnstrt scan --severity HIGH,CRITICAL python-test:latest -v
+clnstrt scan --severity HIGH,CRITICAL,MEDIUM,LOW python:latest -v
 # refer output at /scan image/severity.txt
 
 # Save results to file

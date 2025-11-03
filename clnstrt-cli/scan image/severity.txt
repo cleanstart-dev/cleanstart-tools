@@ -1,12 +1,12 @@
-Starting Trivy scan for image: python-test:latest with severity filter: [HIGH CRITICAL]
-Vulnerability counts - Critical: 0, High: 0, Medium: 0, Low: 0 (Unknown: 0)
+Starting Trivy scan for image: python:latest with severity filter: [HIGH CRITICAL MEDIUM LOW]
+Vulnerability counts - Critical: 0, High: 82, Medium: 211, Low: 211 (Unknown: 0)
 
-Trivy Scan Results for python-test:latest
-Scan Time: 2025-10-29T12:13:02Z
+Trivy Scan Results for python:latest
+Scan Time: 2025-10-31T13:15:53Z
 
 Vulnerability Summary:
   Critical: 0
-  High:     0
-  Medium:   0
-  Low:      0
-  Total:    0
+  High:     82
+  Medium:   211
+  Low:      211
+  Total:    504

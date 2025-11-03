@@ -1,0 +1,132 @@
+{
+    "id": "e32c6d95-c163-4b1f-b6f9-b51a1288a4d4",
+    "created_at": "2025-10-30T05:38:05.544305736Z",
+    "image_info": {
+      "name": "python-test",
+      "tag": "latest",
+      "id": "sha256:2dbc5a8ccac26fd193ab9caf18e264bbf9e8de40d975dba3c6bd2c9ab60d692e",
+      "created": "2025-10-29T14:02:08.581794292Z",
+      "size": 75655414,
+      "architecture": "amd64",
+      "os": "linux",
+      "author": ""
+    },
+    "security": {
+      "vulnerabilities": null,
+      "base_image_age": 56156956541107,
+      "exposed_ports": null,
+      "permissions": [
+        "User: nobody"
+      ]
+    },
+    "performance": {
+      "layer_count": 12,
+      "compressed_size": 75655414,
+      "wasted_space": 0
+    },
+    "layers": [
+      {
+        "id": "sha256:2dbc5a8ccac26fd193ab9caf18e264bbf9e8de40d975dba3c6bd2c9ab60d692e",
+        "size": 0,
+        "command": "/bin/sh -c #(nop)  CMD [\"python3\" \"-c\" \"print('Hello from Python Alpine!')\"]",
+        "created": "2025-10-29T14:02:08Z",
+        "digest": "",
+        "media_type": ""
+      },
+      {
+        "id": "sha256:956d50ebdb1e63badfb912ac7bd4aae36baef0c7f4088448bed08854d77bbd92",
+        "size": 0,
+        "command": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.version=1.0.0",
+        "created": "2025-10-29T14:02:08Z",
+        "digest": "",
+        "media_type": ""
+      },
+      {
+        "id": "sha256:0502f47ca611cbf0be471eac5283208ae5881c5154ebba9d9dff95cf875d617d",
+        "size": 0,
+        "command": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.source=clnstrt",
+        "created": "2025-10-29T14:02:07Z",
+        "digest": "",
+        "media_type": ""
+      },
+      {
+        "id": "sha256:117678c357a2b2174a7e050a4498885a3277cb00689e3745c83b6e8da08e2256",
+        "size": 0,
+        "command": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.description=Python application with SBOM",
+        "created": "2025-10-29T14:02:07Z",
+        "digest": "",
+        "media_type": ""
+      },
+      {
+        "id": "sha256:b3959880c5ef702483ba6187c894acf614836e627f646ac60e083e179930e9d9",
+        "size": 0,
+        "command": "/bin/sh -c #(nop)  USER nobody",
+        "created": "2025-10-29T11:00:28Z",
+        "digest": "",
+        "media_type": ""
+      },
+      {
+        "id": "sha256:363bda8c813e18c9546852979230312f5b2f3b0caabc08c1279ad7f930ede9f7",
+        "size": 0,
+        "command": "/bin/sh -c #(nop) WORKDIR /app",
+        "created": "2025-10-29T11:00:28Z",
+        "digest": "",
+        "media_type": ""
+      },
+      {
+        "id": "sha256:171a4b5e8c19bf0ea86a06a11d309cf55ba1bbe5dfbeb71096ddce0d2b7f217d",
+        "size": 67333114,
+        "command": "/bin/sh -c apk add --no-cache ca-certificates curl python3 py3-pip",
+        "created": "2025-10-29T11:00:27Z",
+        "digest": "",
+        "media_type": ""
+      },
+      {
+        "id": "sha256:7a16b0a1237c982054f44981d3a46604b2e1d57229b1f073a7fb306f1aa77a50",
+        "size": 0,
+        "command": "/bin/sh -c #(nop)  ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "created": "2025-10-29T11:00:13Z",
+        "digest": "",
+        "media_type": ""
+      },
+      {
+        "id": "sha256:c51a467cd07679c378b045a2193a2961bb67f10be5394abe3fe85451ecffb7c4",
+        "size": 0,
+        "command": "/bin/sh -c #(nop)  ENV APP_ENV=production",
+        "created": "2025-10-29T11:00:12Z",
+        "digest": "",
+        "media_type": ""
+      },
+      {
+        "id": "sha256:11e8e8dd58434790b116153477d0c5eaece0b451f6d05d8915b72a75a0d2d47c",
+        "size": 0,
+        "command": "/bin/sh -c #(nop)  ENV PYTHONUNBUFFERED=1",
+        "created": "2025-10-29T11:00:12Z",
+        "digest": "",
+        "media_type": ""
+      },
+      {
+        "id": "sha256:706db57fb2063f39f69632c5b5c9c439633fda35110e65587c5d85553fd1cc38",
+        "size": 0,
+        "command": "CMD [\"/bin/sh\"]",
+        "created": "2025-10-08T11:04:56Z",
+        "digest": "",
+        "media_type": ""
+      },
+      {
+        "id": "\u003cmissing\u003e",
+        "size": 8322300,
+        "command": "ADD alpine-minirootfs-3.22.2-x86_64.tar.gz / # buildkit",
+        "created": "2025-10-08T11:04:56Z",
+        "digest": "",
+        "media_type": ""
+      }
+    ],
+    "summary": {
+      "total_vulnerabilities": 0,
+      "high_vulnerabilities": 0,
+      "total_size": 75655414,
+      "total_layers": 12,
+      "recommended_actions": null
+    }
+  }
