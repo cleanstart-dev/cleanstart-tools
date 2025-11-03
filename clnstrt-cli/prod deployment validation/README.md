@@ -29,7 +29,7 @@ clnstrt scan --severity HIGH,CRITICAL,MEDIUM,LOW python:latest -v
 ### 3. Generate Deployment SBOM
 ```bash
 clnstrt sbom python-test:latest -v
- # refer output at /list packages/sbom.txt
+ # refer output at /list packages/sbom.json
 ```
 
 - Creates a Software Bill of Materials (SBOM) for the deployed image, listing all included packages and dependencies.
