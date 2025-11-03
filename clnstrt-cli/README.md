@@ -46,7 +46,7 @@ docker tag < image name > clnstrt
 echo -e '#!/bin/bash\ndocker \
       run --rm -v $(pwd):/work \
       -v /var/run/docker.sock:/var/run/docker.sock \
-      -w /work clnstrt-cli:24.6.25 "$@"' | \
+      -w /work clnstrt-images.clnstrt.dev/clnstrt-cli-tool/clnstrt-cli:latest "$@"' | \
       sudo tee /usr/local/bin/clnstrt > /dev/null && \
       sudo chmod +x /usr/local/bin/clnstrt
 ```
