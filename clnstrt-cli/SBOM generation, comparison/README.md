@@ -27,7 +27,7 @@ clnstrt sbom --output sbom.json python-test:latest -v
 # refer output at /SBOM generation, comparison/sbom.json
 
 # Generate with specific format and save
-clnstrt sbom --format spdx --output spdx-sbom.json python-test:latest -v
+clnstrt sbom --format spdx-json --output spdx-sbom.json python-test:latest -v
 # Outout will be similar to this:
 # Generating SBOM for image: python-test:latest
 # Running syft command: syft packages python-test:latest -o spdx-json --file spdx-sbom.json -v
@@ -35,7 +35,7 @@ clnstrt sbom --format spdx --output spdx-sbom.json python-test:latest -v
 # refer output at /SBOM generation, comparison/spdx-sbom.json
 
 # Generate CycloneDX format SBOM
-clnstrt sbom --format cyclonedx --output cyclonedx-sbom.json python-test:latest -v
+clnstrt sbom --format cyclonedx-json --output cyclonedx-sbom.json python-test:latest -v
 # Outout will be similar to this:
 # Generating SBOM for image: python-test:latest
 # Running syft command: syft packages python-test:latest -o cyclonedx-json --file cyclonedx-sbom.json -v
@@ -212,4 +212,5 @@ clnstrt sbomdifffiles --output file-comparison.json baseline-sbom.json current-s
 
 - Purpose: These commands facilitate the comparison of container images and their Software Bill of Materials (SBOM) to identify differences in layers, packages, configurations, and software components across two images.
 - How It Works: The clnstrt diff command compares two container images, highlighting differences in their layers, packages, and configurations, with the option to output the comparison in a CSV format. This can be done for both local and remote images. The clnstrt sbomdiff command compares the SBOMs of two container images, displaying differences in the software components included, with support for different SBOM formats like CycloneDX or SPDX. It outputs the results in CSV format as well. 
+
 - Outcome: These commands enable users to efficiently identify and track changes between container images or their SBOMs, helping with version control, security audits, and compliance monitoring. They ensure that users can compare images in terms of both their content and underlying software composition across different versions or architectures.
